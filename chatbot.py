@@ -60,7 +60,7 @@ class EnhancedLeagueChatbot:
             "combo": r"combo|rotation|sequence"
         }
 
-    def print_with_typing_effect(self, text: str, delay: float = 0.02):
+    def print_with_typing_effect(self, text: str, delay: float = 0.01):
         """Print text with a typing effect."""
         for char in text:
             sys.stdout.write(char)
