@@ -1,6 +1,3 @@
-Here’s a well-structured GitHub README for your project:
-
-```markdown
 # Enhanced League of Legends Chatbot (LoL Expert Bot v2.0)
 
 ![League of Legends](https://upload.wikimedia.org/wikipedia/en/7/77/League_of_Legends_logo.png)
@@ -152,6 +149,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 - Riot Games for creating **League of Legends**
 - The Python community for making development accessible and powerful
-```
-
-This README provides clear installation steps, usage instructions, and customization guidance for developers and players alike!
