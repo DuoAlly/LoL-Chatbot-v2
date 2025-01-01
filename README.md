@@ -1,6 +1,6 @@
 # Enhanced League of Legends Chatbot (LoL Expert Bot v2.0)
 
-![League of Legends](https://upload.wikimedia.org/wikipedia/en/7/77/League_of_Legends_logo.png)
+![LoL](LoL.jpg)
 
 ## Overview
 
