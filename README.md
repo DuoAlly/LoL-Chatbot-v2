@@ -1,7 +1,5 @@
 # Enhanced League of Legends Chatbot
 
-![LoL](LoL.jpg)
-
 ## Overview
 
 The **Enhanced League of Legends Chatbot** is an interactive assistant designed to help players improve their gameplay by providing detailed information about champions, including:
