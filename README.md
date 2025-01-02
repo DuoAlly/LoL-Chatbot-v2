@@ -1,4 +1,4 @@
-# Enhanced League of Legends Chatbot (LoL Expert Bot v2.0)
+# Enhanced League of Legends Chatbot
 
 ![LoL](LoL.jpg)
 
