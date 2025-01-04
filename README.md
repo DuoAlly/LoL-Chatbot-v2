@@ -146,4 +146,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 
 - Riot Games for creating **League of Legends**
-- The Python community for making development accessible and powerful
