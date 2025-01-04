@@ -1,4 +1,4 @@
-# Enhanced League of Legends Chatbot
+# DuoAlly AI Chatbot
 
 ## Overview
 
