@@ -100,33 +100,6 @@ R: Spirit Rush - Dashes and fires essence bolts at nearby enemies
 
 ---
 
-## Customization
-
-### Adding New Champions
-To add a new champion, update the `CHAMPION_DATA` dictionary in `chatbot.py` with the following structure:
-
-```python
-"champion_name": {
-    "role": "Champion's primary role",
-    "matchups": {
-        "strong_against": ["List", "of", "champions"],
-        "weak_against": ["List", "of", "champions"]
-    },
-    "recommended_items": ["List of recommended items"],
-    "recommended_runes": ["List of recommended runes"],
-    "tips": "Champion-specific tips",
-    "abilities": {
-        "passive": "Passive description",
-        "Q": "Q ability description",
-        "W": "W ability description",
-        "E": "E ability description",
-        "R": "Ultimate description"
-    }
-}
-```
-
----
-
 ## Contributing
 
 1. Fork the repository
