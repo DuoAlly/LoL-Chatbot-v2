@@ -1,6 +1,7 @@
 import re
 import sys
 import time
+import json
 from typing import Dict, List, Optional
 from datetime import datetime
 from difflib import get_close_matches
@@ -12,6 +13,16 @@ class EnhancedLeagueChatbot:
         """
         self.session_history = []
         self.last_champion_mentioned = None
+        self.CHAMPION_DATA = dict()
+
+         # Load champion data from JSON file
+        try:
+            with open("data.json", "r") as file:
+                self.CHAMPION_DATA = json.load(file)
+        except FileNotFoundError:
+            raise Exception("data.json file not found. Please ensure the file exists in the same directory.")
+        except json.JSONDecodeError:
+            raise Exception("Failed to decode data.json. Please ensure it contains valid JSON.")
         
         # Extended keyword patterns
         self.patterns = {
@@ -41,14 +52,14 @@ class EnhancedLeagueChatbot:
         Find champion name in text with fuzzy matching and suggestions.
         """
         text_words = text.lower().split()
-        for champion in CHAMPION_DATA.keys():
+        for champion in self.CHAMPION_DATA.keys():
             if champion in text_words:
                 return champion
         
         # Fuzzy matching for similar names
         possible_champions = []
         for word in text_words:
-            matches = get_close_matches(word, CHAMPION_DATA.keys(), n=1, cutoff=0.7)
+            matches = get_close_matches(word, self.CHAMPION_DATA.keys(), n=1, cutoff=0.7)
             if matches:
                 possible_champions.extend(matches)
         
@@ -56,7 +67,7 @@ class EnhancedLeagueChatbot:
 
     def generate_ability_info(self, champion: str) -> str:
         """Generate formatted ability information for a champion."""
-        abilities = CHAMPION_DATA[champion].get("abilities", {})
+        abilities = self.CHAMPION_DATA[champion].get("abilities", {})
         if not abilities:
             return f"Sorry, I don't have detailed ability information for {self.format_champion_name(champion)} yet."
         
@@ -82,7 +93,7 @@ class EnhancedLeagueChatbot:
             return self.get_general_response(user_input)
         
         self.last_champion_mentioned = champion
-        champ_data = CHAMPION_DATA[champion]
+        champ_data = self.CHAMPION_DATA[champion]
         
         # Check for specific queries about the champion
         if re.search(self.patterns["abilities"], user_input):
