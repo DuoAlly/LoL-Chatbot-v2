@@ -5,42 +5,6 @@ from typing import Dict, List, Optional
 from datetime import datetime
 from difflib import get_close_matches
 
-# Champion data from the original code
-CHAMPION_DATA = {
-    "ahri": {
-        "role": "Mid-lane Mage/Assassin",
-        "matchups": {
-            "strong_against": ["Veigar", "Lux", "Ziggs"],
-            "weak_against": ["Yasuo", "Zed", "Kassadin"],
-        },
-        "recommended_items": [
-            "Luden's Tempest",
-            "Sorcerer's Shoes",
-            "Shadowflame",
-            "Zhonya's Hourglass",
-            "Rabadon's Deathcap",
-            "Void Staff"
-        ],
-        "recommended_runes": [
-            "Electrocute", 
-            "Taste of Blood",
-            "Eyeball Collection",
-            "Ultimate Hunter",
-            "Manaflow Band",
-            "Transcendence"
-        ],
-        "tips": "Ahri excels at poking and kiting. Use your Orb of Deception to poke, and Charm to catch enemies off-guard.",
-        "abilities": {
-            "passive": "Essence Theft - Gains stacks of Essence Theft when hitting enemy champions with abilities",
-            "Q": "Orb of Deception - Sends out and pulls back an orb, dealing magic damage",
-            "W": "Fox-Fire - Releases fox-fires that target nearby enemies",
-            "E": "Charm - Blows a kiss that damages and charms an enemy",
-            "R": "Spirit Rush - Dashes and fires essence bolts at nearby enemies"
-        }
-    },
-    # ... [other champion data remains the same]
-}
-
 class EnhancedLeagueChatbot:
     def __init__(self):
         """
