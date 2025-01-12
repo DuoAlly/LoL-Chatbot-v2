@@ -1,4 +1,4 @@
-CHAMPION_DATA = {
+{
     "ahri": {
         "role": "Mid-lane Mage/Assassin",
         "matchups": {
