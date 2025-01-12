@@ -1,4 +1,3 @@
-# Champion data from the original code
 CHAMPION_DATA = {
     "ahri": {
         "role": "Mid-lane Mage/Assassin",
@@ -31,5 +30,4 @@ CHAMPION_DATA = {
             "R": "Spirit Rush - Dashes and fires essence bolts at nearby enemies"
         }
     },
-    # ... [other champion data remains the same]
 }
