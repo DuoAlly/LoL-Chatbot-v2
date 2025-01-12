@@ -1,33 +1,50 @@
 {
     "ahri": {
-        "role": "Mid-lane Mage/Assassin",
-        "matchups": {
-            "strong_against": ["Veigar", "Lux", "Ziggs"],
-            "weak_against": ["Yasuo", "Zed", "Kassadin"],
-        },
-        "recommended_items": [
-            "Luden's Tempest",
-            "Sorcerer's Shoes",
-            "Shadowflame",
-            "Zhonya's Hourglass",
-            "Rabadon's Deathcap",
-            "Void Staff"
-        ],
-        "recommended_runes": [
-            "Electrocute", 
-            "Taste of Blood",
-            "Eyeball Collection",
-            "Ultimate Hunter",
-            "Manaflow Band",
-            "Transcendence"
-        ],
-        "tips": "Ahri excels at poking and kiting. Use your Orb of Deception to poke, and Charm to catch enemies off-guard.",
-        "abilities": {
-            "passive": "Essence Theft - Gains stacks of Essence Theft when hitting enemy champions with abilities",
-            "Q": "Orb of Deception - Sends out and pulls back an orb, dealing magic damage",
-            "W": "Fox-Fire - Releases fox-fires that target nearby enemies",
-            "E": "Charm - Blows a kiss that damages and charms an enemy",
-            "R": "Spirit Rush - Dashes and fires essence bolts at nearby enemies"
-        }
+      "role": "Mid-lane Mage/Assassin",
+      "matchups": {
+        "strong_against": ["Veigar", "Lux", "Ziggs"],
+        "weak_against": ["Yasuo", "Zed", "Kassadin"]
+      },
+      "recommended_items": [
+        "Luden's Tempest",
+        "Sorcerer's Shoes",
+        "Shadowflame",
+        "Zhonya's Hourglass",
+        "Rabadon's Deathcap",
+        "Void Staff"
+      ],
+      "recommended_runes": [
+        "Electrocute",
+        "Taste of Blood",
+        "Eyeball Collection",
+        "Ultimate Hunter",
+        "Manaflow Band",
+        "Transcendence"
+      ],
+      "tips": "Ahri excels at poking and kiting. Use your Orb of Deception to poke, and Charm to catch enemies off-guard.",
+      "abilities": {
+        "passive": "Essence Theft - Gains stacks of Essence Theft when hitting enemy champions with abilities",
+        "Q": "Orb of Deception - Sends out and pulls back an orb, dealing magic damage",
+        "W": "Fox-Fire - Releases fox-fires that target nearby enemies",
+        "E": "Charm - Blows a kiss that damages and charms an enemy",
+        "R": "Spirit Rush - Dashes and fires essence bolts at nearby enemies"
+      }
     },
-}
+    "yasuo": {
+      "abilities": {
+        "passive": "Way of the Wanderer",
+        "Q": "Steel Tempest",
+        "W": "Wind Wall",
+        "E": "Sweeping Blade",
+        "R": "Last Breath"
+      },
+      "recommended_items": ["Infinity Edge", "Phantom Dancer", "Bloodthirster"],
+      "recommended_runes": ["Conqueror", "Triumph", "Legend: Alacrity"],
+      "matchups": {
+        "strong_against": ["Lux", "Zoe"],
+        "weak_against": ["Renekton", "Malphite"]
+      },
+      "role": "Mid Lane",
+      "tips": "Use Wind Wall to block key enemy abilities."
+    }
+  }
