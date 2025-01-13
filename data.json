@@ -1,50 +1,157 @@
 {
-    "ahri": {
-      "role": "Mid-lane Mage/Assassin",
-      "matchups": {
-        "strong_against": ["Veigar", "Lux", "Ziggs"],
-        "weak_against": ["Yasuo", "Zed", "Kassadin"]
-      },
-      "recommended_items": [
-        "Luden's Tempest",
-        "Sorcerer's Shoes",
-        "Shadowflame",
-        "Zhonya's Hourglass",
-        "Rabadon's Deathcap",
-        "Void Staff"
-      ],
-      "recommended_runes": [
-        "Electrocute",
-        "Taste of Blood",
-        "Eyeball Collection",
-        "Ultimate Hunter",
-        "Manaflow Band",
-        "Transcendence"
-      ],
-      "tips": "Ahri excels at poking and kiting. Use your Orb of Deception to poke, and Charm to catch enemies off-guard.",
-      "abilities": {
-        "passive": "Essence Theft - Gains stacks of Essence Theft when hitting enemy champions with abilities",
-        "Q": "Orb of Deception - Sends out and pulls back an orb, dealing magic damage",
-        "W": "Fox-Fire - Releases fox-fires that target nearby enemies",
-        "E": "Charm - Blows a kiss that damages and charms an enemy",
-        "R": "Spirit Rush - Dashes and fires essence bolts at nearby enemies"
-      }
+  "ahri": {
+    "role": "Mid-lane Mage/Assassin",
+    "matchups": {
+      "strong_against": ["Veigar", "Lux", "Ziggs"],
+      "weak_against": ["Yasuo", "Zed", "Kassadin"]
     },
-    "yasuo": {
-      "abilities": {
-        "passive": "Way of the Wanderer",
-        "Q": "Steel Tempest",
-        "W": "Wind Wall",
-        "E": "Sweeping Blade",
-        "R": "Last Breath"
-      },
-      "recommended_items": ["Infinity Edge", "Phantom Dancer", "Bloodthirster"],
-      "recommended_runes": ["Conqueror", "Triumph", "Legend: Alacrity"],
-      "matchups": {
-        "strong_against": ["Lux", "Zoe"],
-        "weak_against": ["Renekton", "Malphite"]
-      },
-      "role": "Mid Lane",
-      "tips": "Use Wind Wall to block key enemy abilities."
+    "recommended_items": [
+      "Luden's Tempest",
+      "Sorcerer's Shoes",
+      "Shadowflame",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Electrocute",
+      "Taste of Blood",
+      "Eyeball Collection",
+      "Ultimate Hunter",
+      "Manaflow Band",
+      "Transcendence"
+    ],
+    "tips": "Ahri excels at poking and kiting. Use your Orb of Deception to poke, and Charm to catch enemies off-guard.",
+    "abilities": {
+      "passive": "Essence Theft - Gains stacks of Essence Theft when hitting enemy champions with abilities",
+      "Q": "Orb of Deception - Sends out and pulls back an orb, dealing magic damage",
+      "W": "Fox-Fire - Releases fox-fires that target nearby enemies",
+      "E": "Charm - Blows a kiss that damages and charms an enemy",
+      "R": "Spirit Rush - Dashes and fires essence bolts at nearby enemies"
+    }
+  },
+  "darius": {
+    "role": "Top-lane Bruiser/Juggernaut",
+    "matchups": {
+      "strong_against": ["Kayle", "Gangplank", "Malphite"],
+      "weak_against": ["Vayne", "Quinn", "Kennen"]
+    },
+    "recommended_items": [
+      "Divine Sunderer",
+      "Plated Steelcaps",
+      "Dead Man's Plate",
+      "Force of Nature",
+      "Black Cleaver",
+      "Death's Dance"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Bone Plating",
+      "Unflinching"
+    ],
+    "tips": "Focus on stacking your hemorrhage passive on enemies. Your ultimate deals true damage and resets on kills.",
+    "abilities": {
+      "passive": "Hemorrhage - Attacks and abilities cause enemies to bleed, stacking up to 5 times",
+      "Q": "Decimate - Swings axe in a circle, dealing more damage with the blade",
+      "W": "Crippling Strike - Slows target and deals bonus damage",
+      "E": "Apprehend - Pulls in enemies and applies armor penetration",
+      "R": "Noxian Guillotine - Leaps to target dealing true damage, resets on kill"
+    }
+  },
+  "thresh": {
+    "role": "Support Tank/Catcher",
+    "matchups": {
+      "strong_against": ["Yuumi", "Sona", "Soraka"],
+      "weak_against": ["Morgana", "Sivir", "Alistar"]
+    },
+    "recommended_items": [
+      "Locket of the Iron Solari",
+      "Boots of Mobility",
+      "Knight's Vow",
+      "Zeke's Convergence",
+      "Thornmail",
+      "Redemption"
+    ],
+    "recommended_runes": [
+      "Aftershock",
+      "Font of Life",
+      "Bone Plating",
+      "Unflinching",
+      "Hextech Flashtraption",
+      "Cosmic Insight"
+    ],
+    "tips": "Look for hooks on priority targets and use your lantern to save allies or enable aggressive plays.",
+    "abilities": {
+      "passive": "Damnation - Collects souls to gain armor and ability power",
+      "Q": "Death Sentence - Throws a hook that pulls enemies toward Thresh",
+      "W": "Dark Passage - Throws a lantern that shields allies and can be clicked for movement",
+      "E": "Flay - Pushes or pulls enemies in target direction",
+      "R": "The Box - Creates walls that slow and damage enemies who break them"
+    }
+  },
+  "jinx": {
+    "role": "Bot-lane ADC/Marksman",
+    "matchups": {
+      "strong_against": ["Kog'Maw", "Twitch", "Ashe"],
+      "weak_against": ["Draven", "Lucian", "Kalista"]
+    },
+    "recommended_items": [
+      "Infinity Edge",
+      "Berserker's Greaves",
+      "Runaan's Hurricane",
+      "Bloodthirster",
+      "Lord Dominik's Regards",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Lethal Tempo",
+      "Triumph",
+      "Legend: Bloodline",
+      "Coup de Grace",
+      "Absolute Focus",
+      "Gathering Storm"
+    ],
+    "tips": "Use Fishbones for AOE damage in teamfights and Pow-Pow for single target DPS. Your passive gives you movement speed after takedowns.",
+    "abilities": {
+      "passive": "Get Excited! - Gains movement speed after takedowns or epic monster kills",
+      "Q": "Switcheroo! - Switches between Fishbones (rocket launcher) and Pow-Pow (minigun)",
+      "W": "Zap! - Fires a shock blast that slows and reveals enemies",
+      "E": "Flame Chompers! - Places traps that root enemies",
+      "R": "Super Mega Death Rocket! - Fires a global rocket that deals more damage based on missing health"
+    }
+  },
+  "lee_sin": {
+    "role": "Jungle Fighter/Assassin",
+    "matchups": {
+      "strong_against": ["Karthus", "Fiddlesticks", "Evelynn"],
+      "weak_against": ["Udyr", "Warwick", "Rammus"]
+    },
+    "recommended_items": [
+      "Goredrinker",
+      "Ionian Boots of Lucidity",
+      "Black Cleaver",
+      "Death's Dance",
+      "Maw of Malmortius",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Sudden Impact",
+      "Relentless Hunter"
+    ],
+    "tips": "Use your mobility to make plays early game. Ward hop with W for escapes or engages. Look for kick-flash combinations in teamfights.",
+    "abilities": {
+      "passive": "Flurry - After using an ability, next two attacks gain attack speed",
+      "Q": "Sonic Wave/Resonating Strike - Projectile that can be reactivated to dash to target",
+      "W": "Safeguard/Iron Will - Jumps to ally/ward and gains lifesteal/spellvamp",
+      "E": "Tempest/Cripple - Reveals and damages nearby enemies, can be reactivated to slow",
+      "R": "Dragon's Rage - Kicks target enemy, dealing damage to them and enemies they pass through"
     }
   }
+}
