@@ -309,5 +309,161 @@
       "E": "Hawkshot - Reveals an area of the map",
       "R": "Enchanted Crystal Arrow - Global stun projectile"
     }
+  },
+  {
+  "aurelion_sol": {
+    "role": "Mid-lane Battle Mage",
+    "matchups": {
+      "strong_against": ["Veigar", "Twisted Fate", "Lux"],
+      "weak_against": ["Kassadin", "Fizz", "Zed"]
+    },
+    "recommended_items": [
+      "Rod of Ages",
+      "Sorcerer's Shoes",
+      "Rylai's Crystal Scepter",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "First Strike",
+      "Perfect Timing",
+      "Future's Market",
+      "Cosmic Insight",
+      "Manaflow Band",
+      "Transcendence"
+    ],
+    "tips": "Use your Q stun to set up your combos. Your stars' orbit is key to maximizing damage output.",
+    "abilities": {
+      "passive": "Cosmic Creator - Creates stars that orbit and deal damage",
+      "Q": "Breath of Light - Fires a celestial breath that stuns",
+      "W": "Astral Flight - Flies in target direction, gaining movement speed",
+      "E": "Singularity - Creates a black hole that pulls enemies in",
+      "R": "Falling Star/The Skies Descend - Calls down massive star for huge damage"
+    }
+  },
+  "azir": {
+    "role": "Mid-lane Control Mage",
+    "matchups": {
+      "strong_against": ["Syndra", "Orianna", "Annie"],
+      "weak_against": ["Xerath", "Viktor", "Ziggs"]
+    },
+    "recommended_items": [
+      "Liandry's Anguish",
+      "Sorcerer's Shoes",
+      "Nashor's Tooth",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Lethal Tempo",
+      "Presence of Mind",
+      "Legend: Alacrity",
+      "Coup de Grace",
+      "Manaflow Band",
+      "Transcendence"
+    ],
+    "tips": "Position your soldiers carefully for zone control. Save your shuffle combo for key moments.",
+    "abilities": {
+      "passive": "Shurima's Legacy - Can summon a turret on fallen towers",
+      "Q": "Conquering Sands - Commands soldiers to dash, dealing damage",
+      "W": "Arise! - Summons a Sand Soldier to attack for Azir",
+      "E": "Shifting Sands - Dashes to a soldier, gaining a shield",
+      "R": "Emperor's Divide - Creates a wall of soldiers that knocks back enemies"
+    }
+  },
+  "bard": {
+    "role": "Support Utility/Roamer",
+    "matchups": {
+      "strong_against": ["Soraka", "Sona", "Yuumi"],
+      "weak_against": ["Leona", "Nautilus", "Pyke"]
+    },
+    "recommended_items": [
+      "Locket of the Iron Solari",
+      "Mobility Boots",
+      "Dead Man's Plate",
+      "Force of Nature",
+      "Redemption",
+      "Vigilant Wardstone"
+    ],
+    "recommended_runes": [
+      "Guardian",
+      "Font of Life",
+      "Conditioning",
+      "Unflinching",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Collect chimes to empower meeps. Use magical journey creatively for unique gank paths.",
+    "abilities": {
+      "passive": "Traveler's Call - Collects chimes to empower meeps",
+      "Q": "Cosmic Binding - Fires missile that can stun two targets",
+      "W": "Caretaker's Shrine - Places healing shrine that grants movement speed",
+      "E": "Magical Journey - Creates portal through terrain",
+      "R": "Tempered Fate - Places all units in stasis"
+    }
+  },
+  "blitzcrank": {
+    "role": "Support Tank/Catcher",
+    "matchups": {
+      "strong_against": ["Sona", "Soraka", "Nami"],
+      "weak_against": ["Morgana", "Sivir", "Alistar"]
+    },
+    "recommended_items": [
+      "Evenshroud",
+      "Mercury's Treads",
+      "Dead Man's Plate",
+      "Force of Nature",
+      "Frozen Heart",
+      "Thornmail"
+    ],
+    "recommended_runes": [
+      "Aftershock",
+      "Font of Life",
+      "Conditioning",
+      "Unflinching",
+      "Hextech Flashtraption",
+      "Cosmic Insight"
+    ],
+    "tips": "Save hook for priority targets. Use W to reposition for hooks or escape.",
+    "abilities": {
+      "passive": "Mana Barrier - Gains a shield based on mana when low health",
+      "Q": "Rocket Grab - Pulls an enemy to Blitzcrank",
+      "W": "Overdrive - Gains movement and attack speed",
+      "E": "Power Fist - Empowered attack that knocks up",
+      "R": "Static Field - Silences nearby enemies and deals damage"
+    }
+  },
+  "brand": {
+    "role": "Mid/Support Burst Mage",
+    "matchups": {
+      "strong_against": ["Yuumi", "Sona", "Soraka"],
+      "weak_against": ["Fizz", "Yasuo", "Zed"]
+    },
+    "recommended_items": [
+      "Liandry's Anguish",
+      "Sorcerer's Shoes",
+      "Demonic Embrace",
+      "Rylai's Crystal Scepter",
+      "Void Staff",
+      "Morellonomicon"
+    ],
+    "recommended_runes": [
+      "Dark Harvest",
+      "Cheap Shot",
+      "Eyeball Collection",
+      "Ultimate Hunter",
+      "Presence of Mind",
+      "Coup de Grace"
+    ],
+    "tips": "Land stun to guarantee other abilities. Ultimate bounces more in minion waves.",
+    "abilities": {
+      "passive": "Blaze - Abilities apply a burn that can be detonated",
+      "Q": "Sear - Fires a fireball that stuns if target is ablaze",
+      "W": "Pillar of Flame - Creates a pillar of flame after delay",
+      "E": "Conflagration - Targeted fire ability that spreads to nearby units",
+      "R": "Pyroclasm - Launches a bouncing fireball"
+    }
   }
 }
