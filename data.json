@@ -153,5 +153,161 @@
       "E": "Trample - Deals damage to nearby enemies and can stun",
       "R": "Unbreakable Will - Reduces incoming damage and removes crowd control"
     }
+  },
+  {
+  "amumu": {
+    "role": "Jungle Tank/Engage",
+    "matchups": {
+      "strong_against": ["Master Yi", "Evelynn", "Karthus"],
+      "weak_against": ["Lee Sin", "Olaf", "Graves"]
+    },
+    "recommended_items": [
+      "Sunfire Aegis",
+      "Mercury's Treads",
+      "Demonic Embrace",
+      "Thornmail",
+      "Abyssal Mask",
+      "Force of Nature"
+    ],
+    "recommended_runes": [
+      "Aftershock",
+      "Font of Life",
+      "Conditioning",
+      "Unflinching",
+      "Cheap Shot",
+      "Ultimate Hunter"
+    ],
+    "tips": "Look for multi-champion ultimates in teamfights. Your Q is crucial for ganking lanes.",
+    "abilities": {
+      "passive": "Cursed Touch - Basic attacks curse enemies, causing them to take bonus true damage",
+      "Q": "Bandage Toss - Throws bandages that stun and pull Amumu to an enemy",
+      "W": "Despair - Deals continuous magic damage to nearby enemies",
+      "E": "Tantrum - Reduces physical damage taken and damages nearby enemies",
+      "R": "Curse of the Sad Mummy - Entangles nearby enemies, dealing magic damage"
+    }
+  },
+  "anivia": {
+    "role": "Mid-lane Control Mage",
+    "matchups": {
+      "strong_against": ["Katarina", "Talon", "Fizz"],
+      "weak_against": ["Kassadin", "LeBlanc", "Xerath"]
+    },
+    "recommended_items": [
+      "Rod of Ages",
+      "Sorcerer's Shoes",
+      "Seraph's Embrace",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Electrocute",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Perfect Timing",
+      "Cosmic Insight"
+    ],
+    "tips": "Use wall to zone enemies and set up your Q stun. Your ultimate can zone entire areas in teamfights.",
+    "abilities": {
+      "passive": "Rebirth - After taking fatal damage, transforms into an egg and revives",
+      "Q": "Flash Frost - Launches ice ball that damages and stuns",
+      "W": "Crystallize - Creates an impassable wall of ice",
+      "E": "Frostbite - Single target damage, doubled against chilled targets",
+      "R": "Glacial Storm - Creates a blizzard that damages and chills enemies"
+    }
+  },
+  "annie": {
+    "role": "Mid-lane Burst Mage",
+    "matchups": {
+      "strong_against": ["Akali", "Katarina", "Kassadin"],
+      "weak_against": ["Orianna", "Xerath", "Lux"]
+    },
+    "recommended_items": [
+      "Luden's Tempest",
+      "Sorcerer's Shoes",
+      "Horizon Focus",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Electrocute",
+      "Cheap Shot",
+      "Eyeball Collection",
+      "Relentless Hunter",
+      "Manaflow Band",
+      "Scorch"
+    ],
+    "tips": "Track your stun stacks carefully. Look for Flash-Tibbers opportunities on priority targets.",
+    "abilities": {
+      "passive": "Pyromania - Every 4th spell stuns the target",
+      "Q": "Disintegrate - Single target damage spell that refunds mana on kill",
+      "W": "Incinerate - Cone of fire damage",
+      "E": "Molten Shield - Grants shield and reflects damage",
+      "R": "Summon: Tibbers - Summons a bear that can be controlled"
+    }
+  },
+  "aphelios": {
+    "role": "Bot-lane ADC/Marksman",
+    "matchups": {
+      "strong_against": ["Vayne", "Kog'Maw", "Twitch"],
+      "weak_against": ["Draven", "Lucian", "Caitlyn"]
+    },
+    "recommended_items": [
+      "Kraken Slayer",
+      "Berserker's Greaves",
+      "Phantom Dancer",
+      "Infinity Edge",
+      "Bloodthirster",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Press the Attack",
+      "Presence of Mind",
+      "Legend: Bloodline",
+      "Coup de Grace",
+      "Taste of Blood",
+      "Ravenous Hunter"
+    ],
+    "tips": "Plan your weapon rotations ahead of time. Each weapon combination offers unique playstyles.",
+    "abilities": {
+      "passive": "The Hitman and the Seer - Cycles through 5 weapons with unique effects",
+      "Q": "Weapon Ability - Unique to each weapon",
+      "W": "Phase - Swaps between main and off-hand weapon",
+      "E": "Weapon Queue - Shows next weapon in rotation",
+      "R": "Moonlight Vigil - Ultimate unique to main-hand weapon"
+    }
+  },
+  "ashe": {
+    "role": "Bot-lane ADC/Utility Marksman",
+    "matchups": {
+      "strong_against": ["Kalista", "Samira", "Kai'Sa"],
+      "weak_against": ["Draven", "Miss Fortune", "Tristana"]
+    },
+    "recommended_items": [
+      "Immortal Shieldbow",
+      "Berserker's Greaves",
+      "Runaan's Hurricane",
+      "Infinity Edge",
+      "Lord Dominik's Regards",
+      "Bloodthirster"
+    ],
+    "recommended_runes": [
+      "Lethal Tempo",
+      "Presence of Mind",
+      "Legend: Bloodline",
+      "Coup de Grace",
+      "Magical Footwear",
+      "Approach Velocity"
+    ],
+    "tips": "Use Hawkshot to track enemy jungler. Your arrow can initiate fights from long range.",
+    "abilities": {
+      "passive": "Frost Shot - Basic attacks slow enemies",
+      "Q": "Ranger's Focus - Increases attack speed and damage",
+      "W": "Volley - Fires multiple arrows in a cone",
+      "E": "Hawkshot - Reveals an area of the map",
+      "R": "Enchanted Crystal Arrow - Global stun projectile"
+    }
   }
 }
