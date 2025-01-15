@@ -465,5 +465,130 @@
       "E": "Conflagration - Targeted fire ability that spreads to nearby units",
       "R": "Pyroclasm - Launches a bouncing fireball"
     }
+  },
+  {
+  "braum": {
+    "role": "Support Tank/Warden",
+    "matchups": {
+      "strong_against": ["Miss Fortune", "Lucian", "Ezreal"],
+      "weak_against": ["Karma", "Morgana", "Zyra"]
+    },
+    "recommended_items": [
+      "Locket of the Iron Solari",
+      "Plated Steelcaps",
+      "Knight's Vow",
+      "Zeke's Convergence",
+      "Warmog's Armor",
+      "Gargoyle Stoneplate"
+    ],
+    "recommended_runes": [
+      "Guardian",
+      "Font of Life",
+      "Bone Plating",
+      "Unflinching",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Use Stand Behind Me to jump to allies in danger. Your shield can block crucial projectiles.",
+    "abilities": {
+      "passive": "Concussive Blows - Marks targets with basic attacks, stunning when fully stacked",
+      "Q": "Winter's Bite - Launches ice projectile that applies passive and slows",
+      "W": "Stand Behind Me - Dashes to ally, granting them bonus resistances",
+      "E": "Unbreakable - Raises shield that reduces damage from first hit and blocks projectiles",
+      "R": "Glacial Fissure - Creates fissure that knocks up first enemy hit and slows others"
+    }
+  },
+  "briar": {
+    "role": "Jungle Fighter/Diver",
+    "matchups": {
+      "strong_against": ["Ivern", "Fiddlesticks", "Karthus"],
+      "weak_against": ["Udyr", "Trundle", "Vi"]
+    },
+    "recommended_items": [
+      "Goredrinker",
+      "Plated Steelcaps",
+      "Death's Dance",
+      "Black Cleaver",
+      "Spirit Visage",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Sudden Impact",
+      "Relentless Hunter"
+    ],
+    "tips": "Use Blood Rush wisely to sustain in fights. Chain your crowd control for maximum impact.",
+    "abilities": {
+      "passive": "Crimson Blood - Gains bonus effects when below 50% health",
+      "Q": "Blood Frenzy - Attacks in a frenzy, healing for damage dealt",
+      "W": "Blood Rush - Gains movement speed and lifesteal",
+      "E": "Blood Lunge - Lunges at target, dealing damage and stunning",
+      "R": "Blood Possession - Takes control of enemy champion briefly"
+    }
+  },
+  "caitlyn": {
+    "role": "Bot-lane ADC/Marksman",
+    "matchups": {
+      "strong_against": ["Vayne", "Kai'Sa", "Samira"],
+      "weak_against": ["Sivir", "Ashe", "Jhin"]
+    },
+    "recommended_items": [
+      "Kraken Slayer",
+      "Berserker's Greaves",
+      "Rapid Firecannon",
+      "Infinity Edge",
+      "Lord Dominik's Regards",
+      "Bloodthirster"
+    ],
+    "recommended_runes": [
+      "Fleet Footwork",
+      "Presence of Mind",
+      "Legend: Bloodline",
+      "Coup de Grace",
+      "Absolute Focus",
+      "Gathering Storm"
+    ],
+    "tips": "Use traps to control zones and set up headshots. Your net can create distance and proc headshot.",
+    "abilities": {
+      "passive": "Headshot - Every few attacks or on trapped/netted targets deals bonus damage",
+      "Q": "Piltover Peacemaker - Fires penetrating shot that deals reduced damage through targets",
+      "W": "Yordle Snap Trap - Places trap that roots and enables headshot",
+      "E": "90 Caliber Net - Fires net that slows target and pushes Caitlyn back",
+      "R": "Ace in the Hole - Channels long-range shot that deals heavy damage"
+    }
+  },
+  "camille": {
+    "role": "Top-lane Fighter/Diver",
+    "matchups": {
+      "strong_against": ["Gnar", "Gangplank", "Kayle"],
+      "weak_against": ["Jax", "Fiora", "Poppy"]
+    },
+    "recommended_items": [
+      "Divine Sunderer",
+      "Mercury's Treads",
+      "Ravenous Hydra",
+      "Death's Dance",
+      "Guardian Angel",
+      "Maw of Malmortius"
+    ],
+    "recommended_runes": [
+      "Grasp of the Undying",
+      "Shield Bash",
+      "Second Wind",
+      "Unflinching",
+      "Triumph",
+      "Legend: Alacrity"
+    ],
+    "tips": "Use hookshot creatively for engage angles. Time your second Q for true damage in trades.",
+    "abilities": {
+      "passive": "Adaptive Defenses - Gains shield against primary damage type of enemy hit",
+      "Q": "Precision Protocol - Empowers next two attacks, second deals true damage",
+      "W": "Tactical Sweep - Sweeps area, dealing damage and healing",
+      "E": "Hookshot - Dashes to wall then can dash to target location stunning champions",
+      "R": "The Hextech Ultimatum - Locks down target champion in area, gaining bonus damage"
+    }
   }
 }
