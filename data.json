@@ -1,4 +1,35 @@
 {
+  "aatrox": {
+    "role": "Top-lane Bruiser/Juggernaut",
+    "matchups": {
+      "strong_against": ["Kayle", "Teemo", "Gnar"],
+      "weak_against": ["Fiora", "Irelia", "Jax"]
+    },
+    "recommended_items": [
+      "Goredrinker",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Death's Dance",
+      "Guardian Angel",
+      "Spirit Visage"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Bone Plating",
+      "Revitalize"
+    ],
+    "tips": "Focus on hitting your Q sweet spots for maximum damage. Use E to reposition during Q casts.",
+    "abilities": {
+      "passive": "Deathbringer Stance - Periodically empowers next attack to deal bonus damage",
+      "Q": "The Darkin Blade - Three strikes with sweetspots at the edges",
+      "W": "Infernal Chains - Launches chains that slow and can pull enemies",
+      "E": "Umbral Dash - Short dash that can be used during other abilities",
+      "R": "World Ender - Gains movement speed, AD, and healing"
+    }
+  },
   "ahri": {
     "role": "Mid-lane Mage/Assassin",
     "matchups": {
@@ -30,128 +61,97 @@
       "R": "Spirit Rush - Dashes and fires essence bolts at nearby enemies"
     }
   },
-  "darius": {
-    "role": "Top-lane Bruiser/Juggernaut",
+  "akali": {
+    "role": "Mid/Top-lane Assassin",
     "matchups": {
-      "strong_against": ["Kayle", "Gangplank", "Malphite"],
-      "weak_against": ["Vayne", "Quinn", "Kennen"]
+      "strong_against": ["Viktor", "Xerath", "Vel'Koz"],
+      "weak_against": ["Galio", "Diana", "Lee Sin"]
     },
     "recommended_items": [
-      "Divine Sunderer",
-      "Plated Steelcaps",
-      "Dead Man's Plate",
-      "Force of Nature",
-      "Black Cleaver",
-      "Death's Dance"
+      "Riftmaker",
+      "Sorcerer's Shoes",
+      "Demonic Embrace",
+      "Zhonya's Hourglass",
+      "Void Staff",
+      "Morellonomicon"
     ],
     "recommended_runes": [
       "Conqueror",
-      "Triumph",
-      "Legend: Alacrity",
-      "Last Stand",
-      "Bone Plating",
-      "Unflinching"
+      "Presence of Mind",
+      "Legend: Tenacity",
+      "Coup de Grace",
+      "Taste of Blood",
+      "Ravenous Hunter"
     ],
-    "tips": "Focus on stacking your hemorrhage passive on enemies. Your ultimate deals true damage and resets on kills.",
+    "tips": "Use your shroud to reposition and wait for cooldowns. Manage your energy efficiently in extended trades.",
     "abilities": {
-      "passive": "Hemorrhage - Attacks and abilities cause enemies to bleed, stacking up to 5 times",
-      "Q": "Decimate - Swings axe in a circle, dealing more damage with the blade",
-      "W": "Crippling Strike - Slows target and deals bonus damage",
-      "E": "Apprehend - Pulls in enemies and applies armor penetration",
-      "R": "Noxian Guillotine - Leaps to target dealing true damage, resets on kill"
+      "passive": "Assassin's Mark - Empowers auto attacks after leaving circle created by abilities",
+      "Q": "Five Point Strike - Throws kunai in an arc, dealing damage and slowing",
+      "W": "Twilight Shroud - Creates smoke cloud granting invisibility",
+      "E": "Shuriken Flip - Flips backward and throws shuriken, can dash to marked targets",
+      "R": "Perfect Execution - Two-part dash execution ability"
     }
   },
-  "thresh": {
-    "role": "Support Tank/Catcher",
+  "akshan": {
+    "role": "Mid/Top-lane Marksman",
     "matchups": {
-      "strong_against": ["Yuumi", "Sona", "Soraka"],
-      "weak_against": ["Morgana", "Sivir", "Alistar"]
+      "strong_against": ["Katarina", "Kassadin", "Twisted Fate"],
+      "weak_against": ["Pantheon", "Lucian", "Yone"]
+    },
+    "recommended_items": [
+      "Kraken Slayer",
+      "Berserker's Greaves",
+      "Collector",
+      "Infinity Edge",
+      "Bloodthirster",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Press the Attack",
+      "Triumph",
+      "Legend: Alacrity",
+      "Coup de Grace",
+      "Taste of Blood",
+      "Treasure Hunter"
+    ],
+    "tips": "Use your swing to roam and catch enemies off guard. Save your revive for crucial teamfight moments.",
+    "abilities": {
+      "passive": "Dirty Fighting - Three-hit passive and revive mechanic",
+      "Q": "Avengerang - Throwing weapon that deals damage going out and returning",
+      "W": "Going Rogue - Camouflage and swing ability",
+      "E": "Heroic Swing - Hooks to terrain and can be recast",
+      "R": "Comeuppance - Locks onto enemy champions and fires multiple shots"
+    }
+  },
+  "alistar": {
+    "role": "Support Tank/Engage",
+    "matchups": {
+      "strong_against": ["Pyke", "Leona", "Nautilus"],
+      "weak_against": ["Morgana", "Janna", "Lulu"]
     },
     "recommended_items": [
       "Locket of the Iron Solari",
-      "Boots of Mobility",
+      "Mercury's Treads",
       "Knight's Vow",
       "Zeke's Convergence",
       "Thornmail",
-      "Redemption"
+      "Gargoyle Stoneplate"
     ],
     "recommended_runes": [
       "Aftershock",
       "Font of Life",
-      "Bone Plating",
-      "Unflinching",
+      "Conditioning",
+      "Overgrowth",
       "Hextech Flashtraption",
       "Cosmic Insight"
     ],
-    "tips": "Look for hooks on priority targets and use your lantern to save allies or enable aggressive plays.",
+    "tips": "Master the W-Q combo for reliable engage. Use R to tower dive and tank objectives.",
     "abilities": {
-      "passive": "Damnation - Collects souls to gain armor and ability power",
-      "Q": "Death Sentence - Throws a hook that pulls enemies toward Thresh",
-      "W": "Dark Passage - Throws a lantern that shields allies and can be clicked for movement",
-      "E": "Flay - Pushes or pulls enemies in target direction",
-      "R": "The Box - Creates walls that slow and damage enemies who break them"
-    }
-  },
-  "jinx": {
-    "role": "Bot-lane ADC/Marksman",
-    "matchups": {
-      "strong_against": ["Kog'Maw", "Twitch", "Ashe"],
-      "weak_against": ["Draven", "Lucian", "Kalista"]
-    },
-    "recommended_items": [
-      "Infinity Edge",
-      "Berserker's Greaves",
-      "Runaan's Hurricane",
-      "Bloodthirster",
-      "Lord Dominik's Regards",
-      "Guardian Angel"
-    ],
-    "recommended_runes": [
-      "Lethal Tempo",
-      "Triumph",
-      "Legend: Bloodline",
-      "Coup de Grace",
-      "Absolute Focus",
-      "Gathering Storm"
-    ],
-    "tips": "Use Fishbones for AOE damage in teamfights and Pow-Pow for single target DPS. Your passive gives you movement speed after takedowns.",
-    "abilities": {
-      "passive": "Get Excited! - Gains movement speed after takedowns or epic monster kills",
-      "Q": "Switcheroo! - Switches between Fishbones (rocket launcher) and Pow-Pow (minigun)",
-      "W": "Zap! - Fires a shock blast that slows and reveals enemies",
-      "E": "Flame Chompers! - Places traps that root enemies",
-      "R": "Super Mega Death Rocket! - Fires a global rocket that deals more damage based on missing health"
-    }
-  },
-  "lee_sin": {
-    "role": "Jungle Fighter/Assassin",
-    "matchups": {
-      "strong_against": ["Karthus", "Fiddlesticks", "Evelynn"],
-      "weak_against": ["Udyr", "Warwick", "Rammus"]
-    },
-    "recommended_items": [
-      "Goredrinker",
-      "Ionian Boots of Lucidity",
-      "Black Cleaver",
-      "Death's Dance",
-      "Maw of Malmortius",
-      "Guardian Angel"
-    ],
-    "recommended_runes": [
-      "Conqueror",
-      "Triumph",
-      "Legend: Tenacity",
-      "Last Stand",
-      "Sudden Impact",
-      "Relentless Hunter"
-    ],
-    "tips": "Use your mobility to make plays early game. Ward hop with W for escapes or engages. Look for kick-flash combinations in teamfights.",
-    "abilities": {
-      "passive": "Flurry - After using an ability, next two attacks gain attack speed",
-      "Q": "Sonic Wave/Resonating Strike - Projectile that can be reactivated to dash to target",
-      "W": "Safeguard/Iron Will - Jumps to ally/ward and gains lifesteal/spellvamp",
-      "E": "Tempest/Cripple - Reveals and damages nearby enemies, can be reactivated to slow",
-      "R": "Dragon's Rage - Kicks target enemy, dealing damage to them and enemies they pass through"
+      "passive": "Triumphant Roar - Heals nearby allies when crowd control is applied",
+      "Q": "Pulverize - Knocks up nearby enemies",
+      "W": "Headbutt - Dashes to and knocks back an enemy",
+      "E": "Trample - Deals damage to nearby enemies and can stun",
+      "R": "Unbreakable Will - Reduces incoming damage and removes crowd control"
     }
   }
 }
