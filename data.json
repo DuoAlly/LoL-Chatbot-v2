@@ -309,7 +309,6 @@
       "R": "Enchanted Crystal Arrow - Global stun projectile"
     }
   },
-  {
   "aurelion_sol": {
     "role": "Mid-lane Battle Mage",
     "matchups": {
@@ -590,7 +589,6 @@
       "R": "The Hextech Ultimatum - Locks down target champion in area, gaining bonus damage"
     }
   },
-  {
   "cassiopeia": {
     "role": "Mid-lane Battle Mage",
     "matchups": {
@@ -746,7 +744,6 @@
       "R": "Lunar Rush - Dashes to target, resets on Moonlight targets"
     }
   },
-  {
   "dr_mundo": {
     "role": "Top-lane Tank/Juggernaut",
     "matchups": {
@@ -840,7 +837,6 @@
       "R": "Chronobreak - Returns to past position, dealing AoE damage"
     }
   },
-  {
   "elise": {
     "role": "Jungle Assassin/Mage",
     "matchups": {
@@ -996,7 +992,6 @@
       "R": "Chum the Waters - Throws fish that creates shark, knocking up and slowing"
     }
   },
-  {
   "galio": {
     "role": "Mid-lane Tank/Mage",
     "matchups": {
@@ -1121,7 +1116,6 @@
       "R": "GNAR! - Throws enemies in direction, stunning against walls"
     }
   },
-  {
   "gragas": {
     "role": "Jungle/Mid Tank/Mage",
     "matchups": {
@@ -1246,7 +1240,6 @@
       "R": "Onslaught of Shadows - Charges forward, fearing enemies in path"
     }
   },
-  {
   "heimerdinger": {
     "role": "Mid/Top Control Mage",
     "matchups": {
@@ -1371,7 +1364,6 @@
       "R": "Daisy! - Summons Daisy who knocks up enemies"
     }
   },
-  {
   "janna": {
     "role": "Support Enchanter",
     "matchups": {
