@@ -840,5 +840,161 @@
       "E": "Phase Dive - Rolls and empowers next attack with blink",
       "R": "Chronobreak - Returns to past position, dealing AoE damage"
     }
+  },
+  {
+  "elise": {
+    "role": "Jungle Assassin/Mage",
+    "matchups": {
+      "strong_against": ["Amumu", "Sejuani", "Zac"],
+      "weak_against": ["Lee Sin", "Nidalee", "Kha'Zix"]
+    },
+    "recommended_items": [
+      "Rocketbelt",
+      "Sorcerer's Shoes",
+      "Zhonya's Hourglass",
+      "Shadowflame",
+      "Void Staff",
+      "Rabadon's Deathcap"
+    ],
+    "recommended_runes": [
+      "Electrocute",
+      "Sudden Impact",
+      "Eyeball Collection",
+      "Relentless Hunter",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Use human form for poke and setup, spider form for execution. Rappel can be used to dodge crucial abilities.",
+    "abilities": {
+      "passive": "Spider Queen - Can transform between human and spider form",
+      "Q": "Neurotoxin/Venomous Bite - % health damage/execute damage",
+      "W": "Volatile Spiderling/Skittering Frenzy - Explosive spider/Attack speed boost",
+      "E": "Cocoon/Rappel - Stun projectile/Untargetable leap",
+      "R": "Spider Form/Human Form - Transforms between forms"
+    }
+  },
+  "evelynn": {
+    "role": "Jungle Assassin",
+    "matchups": {
+      "strong_against": ["Karthus", "Master Yi", "Fiddlesticks"],
+      "weak_against": ["Lee Sin", "Rek'Sai", "Rengar"]
+    },
+    "recommended_items": [
+      "Rocketbelt",
+      "Sorcerer's Shoes",
+      "Mejai's Soulstealer",
+      "Rabadon's Deathcap",
+      "Void Staff",
+      "Zhonya's Hourglass"
+    ],
+    "recommended_runes": [
+      "Dark Harvest",
+      "Sudden Impact",
+      "Eyeball Collection",
+      "Relentless Hunter",
+      "Absolute Focus",
+      "Gathering Storm"
+    ],
+    "tips": "Use stealth to bypass wards and flank. Charm important targets before engaging.",
+    "abilities": {
+      "passive": "Demon Shade - Heals and becomes invisible when out of combat",
+      "Q": "Hate Spike - Fires spikes at nearest enemy, can be recast",
+      "W": "Allure - Marks target, charm when fully charged",
+      "E": "Whiplash - Empowered attack with bonus % max health damage",
+      "R": "Last Caress - Blinks back and deals massive damage to low health targets"
+    }
+  },
+  "ezreal": {
+    "role": "Bot-lane ADC/Caster",
+    "matchups": {
+      "strong_against": ["Kog'Maw", "Jinx", "Aphelios"],
+      "weak_against": ["Draven", "Lucian", "Kalista"]
+    },
+    "recommended_items": [
+      "Divine Sunderer",
+      "Manamune",
+      "Ionian Boots of Lucidity",
+      "Serylda's Grudge",
+      "Ravenous Hydra",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "First Strike",
+      "Magical Footwear",
+      "Biscuit Delivery",
+      "Cosmic Insight",
+      "Presence of Mind",
+      "Cut Down"
+    ],
+    "tips": "Weave auto attacks between abilities. Use E defensively unless kill is guaranteed.",
+    "abilities": {
+      "passive": "Rising Spell Force - Gains attack speed when hitting abilities",
+      "Q": "Mystic Shot - Skillshot that applies on-hit effects",
+      "W": "Essence Flux - Marks target, detonated by abilities",
+      "E": "Arcane Shift - Blinks and fires homing bolt",
+      "R": "Trueshot Barrage - Global skillshot dealing massive damage"
+    }
+  },
+  "fiddlesticks": {
+    "role": "Jungle Control Mage",
+    "matchups": {
+      "strong_against": ["Ivern", "Amumu", "Rammus"],
+      "weak_against": ["Lee Sin", "Kha'Zix", "Graves"]
+    },
+    "recommended_items": [
+      "Rocketbelt",
+      "Sorcerer's Shoes",
+      "Zhonya's Hourglass",
+      "Shadowflame",
+      "Void Staff",
+      "Rabadon's Deathcap"
+    ],
+    "recommended_runes": [
+      "Dark Harvest",
+      "Cheap Shot",
+      "Eyeball Collection",
+      "Ultimate Hunter",
+      "Perfect Timing",
+      "Cosmic Insight"
+    ],
+    "tips": "Use effigies to control vision. Channel ultimate from unexpected angles.",
+    "abilities": {
+      "passive": "A Harmless Scarecrow - Can create and pose as scarecrow effigies",
+      "Q": "Terrify - Fears target enemy and deals damage",
+      "W": "Bountiful Harvest - Drains nearby enemies, dealing more damage to monsters",
+      "E": "Reap - Silences and damages enemies in area",
+      "R": "Crowstorm - Channels then blinks to location dealing massive AoE damage"
+    }
+  },
+  "fizz": {
+    "role": "Mid-lane Assassin",
+    "matchups": {
+      "strong_against": ["Twisted Fate", "Veigar", "Xerath"],
+      "weak_against": ["Galio", "Diana", "Kassadin"]
+    },
+    "recommended_items": [
+      "Luden's Tempest",
+      "Sorcerer's Shoes",
+      "Lich Bane",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Electrocute",
+      "Sudden Impact",
+      "Eyeball Collection",
+      "Relentless Hunter",
+      "Transcendence",
+      "Gathering Storm"
+    ],
+    "tips": "Use E to dodge crucial abilities. Ultimate can zone enemies even if missed.",
+    "abilities": {
+      "passive": "Nimble Fighter - Can move through units and takes reduced damage",
+      "Q": "Urchin Strike - Dashes through target dealing damage",
+      "W": "Seastone Trident - Empowers next attack with DoT",
+      "E": "Playful/Trickster - Becomes untargetable and can damage area",
+      "R": "Chum the Waters - Throws fish that creates shark, knocking up and slowing"
+    }
   }
 }
