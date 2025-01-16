@@ -1246,5 +1246,130 @@
       "E": "Devastating Charge - Gains movement speed and knocks back next attack",
       "R": "Onslaught of Shadows - Charges forward, fearing enemies in path"
     }
+  },
+  {
+  "heimerdinger": {
+    "role": "Mid/Top Control Mage",
+    "matchups": {
+      "strong_against": ["Zed", "Talon", "Fizz"],
+      "weak_against": ["Syndra", "Xerath", "Ziggs"]
+    },
+    "recommended_items": [
+      "Liandry's Anguish",
+      "Sorcerer's Shoes",
+      "Zhonya's Hourglass",
+      "Void Staff",
+      "Rabadon's Deathcap",
+      "Morellonomicon"
+    ],
+    "recommended_runes": [
+      "Arcane Comet",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Perfect Timing",
+      "Cosmic Insight"
+    ],
+    "tips": "Position turrets strategically. Save upgraded turret for teamfights or objectives.",
+    "abilities": {
+      "passive": "Hextech Affinity - Gains movement speed near turrets",
+      "Q": "H-28G Evolution Turret - Places turret that attacks enemies",
+      "W": "Hextech Micro-Rockets - Fires rockets that damage first enemy hit",
+      "E": "CH-2 Electron Storm Grenade - Throws grenade that stuns",
+      "R": "UPGRADE!!! - Empowers next basic ability"
+    }
+  },
+  "illaoi": {
+    "role": "Top-lane Juggernaut",
+    "matchups": {
+      "strong_against": ["Maokai", "Malphite", "Sion"],
+      "weak_against": ["Vayne", "Kayle", "Teemo"]
+    },
+    "recommended_items": [
+      "Divine Sunderer",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Death's Dance",
+      "Spirit Visage",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Presence of Mind",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Second Wind",
+      "Revitalize"
+    ],
+    "tips": "Fight in tentacle zones. Land E before ulting for maximum damage.",
+    "abilities": {
+      "passive": "Prophet of an Elder God - Spawns tentacles on walls",
+      "Q": "Tentacle Smash - Tentacles slam in target direction",
+      "W": "Harsh Lesson - Leaps to target and commands tentacles to attack",
+      "E": "Test of Spirit - Pulls enemy's spirit for damage testing",
+      "R": "Leap of Faith - Slams ground spawning tentacles for each champion hit"
+    }
+  },
+  "irelia": {
+    "role": "Top/Mid Fighter/Diver",
+    "matchups": {
+      "strong_against": ["Gangplank", "Teemo", "Gnar"],
+      "weak_against": ["Jax", "Tryndamere", "Shen"]
+    },
+    "recommended_items": [
+      "Blade of the Ruined King",
+      "Plated Steelcaps",
+      "Divine Sunderer",
+      "Death's Dance",
+      "Guardian Angel",
+      "Maw of Malmortius"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Bone Plating",
+      "Unflinching"
+    ],
+    "tips": "Stack passive before fighting. Use Q resets for mobility and damage.",
+    "abilities": {
+      "passive": "Ionian Fervor - Gains attack speed from ability hits",
+      "Q": "Bladesurge - Dashes to target, resets on kill",
+      "W": "Defiant Dance - Channels to reduce damage and strike",
+      "E": "Flawless Duet - Places blades that stun between them",
+      "R": "Vanguard's Edge - Creates arena that damages and disarms"
+    }
+  },
+  "ivern": {
+    "role": "Jungle Support",
+    "matchups": {
+      "strong_against": ["Karthus", "Master Yi", "Kayn"],
+      "weak_against": ["Lee Sin", "Xin Zhao", "Elise"]
+    },
+    "recommended_items": [
+      "Moonstone Renewer",
+      "Ionian Boots of Lucidity",
+      "Staff of Flowing Water",
+      "Redemption",
+      "Mikael's Blessing",
+      "Ardent Censer"
+    ],
+    "recommended_runes": [
+      "Guardian",
+      "Font of Life",
+      "Conditioning",
+      "Revitalize",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Share buffs with allies. Use Daisy to tank objectives and zone enemies.",
+    "abilities": {
+      "passive": "Friend of the Forest - Can free jungle camps after channeling",
+      "Q": "Rootcaller - Throws vine that roots and enables dashes",
+      "W": "Brushmaker - Creates brush that grants attack range",
+      "E": "Triggerseed - Shields target and damages nearby enemies",
+      "R": "Daisy! - Summons Daisy who knocks up enemies"
+    }
   }
 }
