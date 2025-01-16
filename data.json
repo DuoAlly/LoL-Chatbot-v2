@@ -1371,5 +1371,285 @@
       "E": "Triggerseed - Shields target and damages nearby enemies",
       "R": "Daisy! - Summons Daisy who knocks up enemies"
     }
+  },
+  {
+  "janna": {
+    "role": "Support Enchanter",
+    "matchups": {
+      "strong_against": ["Leona", "Nautilus", "Alistar"],
+      "weak_against": ["Karma", "Xerath", "Zyra"]
+    },
+    "recommended_items": [
+      "Moonstone Renewer",
+      "Mobility Boots",
+      "Staff of Flowing Water",
+      "Ardent Censer",
+      "Chemtech Putrifier",
+      "Redemption"
+    ],
+    "recommended_runes": [
+      "Summon Aery",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Use tornado to interrupt enemy engages. Save ultimate for disengage or heal.",
+    "abilities": {
+      "passive": "Tailwind - Allies moving toward Janna gain movement speed",
+      "Q": "Howling Gale - Charges tornado that knocks up enemies",
+      "W": "Zephyr - Slows target and grants movement speed",
+      "E": "Eye of the Storm - Shields target and grants attack damage",
+      "R": "Monsoon - Pushes enemies away and heals allies in area"
+    }
+  },
+  "jarvan_iv": {
+    "role": "Jungle Fighter/Tank",
+    "matchups": {
+      "strong_against": ["Evelynn", "Karthus", "Master Yi"],
+      "weak_against": ["Lee Sin", "Graves", "Nidalee"]
+    },
+    "recommended_items": [
+      "Goredrinker",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Death's Dance",
+      "Force of Nature",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Sudden Impact",
+      "Relentless Hunter"
+    ],
+    "tips": "Use EQ combo for long-range engage. Flag provides attack speed for objectives.",
+    "abilities": {
+      "passive": "Martial Cadence - First attack on targets deals bonus damage",
+      "Q": "Dragon Strike - Extends lance dealing damage and lowering armor",
+      "W": "Golden Aegis - Gains shield and slows nearby enemies",
+      "E": "Demacian Standard - Places flag that grants attack speed",
+      "R": "Cataclysm - Leaps to target creating impassable terrain"
+    }
+  },
+  "jax": {
+    "role": "Top-lane Fighter/Duelist",
+    "matchups": {
+      "strong_against": ["Irelia", "Fiora", "Camille"],
+      "weak_against": ["Malphite", "Quinn", "Jayce"]
+    },
+    "recommended_items": [
+      "Divine Sunderer",
+      "Plated Steelcaps",
+      "Blade of the Ruined King",
+      "Death's Dance",
+      "Maw of Malmortius",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Bone Plating",
+      "Unflinching"
+    ],
+    "tips": "Use Counter Strike against auto-attackers. Save Q for escape or chase.",
+    "abilities": {
+      "passive": "Relentless Assault - Consecutive attacks increase attack speed",
+      "Q": "Leap Strike - Jumps to target dealing damage",
+      "W": "Empower - Empowers next attack with bonus damage",
+      "E": "Counter Strike - Dodges attacks and stuns nearby enemies",
+      "R": "Grandmaster's Might - Gains armor, MR, and bonus damage on hits"
+    }
+  },
+  "jayce": {
+    "role": "Top/Mid Fighter/Marksman",
+    "matchups": {
+      "strong_against": ["Gnar", "Kayle", "Teemo"],
+      "weak_against": ["Malphite", "Irelia", "Yone"]
+    },
+    "recommended_items": [
+      "Eclipse",
+      "Ionian Boots of Lucidity",
+      "Manamune",
+      "Serylda's Grudge",
+      "Black Cleaver",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "First Strike",
+      "Magical Footwear",
+      "Future's Market",
+      "Cosmic Insight",
+      "Transcendence",
+      "Gathering Storm"
+    ],
+    "tips": "Use hammer form for all-ins. Cannon form for poke and disengage.",
+    "abilities": {
+      "passive": "Hextech Capacitor - First attack in new form grants bonus effects",
+      "Q": "To the Skies!/Shock Blast - Leaps to enemy/Fires energy bolt",
+      "W": "Lightning Field/Hyper Charge - Creates damaging field/Gains attack speed",
+      "E": "Thundering Blow/Acceleration Gate - Knocks back enemy/Speeds up Q",
+      "R": "Transform Mercury/Mercury Cannon - Switches between melee/ranged form"
+    }
+  },
+  "jhin": {
+    "role": "Bot-lane ADC/Catcher",
+    "matchups": {
+      "strong_against": ["Twitch", "Kog'Maw", "Aphelios"],
+      "weak_against": ["Draven", "Samira", "Tristana"]
+    },
+    "recommended_items": [
+      "Galeforce",
+      "Rapid Firecannon",
+      "Infinity Edge",
+      "Lord Dominik's Regards",
+      "Bloodthirster",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Fleet Footwork",
+      "Presence of Mind",
+      "Legend: Bloodline",
+      "Coup de Grace",
+      "Magical Footwear",
+      "Approach Velocity"
+    ],
+    "tips": "Use fourth shot for trades. W can root targets marked by allies.",
+    "abilities": {
+      "passive": "Whisper - Fixed attack speed, fourth shot deals extra damage",
+      "Q": "Dancing Grenade - Bounces between targets",
+      "W": "Deadly Flourish - Long range shot that roots marked targets",
+      "E": "Captive Audience - Places trap that roots and damages",
+      "R": "Curtain Call - Fires four long-range shots that slow"
+    }
+  },
+  "jinx": {
+    "role": "Bot-lane ADC/Marksman",
+    "matchups": {
+      "strong_against": ["Kog'Maw", "Twitch", "Aphelios"],
+      "weak_against": ["Draven", "Lucian", "Samira"]
+    },
+    "recommended_items": [
+      "Kraken Slayer",
+      "Berserker's Greaves",
+      "Phantom Dancer",
+      "Infinity Edge",
+      "Lord Dominik's Regards",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Lethal Tempo",
+      "Presence of Mind",
+      "Legend: Bloodline",
+      "Cut Down",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Use rockets for long-range teamfighting. Minigun for single target DPS.",
+    "abilities": {
+      "passive": "Get Excited! - Gains movement speed after takedowns",
+      "Q": "Switcheroo! - Switches between minigun and rocket launcher",
+      "W": "Zap! - Fires projectile that slows and reveals",
+      "E": "Flame Chompers! - Creates line of snaring traps",
+      "R": "Super Mega Death Rocket! - Global rocket with execute damage"
+    }
+  },
+  "k'sante": {
+    "role": "Top-lane Tank/Fighter",
+    "matchups": {
+      "strong_against": ["Darius", "Garen", "Sett"],
+      "weak_against": ["Fiora", "Jax", "Olaf"]
+    },
+    "recommended_items": [
+      "Sunfire Aegis",
+      "Plated Steelcaps",
+      "Thornmail",
+      "Spirit Visage",
+      "Warmog's Armor",
+      "Gargoyle Stoneplate"
+    ],
+    "recommended_runes": [
+      "Grasp of the Undying",
+      "Demolish",
+      "Second Wind",
+      "Unflinching",
+      "Triumph",
+      "Legend: Tenacity"
+    ],
+    "tips": "Use ultimate transformation when low for maximum damage. Wall dashes extend mobility.",
+    "abilities": {
+      "passive": "Dauntless Instinct - Gains resistances that convert to damage",
+      "Q": "Ntofo Strikes - Attacks with tonfas, can be used to dash",
+      "W": "Path Maker - Creates terrain and blocks projectiles",
+      "E": "Footwork - Dashes and gains shield",
+      "R": "All Out - Transforms gaining damage at cost of defense"
+    }
+  },
+  "kai'sa": {
+    "role": "Bot-lane ADC/Assassin",
+    "matchups": {
+      "strong_against": ["Jinx", "Kog'Maw", "Twitch"],
+      "weak_against": ["Caitlyn", "Ashe", "Miss Fortune"]
+    },
+    "recommended_items": [
+      "Kraken Slayer",
+      "Berserker's Greaves",
+      "Phantom Dancer",
+      "Infinity Edge",
+      "Guardian Angel",
+      "Bloodthirster"
+    ],
+    "recommended_runes": [
+      "Press the Attack",
+      "Presence of Mind",
+      "Legend: Bloodline",
+      "Coup de Grace",
+      "Taste of Blood",
+      "Ravenous Hunter"
+    ],
+    "tips": "Track evolution thresholds. Use ultimate to reposition in teamfights.",
+    "abilities": {
+      "passive": "Second Skin - Marks enemies and deals bonus damage",
+      "Q": "Icathian Rain - Fires missiles at nearby enemies",
+      "W": "Void Seeker - Long range skill shot that marks target",
+      "E": "Supercharge - Gains movement speed and invisibility",
+      "R": "Killer Instinct - Dashes to marked champion gaining shield"
+    }
+  },
+  "kalista": {
+    "role": "Bot-lane ADC/Marksman",
+    "matchups": {
+      "strong_against": ["Ezreal", "Kai'Sa", "Vayne"],
+      "weak_against": ["Caitlyn", "Ashe", "Draven"]
+    },
+    "recommended_items": [
+      "Immortal Shieldbow",
+      "Berserker's Greaves",
+      "Runaan's Hurricane",
+      "Bloodthirster",
+      "Guardian Angel",
+      "Lord Dominik's Regards"
+    ],
+    "recommended_runes": [
+      "Lethal Tempo",
+      "Triumph",
+      "Legend: Alacrity",
+      "Coup de Grace",
+      "Taste of Blood",
+      "Ravenous Hunter"
+    ],
+    "tips": "Coordinate with Oathsworn for objective control. Use rend to secure objectives.",
+    "abilities": {
+      "passive": "Martial Poise - Jumps after each auto attack",
+      "Q": "Pierce - Throws spear that can transfer rend stacks",
+      "W": "Sentinel - Sends scouting ghost that can be used by Oathsworn",
+      "E": "Rend - Pulls out spears dealing increasing damage",
+      "R": "Fate's Call - Pulls Oathsworn to safety"
+    }
   }
 }
