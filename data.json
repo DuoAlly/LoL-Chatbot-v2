@@ -590,5 +590,161 @@
       "E": "Hookshot - Dashes to wall then can dash to target location stunning champions",
       "R": "The Hextech Ultimatum - Locks down target champion in area, gaining bonus damage"
     }
+  },
+  {
+  "cassiopeia": {
+    "role": "Mid-lane Battle Mage",
+    "matchups": {
+      "strong_against": ["Sylas", "Vladimir", "Ryze"],
+      "weak_against": ["Zed", "Fizz", "Katarina"]
+    },
+    "recommended_items": [
+      "Liandry's Anguish",
+      "Cosmic Drive",
+      "Seraph's Embrace",
+      "Rylai's Crystal Scepter",
+      "Void Staff",
+      "Rabadon's Deathcap"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Presence of Mind",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Taste of Blood",
+      "Ravenous Hunter"
+    ],
+    "tips": "Land your Q to maximize Twin Fang DPS. Use ultimate carefully as it's crucial for self-peel.",
+    "abilities": {
+      "passive": "Serpentine Grace - Cannot purchase boots, gains movement speed per level",
+      "Q": "Noxious Blast - Poisons target area, granting movement speed if it hits",
+      "W": "Miasma - Creates pools that ground and slow enemies",
+      "E": "Twin Fang - Single target damage, reduced cooldown on poisoned targets",
+      "R": "Petrifying Gaze - Turns enemies facing her to stone"
+    }
+  },
+  "chogath": {
+    "role": "Top-lane Tank/Juggernaut",
+    "matchups": {
+      "strong_against": ["Sion", "Ornn", "Malphite"],
+      "weak_against": ["Vayne", "Gnar", "Kayle"]
+    },
+    "recommended_items": [
+      "Everfrost",
+      "Mercury's Treads",
+      "Warmog's Armor",
+      "Gargoyle Stoneplate",
+      "Thornmail",
+      "Force of Nature"
+    ],
+    "recommended_runes": [
+      "Grasp of the Undying",
+      "Demolish",
+      "Conditioning",
+      "Overgrowth",
+      "Magical Footwear",
+      "Approach Velocity"
+    ],
+    "tips": "Stack your ultimate on minions early. Chain CC with Q into W for guaranteed damage.",
+    "abilities": {
+      "passive": "Carnivore - Restores health and mana when killing units",
+      "Q": "Rupture - Creates circular area that knocks up enemies after delay",
+      "W": "Feral Scream - Silences enemies in a cone",
+      "E": "Vorpal Spikes - Empowers attacks with spikes that deal AOE damage",
+      "R": "Feast - Devours target unit, gaining permanent max health on kills"
+    }
+  },
+  "corki": {
+    "role": "Mid-lane AD Caster/Marksman",
+    "matchups": {
+      "strong_against": ["Kassadin", "Twisted Fate", "Galio"],
+      "weak_against": ["Yasuo", "Zed", "Leblanc"]
+    },
+    "recommended_items": [
+      "Manamune",
+      "Trinity Force",
+      "Ionian Boots of Lucidity",
+      "Rapid Firecannon",
+      "Infinity Edge",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "First Strike",
+      "Magical Footwear",
+      "Future's Market",
+      "Cosmic Insight",
+      "Presence of Mind",
+      "Coup de Grace"
+    ],
+    "tips": "Collect packages for map pressure. Save W for escape unless kill is guaranteed.",
+    "abilities": {
+      "passive": "Hextech Munitions - Auto attacks deal mixed damage",
+      "Q": "Phosphorus Bomb - Deals magic damage and reveals area",
+      "W": "Valkyrie - Dashes leaving burning trail",
+      "E": "Gatling Gun - Rapid fire shots that shred armor and MR",
+      "R": "Missile Barrage - Long range missiles, empowered by package"
+    }
+  },
+  "darius": {
+    "role": "Top-lane Juggernaut",
+    "matchups": {
+      "strong_against": ["Nasus", "Maokai", "Malphite"],
+      "weak_against": ["Quinn", "Vayne", "Kennen"]
+    },
+    "recommended_items": [
+      "Trinity Force",
+      "Plated Steelcaps",
+      "Dead Man's Plate",
+      "Spirit Visage",
+      "Death's Dance",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Bone Plating",
+      "Unflinching"
+    ],
+    "tips": "Stack hemorrhage before ulting. Use E to cancel enemy escapes.",
+    "abilities": {
+      "passive": "Hemorrhage - Attacks and abilities apply bleeding stacks",
+      "Q": "Decimate - Swings axe in circle, blade hits heal",
+      "W": "Crippling Strike - Empowered attack that slows",
+      "E": "Apprehend - Pulls enemies towards Darius",
+      "R": "Noxian Guillotine - Executes target, resets on kill"
+    }
+  },
+  "diana": {
+    "role": "Mid/Jungle Assassin",
+    "matchups": {
+      "strong_against": ["Veigar", "Lux", "Ahri"],
+      "weak_against": ["Galio", "Pantheon", "Akshan"]
+    },
+    "recommended_items": [
+      "Rocketbelt",
+      "Sorcerer's Shoes",
+      "Nashor's Tooth",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Electrocute",
+      "Sudden Impact",
+      "Eyeball Collection",
+      "Relentless Hunter",
+      "Triumph",
+      "Coup de Grace"
+    ],
+    "tips": "Use Q-R combo for extended dash range. Save E for teamfight disruption.",
+    "abilities": {
+      "passive": "Moonsilver Blade - Every third attack deals bonus magic damage",
+      "Q": "Crescent Strike - Curved skillshot that applies Moonlight",
+      "W": "Pale Cascade - Orbiting spheres that shield and damage",
+      "E": "Moonfall - Pulls nearby enemies to center",
+      "R": "Lunar Rush - Dashes to target, resets on Moonlight targets"
+    }
   }
 }
