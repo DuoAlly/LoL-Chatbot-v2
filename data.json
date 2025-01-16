@@ -996,5 +996,130 @@
       "E": "Playful/Trickster - Becomes untargetable and can damage area",
       "R": "Chum the Waters - Throws fish that creates shark, knocking up and slowing"
     }
+  },
+  {
+  "galio": {
+    "role": "Mid-lane Tank/Mage",
+    "matchups": {
+      "strong_against": ["Katarina", "Akali", "Diana"],
+      "weak_against": ["Yone", "Lucian", "Tristana"]
+    },
+    "recommended_items": [
+      "Everfrost",
+      "Mercury's Treads",
+      "Dead Man's Plate",
+      "Force of Nature",
+      "Zhonya's Hourglass",
+      "Demonic Embrace"
+    ],
+    "recommended_runes": [
+      "Aftershock",
+      "Shield Bash",
+      "Second Wind",
+      "Unflinching",
+      "Nimbus Cloak",
+      "Transcendence"
+    ],
+    "tips": "Use ultimate to counter-gank side lanes. Your taunt can interrupt key enemy abilities.",
+    "abilities": {
+      "passive": "Colossal Smash - Periodically empowers next auto attack",
+      "Q": "Winds of War - Fires two gusts that deal damage",
+      "W": "Shield of Durand - Reduces damage and taunts enemies",
+      "E": "Justice Punch - Dashes forward and knocks up enemies",
+      "R": "Hero's Entrance - Leaps to ally, knocking up enemies in area"
+    }
+  },
+  "gangplank": {
+    "role": "Top-lane Fighter/Carry",
+    "matchups": {
+      "strong_against": ["Malphite", "Shen", "Maokai"],
+      "weak_against": ["Irelia", "Riven", "Aatrox"]
+    },
+    "recommended_items": [
+      "Trinity Force",
+      "Ionian Boots of Lucidity",
+      "Navori Quickblades",
+      "Infinity Edge",
+      "Lord Dominik's Regards",
+      "Bloodthirster"
+    ],
+    "recommended_runes": [
+      "First Strike",
+      "Future's Market",
+      "Biscuit Delivery",
+      "Cosmic Insight",
+      "Transcendence",
+      "Gathering Storm"
+    ],
+    "tips": "Place barrels strategically in teamfights. Use orange proactively against CC.",
+    "abilities": {
+      "passive": "Trial by Fire - Periodically empowers next attack to deal true damage",
+      "Q": "Parrrley - Ranged attack that applies on-hit effects",
+      "W": "Remove Scurvy - Heals and removes CC",
+      "E": "Powder Keg - Places barrel that can be chained and detonated",
+      "R": "Cannon Barrage - Fires global barrage that slows enemies"
+    }
+  },
+  "garen": {
+    "role": "Top-lane Fighter/Juggernaut",
+    "matchups": {
+      "strong_against": ["Maokai", "Malphite", "Sion"],
+      "weak_against": ["Vayne", "Quinn", "Teemo"]
+    },
+    "recommended_items": [
+      "Trinity Force",
+      "Berserker's Greaves",
+      "Dead Man's Plate",
+      "Force of Nature",
+      "Black Cleaver",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Nimbus Cloak",
+      "Transcendence"
+    ],
+    "tips": "Use Q to break slows and catch enemies. Save W for key enemy damage or CC.",
+    "abilities": {
+      "passive": "Perseverance - Regenerates health when out of combat",
+      "Q": "Decisive Strike - Gains movement speed and silences next attack",
+      "W": "Courage - Gains damage reduction and tenacity",
+      "E": "Judgment - Rapidly spins dealing physical damage",
+      "R": "Demacian Justice - Executes target with true damage"
+    }
+  },
+  "gnar": {
+    "role": "Top-lane Fighter/Tank",
+    "matchups": {
+      "strong_against": ["Sion", "Malphite", "Ornn"],
+      "weak_against": ["Irelia", "Camille", "Jax"]
+    },
+    "recommended_items": [
+      "Divine Sunderer",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Dead Man's Plate",
+      "Force of Nature",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Fleet Footwork",
+      "Triumph",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Bone Plating",
+      "Unflinching"
+    ],
+    "tips": "Manage rage bar for teamfights. Use Mega Gnar CC chain for maximum impact.",
+    "abilities": {
+      "passive": "Rage Gene - Transforms into Mega Gnar when rage is full",
+      "Q": "Boomerang Throw/Boulder Toss - Throws projectile that slows",
+      "W": "Hyper/Wallop - Three hit proc/Stun in direction",
+      "E": "Hop/Crunch - Jumps in direction, can bounce off units",
+      "R": "GNAR! - Throws enemies in direction, stunning against walls"
+    }
   }
 }
