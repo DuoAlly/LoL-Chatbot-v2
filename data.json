@@ -1121,5 +1121,130 @@
       "E": "Hop/Crunch - Jumps in direction, can bounce off units",
       "R": "GNAR! - Throws enemies in direction, stunning against walls"
     }
+  },
+  {
+  "gragas": {
+    "role": "Jungle/Mid Tank/Mage",
+    "matchups": {
+      "strong_against": ["Yasuo", "Master Yi", "Katarina"],
+      "weak_against": ["Viktor", "Cassiopeia", "Ahri"]
+    },
+    "recommended_items": [
+      "Everfrost",
+      "Ionian Boots of Lucidity",
+      "Cosmic Drive",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Phase Rush",
+      "Nimbus Cloak",
+      "Transcendence",
+      "Gathering Storm",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Use E-Flash combo to surprise enemies. R can be used to isolate targets or peel.",
+    "abilities": {
+      "passive": "Happy Hour - Periodically heals when using abilities",
+      "Q": "Barrel Roll - Throws barrel that explodes dealing damage",
+      "W": "Drunken Rage - Channels to heal and reduce damage taken",
+      "E": "Body Slam - Dashes forward knocking back and damaging enemies",
+      "R": "Explosive Cask - Throws barrel that knocks enemies away"
+    }
+  },
+  "graves": {
+    "role": "Jungle/Top Marksman",
+    "matchups": {
+      "strong_against": ["Evelynn", "Karthus", "Fiddlesticks"],
+      "weak_against": ["Kha'Zix", "Lee Sin", "Elise"]
+    },
+    "recommended_items": [
+      "Eclipse",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Bloodthirster",
+      "Guardian Angel",
+      "Maw of Malmortius"
+    ],
+    "recommended_runes": [
+      "Fleet Footwork",
+      "Triumph",
+      "Legend: Alacrity",
+      "Coup de Grace",
+      "Sudden Impact",
+      "Treasure Hunter"
+    ],
+    "tips": "Use E resets in combat. Smoke screen crucial targets in teamfights.",
+    "abilities": {
+      "passive": "New Destiny - Auto attacks knock back and deal AoE damage",
+      "Q": "End of the Line - Fires shell that explodes after delay",
+      "W": "Smoke Screen - Creates cloud that blocks vision",
+      "E": "Quickdraw - Dashes and reloads, gaining armor stacks",
+      "R": "Collateral Damage - Fires large shell dealing heavy damage"
+    }
+  },
+  "gwen": {
+    "role": "Top-lane Fighter/Skirmisher",
+    "matchups": {
+      "strong_against": ["Shen", "Ornn", "Malphite"],
+      "weak_against": ["Tryndamere", "Jax", "Quinn"]
+    },
+    "recommended_items": [
+      "Riftmaker",
+      "Plated Steelcaps",
+      "Nashor's Tooth",
+      "Zhonya's Hourglass",
+      "Cosmic Drive",
+      "Rabadon's Deathcap"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Presence of Mind",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Conditioning",
+      "Unflinching"
+    ],
+    "tips": "Position W carefully in teamfights. Stack Q in center for true damage.",
+    "abilities": {
+      "passive": "Thousand Cuts - Basic attacks deal bonus magic damage",
+      "Q": "Snip Snip! - Snips in area, final snip deals true damage",
+      "W": "Hallowed Mist - Creates zone granting resistances",
+      "E": "Skip 'n Slash - Dashes and empowers attacks",
+      "R": "Needlework - Throws needles that deal increased damage at center"
+    }
+  },
+  "hecarim": {
+    "role": "Jungle Fighter/Diver",
+    "matchups": {
+      "strong_against": ["Ivern", "Fiddlesticks", "Karthus"],
+      "weak_against": ["Rammus", "Udyr", "Warwick"]
+    },
+    "recommended_items": [
+      "Divine Sunderer",
+      "Plated Steelcaps",
+      "Death's Dance",
+      "Force of Nature",
+      "Maw of Malmortius",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Celerity",
+      "Waterwalking"
+    ],
+    "tips": "Use E through lanes for fastest clear. Fear key targets in teamfights with ultimate.",
+    "abilities": {
+      "passive": "Warpath - Gains attack damage based on bonus movement speed",
+      "Q": "Rampage - Damages nearby enemies, can be quickly recast",
+      "W": "Spirit of Dread - Drains nearby enemies, healing for damage dealt",
+      "E": "Devastating Charge - Gains movement speed and knocks back next attack",
+      "R": "Onslaught of Shadows - Charges forward, fearing enemies in path"
+    }
   }
 }
