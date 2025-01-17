@@ -2095,5 +2095,200 @@
       "E": "Glacial Path - Creates ice claw that can be reactivated",
       "R": "Frozen Tomb - Freezes target champion or self"
     }
+  },
+  "lucian": {
+    "role": "Bot/Mid-lane ADC",
+    "matchups": {
+      "strong_against": ["Jinx", "Kog'Maw", "Twitch"],
+      "weak_against": ["Caitlyn", "Draven", "Miss Fortune"]
+    },
+    "recommended_items": [
+      "Kraken Slayer",
+      "Essence Reaver",
+      "Berserker's Greaves",
+      "Infinity Edge",
+      "Bloodthirster",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Press the Attack",
+      "Presence of Mind",
+      "Legend: Alacrity",
+      "Coup de Grace",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Weave abilities between auto attacks for passive. Use E to reposition in fights.",
+    "abilities": {
+      "passive": "Lightslinger - Second shot after ability use",
+      "Q": "Piercing Light - Targeted linear skillshot",
+      "W": "Ardent Blaze - Marks target granting movement speed",
+      "E": "Relentless Pursuit - Dash that resets on kill",
+      "R": "The Culling - Fires wave of shots in direction"
+    }
+  },
+  "lulu": {
+    "role": "Support Enchanter",
+    "matchups": {
+      "strong_against": ["Leona", "Alistar", "Thresh"],
+      "weak_against": ["Karma", "Xerath", "Brand"]
+    },
+    "recommended_items": [
+      "Moonstone Renewer",
+      "Ionian Boots of Lucidity",
+      "Ardent Censer",
+      "Staff of Flowing Water",
+      "Chemtech Putrifier",
+      "Redemption"
+    ],
+    "recommended_runes": [
+      "Summon Aery",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Use W on enemies to deny engage. Save ultimate for key threats.",
+    "abilities": {
+      "passive": "Pix, Faerie Companion - Assists with attacks and abilities",
+      "Q": "Glitterlance - Fires bolts that slow",
+      "W": "Whimsy - Polymorphs enemy or speeds up ally",
+      "E": "Help, Pix! - Shields ally or damages enemy",
+      "R": "Wild Growth - Knocks up enemies and grants health"
+    }
+  },
+  "lux": {
+    "role": "Mid/Support Mage",
+    "matchups": {
+      "strong_against": ["Katarina", "Talon", "Fizz"],
+      "weak_against": ["Yasuo", "Zed", "LeBlanc"]
+    },
+    "recommended_items": {
+      "mid": [
+        "Luden's Tempest",
+        "Sorcerer's Shoes",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Void Staff",
+        "Mejai's Soulstealer"
+      ],
+      "support": [
+        "Imperial Mandate",
+        "Ionian Boots of Lucidity",
+        "Chemtech Putrifier",
+        "Ardent Censer",
+        "Redemption",
+        "Vigilant Wardstone"
+      ]
+    },
+    "recommended_runes": {
+      "mid": [
+        "Arcane Comet",
+        "Manaflow Band",
+        "Transcendence",
+        "Gathering Storm",
+        "Perfect Timing",
+        "Cosmic Insight"
+      ],
+      "support": [
+        "Summon Aery",
+        "Manaflow Band",
+        "Transcendence",
+        "Scorch",
+        "Perfect Timing",
+        "Cosmic Insight"
+      ]
+    },
+    "tips": "Land Q to guarantee other abilities. Use E to check brushes.",
+    "abilities": {
+      "passive": "Illumination - Abilities mark targets for bonus damage",
+      "Q": "Light Binding - Roots up to two enemies",
+      "W": "Prismatic Barrier - Shields allies in line",
+      "E": "Lucent Singularity - Creates zone that slows and damages",
+      "R": "Final Spark - Fires long-range laser"
+    }
+  },
+  "malphite": {
+    "role": "Top-lane Tank",
+    "matchups": {
+      "strong_against": ["Riven", "Yasuo", "Irelia"],
+      "weak_against": ["Darius", "Mordekaiser", "Garen"]
+    },
+    "recommended_items": {
+      "tank": [
+        "Sunfire Aegis",
+        "Plated Steelcaps",
+        "Frozen Heart",
+        "Force of Nature",
+        "Thornmail",
+        "Warmog's Armor"
+      ],
+      "ap": [
+        "Night Harvester",
+        "Sorcerer's Shoes",
+        "Zhonya's Hourglass",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Void Staff"
+      ]
+    },
+    "recommended_runes": {
+      "tank": [
+        "Grasp of the Undying",
+        "Shield Bash",
+        "Second Wind",
+        "Overgrowth",
+        "Manaflow Band",
+        "Transcendence"
+      ],
+      "ap": [
+        "Arcane Comet",
+        "Manaflow Band",
+        "Transcendence",
+        "Scorch",
+        "Perfect Timing",
+        "Cosmic Insight"
+      ]
+    },
+    "tips": "Stack armor for passive value. Use ultimate to engage on grouped enemies.",
+    "abilities": {
+      "passive": "Granite Shield - Gains shield based on maximum health",
+      "Q": "Seismic Shard - Steals movement speed from target",
+      "W": "Thunderclap - Empowers next attack and resets",
+      "E": "Ground Slam - Reduces attack speed of nearby enemies",
+      "R": "Unstoppable Force - Knocks up enemies in target area"
+    }
+  },
+  "malzahar": {
+    "role": "Mid-lane Control Mage",
+    "matchups": {
+      "strong_against": ["Katarina", "Fizz", "Zed"],
+      "weak_against": ["Viktor", "Xerath", "Orianna"]
+    },
+    "recommended_items": [
+      "Liandry's Anguish",
+      "Sorcerer's Shoes",
+      "Demonic Embrace",
+      "Rylai's Crystal Scepter",
+      "Void Staff",
+      "Rabadon's Deathcap"
+    ],
+    "recommended_runes": [
+      "Summon Aery",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Perfect Timing",
+      "Cosmic Insight"
+    ],
+    "tips": "Keep passive up for safety. Use voidlings to push waves and take objectives.",
+    "abilities": {
+      "passive": "Void Shift - Gains spell shield periodically",
+      "Q": "Call of the Void - Creates zones of silence",
+      "W": "Void Swarm - Summons voidlings to attack",
+      "E": "Malefic Visions - Transfers between units on death",
+      "R": "Nether Grasp - Suppresses target enemy champion"
+    }
   }
 }
