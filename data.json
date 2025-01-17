@@ -2290,5 +2290,149 @@
       "E": "Malefic Visions - Transfers between units on death",
       "R": "Nether Grasp - Suppresses target enemy champion"
     }
+  },
+  "maokai": {
+    "role": "Top/Support Tank",
+    "matchups": {
+      "strong_against": ["Katarina", "Master Yi", "Yasuo"],
+      "weak_against": ["Darius", "Illaoi", "Garen"]
+    },
+    "recommended_items": {
+      "top": [
+        "Sunfire Aegis",
+        "Plated Steelcaps",
+        "Thornmail",
+        "Spirit Visage",
+        "Warmog's Armor",
+        "Gargoyle Stoneplate"
+      ],
+      "support": [
+        "Evenshroud",
+        "Mercury's Treads",
+        "Knight's Vow",
+        "Zeke's Convergence",
+        "Redemption",
+        "Vigilant Wardstone"
+      ]
+    },
+    "recommended_runes": {
+      "top": [
+        "Aftershock",
+        "Demolish",
+        "Conditioning",
+        "Overgrowth",
+        "Triumph",
+        "Legend: Tenacity"
+      ],
+      "support": [
+        "Aftershock",
+        "Font of Life",
+        "Bone Plating",
+        "Unflinching",
+        "Magical Footwear",
+        "Cosmic Insight"
+      ]
+    },
+    "tips": "Use saplings to control bushes. Save W for key enemy abilities.",
+    "abilities": {
+      "passive": "Sap Magic - Heals when using abilities near enemies",
+      "Q": "Bramble Smash - Knocks back enemies and slows",
+      "W": "Twisted Advance - Roots target and becomes untargetable",
+      "E": "Sapling Toss - Throws sapling that explodes",
+      "R": "Nature's Grasp - Sends wave of roots that lock down enemies"
+    }
+  },
+  "master_yi": {
+    "role": "Jungle Assassin/Fighter",
+    "matchups": {
+      "strong_against": ["Karthus", "Evelynn", "Fiddlesticks"],
+      "weak_against": ["Rammus", "Jax", "Lee Sin"]
+    },
+    "recommended_items": [
+      "Kraken Slayer",
+      "Berserker's Greaves",
+      "Guinsoo's Rageblade",
+      "Death's Dance",
+      "Blade of the Ruined King",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Lethal Tempo",
+      "Triumph",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Sudden Impact",
+      "Ravenous Hunter"
+    ],
+    "tips": "Use Q to dodge key abilities. Time W to reduce burst damage.",
+    "abilities": {
+      "passive": "Double Strike - Every few attacks strikes twice",
+      "Q": "Alpha Strike - Becomes untargetable and strikes multiple targets",
+      "W": "Meditate - Channels to heal and reduce damage",
+      "E": "Wuju Style - Gains true damage on attacks",
+      "R": "Highlander - Gains movement speed and attack speed"
+    }
+  },
+  "miss_fortune": {
+    "role": "Bot-lane ADC",
+    "matchups": {
+      "strong_against": ["Vayne", "Twitch", "Kai'Sa"],
+      "weak_against": ["Draven", "Caitlyn", "Ashe"]
+    },
+    "recommended_items": [
+      "Eclipse",
+      "Berserker's Greaves",
+      "Collector",
+      "Infinity Edge",
+      "Lord Dominik's Regards",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Press the Attack",
+      "Presence of Mind",
+      "Legend: Bloodline",
+      "Coup de Grace",
+      "Taste of Blood",
+      "Ultimate Hunter"
+    ],
+    "tips": "Use passive on different targets. Position ultimate for maximum coverage.",
+    "abilities": {
+      "passive": "Love Tap - Deals bonus damage to new targets",
+      "Q": "Double Up - Bounces to target behind, can crit",
+      "W": "Strut - Gains movement speed out of combat",
+      "E": "Make It Rain - Slows and damages in area",
+      "R": "Bullet Time - Channels waves of bullets in cone"
+    }
+  },
+  "mordekaiser": {
+    "role": "Top-lane AP Juggernaut",
+    "matchups": {
+      "strong_against": ["Nasus", "Malphite", "Sion"],
+      "weak_against": ["Fiora", "Gangplank", "Olaf"]
+    },
+    "recommended_items": [
+      "Riftmaker",
+      "Plated Steelcaps",
+      "Demonic Embrace",
+      "Zhonya's Hourglass",
+      "Rylai's Crystal Scepter",
+      "Spirit Visage"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Bone Plating",
+      "Revitalize"
+    ],
+    "tips": "Pull enemies into passive. Use ultimate on key targets in teamfights.",
+    "abilities": {
+      "passive": "Darkness Rise - Deals damage to nearby enemies",
+      "Q": "Obliterate - Isolated hits deal bonus damage",
+      "W": "Indestructible - Gains shield and stores damage",
+      "E": "Death's Grasp - Pulls enemies toward Mordekaiser",
+      "R": "Realm of Death - Forces 1v1 in Death Realm"
+    }
   }
 }
