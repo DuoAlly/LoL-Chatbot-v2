@@ -1909,6 +1909,191 @@
       "E": "Jousting - Dashes through enemies",
       "R": "CHAAAAAAAARGE!!! - Long range dash that creates path"
     }
+  },
+  "kogmaw": {
+    "role": "Bot-lane ADC/Artillery",
+    "matchups": {
+      "strong_against": ["Sivir", "Xayah", "Ezreal"],
+      "weak_against": ["Draven", "Lucian", "Tristana"]
+    },
+    "recommended_items": [
+      "Immortal Shieldbow",
+      "Berserker's Greaves",
+      "Guinsoo's Rageblade",
+      "Runaan's Hurricane",
+      "Wit's End",
+      "Randuin's Omen"
+    ],
+    "recommended_runes": [
+      "Lethal Tempo",
+      "Presence of Mind",
+      "Legend: Alacrity",
+      "Cut Down",
+      "Taste of Blood",
+      "Ravenous Hunter"
+    ],
+    "tips": "Position safely and use range advantage. Coordinate with peel supports.",
+    "abilities": {
+      "passive": "Icathian Surprise - Explodes on death dealing true damage",
+      "Q": "Caustic Spittle - Reduces armor and MR",
+      "W": "Bio-Arcane Barrage - Gains range and deals %health damage",
+      "E": "Void Ooze - Slows and leaves damaging trail",
+      "R": "Living Artillery - Long range artillery that executes low health targets"
+    }
+  },
+  "leblanc": {
+    "role": "Mid-lane Assassin",
+    "matchups": {
+      "strong_against": ["Veigar", "Twisted Fate", "Xerath"],
+      "weak_against": ["Galio", "Kassadin", "Lissandra"]
+    },
+    "recommended_items": [
+      "Luden's Tempest",
+      "Sorcerer's Shoes",
+      "Shadowflame",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Electrocute",
+      "Sudden Impact",
+      "Eyeball Collection",
+      "Relentless Hunter",
+      "Presence of Mind",
+      "Coup de Grace"
+    ],
+    "tips": "Use W for mobility and wave clear. Chain CC with E into Q-R combo.",
+    "abilities": {
+      "passive": "Mirror Image - Creates clone when low health",
+      "Q": "Sigil of Malice - Marks target for bonus damage",
+      "W": "Distortion - Dashes dealing damage, can return",
+      "E": "Ethereal Chains - Tethers enemy, rooting after delay",
+      "R": "Mimic - Casts empowered version of basic ability"
+    }
+  },
+  "lee_sin": {
+    "role": "Jungle Fighter/Assassin",
+    "matchups": {
+      "strong_against": ["Karthus", "Evelynn", "Master Yi"],
+      "weak_against": ["Udyr", "Warwick", "Volibear"]
+    },
+    "recommended_items": [
+      "Goredrinker",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Death's Dance",
+      "Guardian Angel",
+      "Maw of Malmortius"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Sudden Impact",
+      "Relentless Hunter"
+    ],
+    "tips": "Use ward hops for mobility. Insec kick priority targets in teamfights.",
+    "abilities": {
+      "passive": "Flurry - Gains energy after ability casts",
+      "Q": "Sonic Wave/Resonating Strike - Reveals and dashes to target",
+      "W": "Safeguard/Iron Will - Shields ally/Gains lifesteal",
+      "E": "Tempest/Cripple - Reveals and slows enemies",
+      "R": "Dragon's Rage - Kicks target enemy dealing damage"
+    }
+  },
+  "leona": {
+    "role": "Support Tank/Engage",
+    "matchups": {
+      "strong_against": ["Sona", "Soraka", "Nami"],
+      "weak_against": ["Morgana", "Janna", "Alistar"]
+    },
+    "recommended_items": [
+      "Locket of the Iron Solari",
+      "Plated Steelcaps",
+      "Knight's Vow",
+      "Zeke's Convergence",
+      "Thornmail",
+      "Gargoyle Stoneplate"
+    ],
+    "recommended_runes": [
+      "Aftershock",
+      "Font of Life",
+      "Bone Plating",
+      "Unflinching",
+      "Hextech Flashtraption",
+      "Cosmic Insight"
+    ],
+    "tips": "Chain CC abilities for maximum lockdown. Coordinate engages with team.",
+    "abilities": {
+      "passive": "Sunlight - Abilities mark targets for bonus damage",
+      "Q": "Shield of Daybreak - Stuns next attack",
+      "W": "Eclipse - Gains resistances and damages nearby enemies",
+      "E": "Zenith Blade - Dashes to last enemy hit",
+      "R": "Solar Flare - Creates damaging zone that slows and stuns center"
+    }
+  },
+  "lillia": {
+    "role": "Jungle AP Fighter",
+    "matchups": {
+      "strong_against": ["Sejuani", "Zac", "Rammus"],
+      "weak_against": ["Kindred", "Graves", "Lee Sin"]
+    },
+    "recommended_items": [
+      "Liandry's Anguish",
+      "Cosmic Drive",
+      "Demonic Embrace",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Dark Harvest",
+      "Cheap Shot",
+      "Eyeball Collection",
+      "Ravenous Hunter",
+      "Celerity",
+      "Waterwalking"
+    ],
+    "tips": "Stack movement speed with passive. Use ultimate to set up team fights.",
+    "abilities": {
+      "passive": "Dream-Laden Bough - Deals bonus damage over time",
+      "Q": "Blooming Blows - Deals true damage at outer edge",
+      "W": "Watch Out! Eep! - Deals heavy damage in center",
+      "E": "Swirlseed - Rolls seed that damages and slows",
+      "R": "Lilting Lullaby - Slows then sleeps enemies with Dream Dust"
+    }
+  },
+  "lissandra": {
+    "role": "Mid-lane Control Mage",
+    "matchups": {
+      "strong_against": ["Katarina", "Yasuo", "Zed"],
+      "weak_against": ["Viktor", "Syndra", "Orianna"]
+    },
+    "recommended_items": [
+      "Everfrost",
+      "Sorcerer's Shoes",
+      "Zhonya's Hourglass",
+      "Shadowflame",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Aftershock",
+      "Perfect Timing",
+      "Biscuit Delivery",
+      "Cosmic Insight",
+      "Manaflow Band",
+      "Transcendence"
+    ],
+    "tips": "Use E for escape or engage. Self-ultimate when diving backline.",
+    "abilities": {
+      "passive": "Iceborn - Creates frozen thrall on enemy champion deaths",
+      "Q": "Ice Shard - Throws ice that shatters for AoE damage",
+      "W": "Ring of Frost - Freezes nearby enemies",
+      "E": "Glacial Path - Creates ice claw that can be reactivated",
+      "R": "Frozen Tomb - Freezes target champion or self"
+    }
   }
-}
 }
