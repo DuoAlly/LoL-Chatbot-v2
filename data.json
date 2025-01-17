@@ -1641,5 +1641,274 @@
       "E": "Rend - Pulls out spears dealing increasing damage",
       "R": "Fate's Call - Pulls Oathsworn to safety"
     }
+  },
+  "karma": {
+    "role": "Support/Mid Enchanter",
+    "matchups": {
+      "strong_against": ["Leona", "Nautilus", "Thresh"],
+      "weak_against": ["Xerath", "Zyra", "Brand"]
+    },
+    "recommended_items": [
+      "Moonstone Renewer",
+      "Ionian Boots of Lucidity",
+      "Chemtech Putrifier",
+      "Staff of Flowing Water",
+      "Ardent Censer",
+      "Vigilant Wardstone"
+    ],
+    "recommended_runes": [
+      "Summon Aery",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Use empowered shield for team engages. Chain Q slow with W root.",
+    "abilities": {
+      "passive": "Gathering Fire - Reduces R cooldown when damaging champions",
+      "Q": "Inner Flame - Fires blast dealing damage and slowing",
+      "W": "Focused Resolve - Tethers enemy, rooting after delay",
+      "E": "Inspire - Shields and speeds up target",
+      "R": "Mantra - Empowers next basic ability"
+    }
+  },
+  "karthus": {
+    "role": "Jungle/Mid AP Carry",
+    "matchups": {
+      "strong_against": ["Evelynn", "Master Yi", "Fiddlesticks"],
+      "weak_against": ["Lee Sin", "Elise", "Nidalee"]
+    },
+    "recommended_items": [
+      "Liandry's Anguish",
+      "Sorcerer's Shoes",
+      "Zhonya's Hourglass",
+      "Demonic Embrace",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Dark Harvest",
+      "Cheap Shot",
+      "Eyeball Collection",
+      "Ultimate Hunter",
+      "Presence of Mind",
+      "Last Stand"
+    ],
+    "tips": "Use passive after death for extended damage. Time ultimate with teammate CC.",
+    "abilities": {
+      "passive": "Death Defied - Can cast spells while dead",
+      "Q": "Lay Waste - Deals bonus damage when hitting single target",
+      "W": "Wall of Pain - Creates wall that slows and reduces MR",
+      "E": "Defile - Toggleable AoE damage that drains mana",
+      "R": "Requiem - Damages all enemy champions globally"
+    }
+  },
+  "kassadin": {
+    "role": "Mid-lane Assassin",
+    "matchups": {
+      "strong_against": ["Veigar", "Ahri", "Lux"],
+      "weak_against": ["Lucian", "Pantheon", "Tristana"]
+    },
+    "recommended_items": [
+      "Crown of the Shattered Queen",
+      "Sorcerer's Shoes",
+      "Seraph's Embrace",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Fleet Footwork",
+      "Presence of Mind",
+      "Legend: Tenacity",
+      "Coup de Grace",
+      "Taste of Blood",
+      "Ravenous Hunter"
+    ],
+    "tips": "Farm safely until 6. Stack ultimate before objectives for maximum damage.",
+    "abilities": {
+      "passive": "Void Stone - Takes reduced magic damage and ignores unit collision",
+      "Q": "Null Sphere - Deals damage and interrupts channels",
+      "W": "Nether Blade - Empowers next attack and restores mana",
+      "E": "Force Pulse - Releases energy dealing damage and slowing",
+      "R": "Riftwalk - Short range blink that stacks damage"
+    }
+  },
+  "katarina": {
+    "role": "Mid-lane Assassin",
+    "matchups": {
+      "strong_against": ["Veigar", "Twisted Fate", "Annie"],
+      "weak_against": ["Galio", "Diana", "Pantheon"]
+    },
+    "recommended_items": [
+      "Nashor's Tooth",
+      "Sorcerer's Shoes",
+      "Riftmaker",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Sudden Impact",
+      "Ravenous Hunter"
+    ],
+    "tips": "Reset abilities with dagger pickup. Wait for key CC before ulting.",
+    "abilities": {
+      "passive": "Voracity - Reduces cooldowns on takedowns",
+      "Q": "Bouncing Blade - Throws dagger that bounces and leaves dagger",
+      "W": "Preparation - Drops dagger and grants movement speed",
+      "E": "Shunpo - Blinks to target location or unit",
+      "R": "Death Lotus - Rapidly throws daggers at nearby enemies"
+    }
+  },
+  "kayle": {
+    "role": "Top/Mid Scaling Carry",
+    "matchups": {
+      "strong_against": ["Sion", "Malphite", "Ornn"],
+      "weak_against": ["Irelia", "Riven", "Camille"]
+    },
+    "recommended_items": [
+      "Riftmaker",
+      "Berserker's Greaves",
+      "Nashor's Tooth",
+      "Rabadon's Deathcap",
+      "Void Staff",
+      "Zhonya's Hourglass"
+    ],
+    "recommended_runes": [
+      "Press the Attack",
+      "Presence of Mind",
+      "Legend: Alacrity",
+      "Coup de Grace",
+      "Transcendence",
+      "Gathering Storm"
+    ],
+    "tips": "Play safe until level 11. Save ultimate for key defensive moments.",
+    "abilities": {
+      "passive": "Divine Ascent - Gains power at levels 6/11/16",
+      "Q": "Radiant Blast - Deals damage and reduces armor/MR",
+      "W": "Celestial Blessing - Heals target and grants movement speed",
+      "E": "Starfire Spellblade - Passive attack damage enhancement",
+      "R": "Divine Judgment - Makes target invulnerable and deals damage"
+    }
+  },
+  "kayn": {
+    "role": "Jungle Assassin/Fighter",
+    "matchups": {
+      "strong_against": ["Evelynn", "Karthus", "Master Yi"],
+      "weak_against": ["Lee Sin", "Udyr", "Olaf"]
+    },
+    "recommended_items": {
+      "rhaast": [
+        "Goredrinker",
+        "Plated Steelcaps",
+        "Black Cleaver",
+        "Death's Dance",
+        "Spirit Visage",
+        "Guardian Angel"
+      ],
+      "shadow_assassin": [
+        "Eclipse",
+        "Ionian Boots of Lucidity",
+        "Youmuu's Ghostblade",
+        "Edge of Night",
+        "Serylda's Grudge",
+        "Guardian Angel"
+      ]
+    },
+    "recommended_runes": {
+      "rhaast": [
+        "Conqueror",
+        "Triumph",
+        "Legend: Tenacity",
+        "Last Stand",
+        "Magical Footwear",
+        "Cosmic Insight"
+      ],
+      "shadow_assassin": [
+        "First Strike",
+        "Magical Footwear",
+        "Future's Market",
+        "Cosmic Insight",
+        "Sudden Impact",
+        "Relentless Hunter"
+      ]
+    },
+    "tips": "Choose form based on enemy team composition. Use walls for unexpected ganks.",
+    "abilities": {
+      "passive": "The Darkin Scythe - Deals bonus damage and transforms based on damage type",
+      "Q": "Reaping Slash - Dashes dealing damage in area",
+      "W": "Blade's Reach - Deals damage and slows/knocks up",
+      "E": "Shadow Step - Moves through terrain gaining movement speed",
+      "R": "Umbral Trespass - Inhabits enemy champion dealing damage"
+    }
+  },
+  "kennen": {
+    "role": "Top-lane AP Fighter",
+    "matchups": {
+      "strong_against": ["Darius", "Nasus", "Garen"],
+      "weak_against": ["Irelia", "Yasuo", "Malphite"]
+    },
+    "recommended_items": [
+      "Rocketbelt",
+      "Sorcerer's Shoes",
+      "Zhonya's Hourglass",
+      "Shadowflame",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Phase Rush",
+      "Nimbus Cloak",
+      "Transcendence",
+      "Gathering Storm",
+      "Taste of Blood",
+      "Ravenous Hunter"
+    ],
+    "tips": "Stack marks before ulting. Position for multi-target stuns.",
+    "abilities": {
+      "passive": "Mark of the Storm - Marks enemies hit by abilities, stunning at 3 marks",
+      "Q": "Thundering Shuriken - Throws energy bolt dealing damage",
+      "W": "Electrical Surge - Deals damage to marked targets",
+      "E": "Lightning Rush - Gains movement speed and can mark enemies",
+      "R": "Slicing Maelstrom - Creates storm dealing damage and applying marks"
+    }
+  },
+  "kled": {
+    "role": "Top-lane Fighter",
+    "matchups": {
+      "strong_against": ["Garen", "Malphite", "Maokai"],
+      "weak_against": ["Fiora", "Jax", "Darius"]
+    },
+    "recommended_items": [
+      "Goredrinker",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Death's Dance",
+      "Guardian Angel",
+      "Maw of Malmortius"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Bone Plating",
+      "Unflinching"
+    ],
+    "tips": "Fight in minion waves to remount faster. Use ultimate for team engages.",
+    "abilities": {
+      "passive": "Skaarl, the Cowardly Lizard - Dismounts at zero health, can remount",
+      "Q": "Beartrap on a Rope/Pocket Pistol - Pulls enemy/Knockback",
+      "W": "Violent Tendencies - Gains attack speed and courage",
+      "E": "Jousting - Dashes through enemies",
+      "R": "CHAAAAAAAARGE!!! - Long range dash that creates path"
+    }
   }
+}
 }
