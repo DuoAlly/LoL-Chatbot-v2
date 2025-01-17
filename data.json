@@ -2434,5 +2434,200 @@
       "E": "Death's Grasp - Pulls enemies toward Mordekaiser",
       "R": "Realm of Death - Forces 1v1 in Death Realm"
     }
+  },
+  "morgana": {
+    "role": "Support/Mid Control Mage",
+    "matchups": {
+      "strong_against": ["Leona", "Thresh", "Blitzcrank"],
+      "weak_against": ["Karma", "Xerath", "Zyra"]
+    },
+    "recommended_items": {
+      "support": [
+        "Imperial Mandate",
+        "Ionian Boots of Lucidity",
+        "Zhonya's Hourglass",
+        "Chemtech Putrifier",
+        "Redemption",
+        "Vigilant Wardstone"
+      ],
+      "mid": [
+        "Liandry's Anguish",
+        "Sorcerer's Shoes",
+        "Zhonya's Hourglass",
+        "Demonic Embrace",
+        "Rabadon's Deathcap",
+        "Void Staff"
+      ]
+    },
+    "recommended_runes": {
+      "support": [
+        "Summon Aery",
+        "Manaflow Band",
+        "Transcendence",
+        "Scorch",
+        "Perfect Timing",
+        "Cosmic Insight"
+      ],
+      "mid": [
+        "Dark Harvest",
+        "Cheap Shot",
+        "Eyeball Collection",
+        "Ultimate Hunter",
+        "Perfect Timing",
+        "Cosmic Insight"
+      ]
+    },
+    "tips": "Save black shield for key CC. Use ultimate with Zhonya's for team fights.",
+    "abilities": {
+      "passive": "Soul Siphon - Gains spell vamp against champions and large units",
+      "Q": "Dark Binding - Roots target enemy and deals damage",
+      "W": "Tormented Shadow - Creates pool that damages enemies",
+      "E": "Black Shield - Shields ally from magic damage and CC",
+      "R": "Soul Shackles - Chains nearby enemies, stunning after delay"
+    }
+  },
+  "nami": {
+    "role": "Support Enchanter",
+    "matchups": {
+      "strong_against": ["Yuumi", "Sona", "Soraka"],
+      "weak_against": ["Leona", "Nautilus", "Pyke"]
+    },
+    "recommended_items": [
+      "Moonstone Renewer",
+      "Ionian Boots of Lucidity",
+      "Staff of Flowing Water",
+      "Chemtech Putrifier",
+      "Ardent Censer",
+      "Redemption"
+    ],
+    "recommended_runes": [
+      "Summon Aery",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Chain CC with Q into R. Use E on allies before they trade.",
+    "abilities": {
+      "passive": "Surging Tides - Abilities speed up allies",
+      "Q": "Aqua Prison - Creates bubble that knocks up enemies",
+      "W": "Ebb and Flow - Bounces between allies and enemies",
+      "E": "Tidecaller's Blessing - Empowers ally's attacks",
+      "R": "Tidal Wave - Sends wave that knocks up and slows"
+    }
+  },
+  "nasus": {
+    "role": "Top-lane Juggernaut",
+    "matchups": {
+      "strong_against": ["Malphite", "Maokai", "Sion"],
+      "weak_against": ["Darius", "Teemo", "Gnar"]
+    },
+    "recommended_items": [
+      "Divine Sunderer",
+      "Plated Steelcaps",
+      "Frozen Heart",
+      "Spirit Visage",
+      "Thornmail",
+      "Gargoyle Stoneplate"
+    ],
+    "recommended_runes": [
+      "Fleet Footwork",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Second Wind",
+      "Unflinching"
+    ],
+    "tips": "Focus on stacking Q early. Use Wither on priority targets in fights.",
+    "abilities": {
+      "passive": "Soul Eater - Gains lifesteal",
+      "Q": "Siphoning Strike - Gains permanent damage on kills",
+      "W": "Wither - Slows target's movement and attack speed",
+      "E": "Spirit Fire - Reduces armor and deals damage over time",
+      "R": "Fury of the Sands - Gains health, range, and AoE damage"
+    }
+  },
+  "nautilus": {
+    "role": "Support Tank/Engage",
+    "matchups": {
+      "strong_against": ["Sona", "Soraka", "Yuumi"],
+      "weak_against": ["Morgana", "Sivir", "Alistar"]
+    },
+    "recommended_items": [
+      "Locket of the Iron Solari",
+      "Mercury's Treads",
+      "Zeke's Convergence",
+      "Knight's Vow",
+      "Thornmail",
+      "Gargoyle Stoneplate"
+    ],
+    "recommended_runes": [
+      "Aftershock",
+      "Font of Life",
+      "Bone Plating",
+      "Unflinching",
+      "Hextech Flashtraption",
+      "Cosmic Insight"
+    ],
+    "tips": "Chain CC abilities for maximum lockdown. Hook walls for mobility.",
+    "abilities": {
+      "passive": "Staggering Blow - First attack roots target",
+      "Q": "Dredge Line - Pulls self to enemy or terrain",
+      "W": "Titan's Wrath - Gains shield and bonus damage",
+      "E": "Riptide - Creates waves that slow enemies",
+      "R": "Depth Charge - Knocks up enemies in path to target"
+    }
+  },
+  "neeko": {
+    "role": "Mid-lane Mage",
+    "matchups": {
+      "strong_against": ["Katarina", "Fizz", "Talon"],
+      "weak_against": ["Xerath", "Vel'Koz", "Zoe"]
+    },
+    "recommended_items": {
+      "ap": [
+        "Rocketbelt",
+        "Sorcerer's Shoes",
+        "Horizon Focus",
+        "Zhonya's Hourglass",
+        "Rabadon's Deathcap",
+        "Void Staff"
+      ],
+      "on_hit": [
+        "Kraken Slayer",
+        "Berserker's Greaves",
+        "Nashor's Tooth",
+        "Wit's End",
+        "Guinsoo's Rageblade",
+        "Rabadon's Deathcap"
+      ]
+    },
+    "recommended_runes": {
+      "ap": [
+        "Electrocute",
+        "Sudden Impact",
+        "Eyeball Collection",
+        "Ravenous Hunter",
+        "Magical Footwear",
+        "Cosmic Insight"
+      ],
+      "on_hit": [
+        "Lethal Tempo",
+        "Presence of Mind",
+        "Legend: Alacrity",
+        "Coup de Grace",
+        "Magical Footwear",
+        "Cosmic Insight"
+      ]
+    },
+    "tips": "Use disguise to set up ultimate. Chain E into R for teamfight CC.",
+    "abilities": {
+      "passive": "Inherent Glamour - Can disguise as allies",
+      "Q": "Blooming Burst - Deals damage that can spread",
+      "W": "Shapesplitter - Creates clone and gains movement speed",
+      "E": "Tangle-Barbs - Roots enemies hit and slows others",
+      "R": "Pop Blossom - Leaps and stuns enemies in area"
+    }
   }
 }
