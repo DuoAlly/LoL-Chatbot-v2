@@ -2629,5 +2629,222 @@
       "E": "Tangle-Barbs - Roots enemies hit and slows others",
       "R": "Pop Blossom - Leaps and stuns enemies in area"
     }
+  },
+  "nidalee": {
+    "role": "Jungle AP Assassin",
+    "matchups": {
+      "strong_against": ["Amumu", "Rammus", "Sejuani"],
+      "weak_against": ["Lee Sin", "Kha'Zix", "Graves"]
+    },
+    "recommended_items": [
+      "Night Harvester",
+      "Sorcerer's Shoes",
+      "Zhonya's Hourglass",
+      "Shadowflame",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Dark Harvest",
+      "Sudden Impact",
+      "Eyeball Collection",
+      "Relentless Hunter",
+      "Triumph",
+      "Coup de Grace"
+    ],
+    "tips": "Use spears to mark targets before engaging. Weave form changes for maximum damage.",
+    "abilities": {
+      "passive": "Prowl - Gains movement speed in brush",
+      "Q": "Javelin Toss/Takedown - Long range spear/Execute damage",
+      "W": "Bushwhack/Pounce - Trap that reveals/Jump in direction",
+      "E": "Primal Surge/Swipe - Heals ally/Swipes in arc",
+      "R": "Aspect of the Cougar - Transforms between human and cougar form"
+    }
+  },
+  "nilah": {
+    "role": "Bot-lane ADC/Melee Carry",
+    "matchups": {
+      "strong_against": ["Jinx", "Kog'Maw", "Twitch"],
+      "weak_against": ["Caitlyn", "Ashe", "Miss Fortune"]
+    },
+    "recommended_items": [
+      "Immortal Shieldbow",
+      "Infinity Edge",
+      "Bloodthirster",
+      "Guardian Angel",
+      "Death's Dance",
+      "Phantom Dancer"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Bloodline",
+      "Last Stand",
+      "Sudden Impact",
+      "Ultimate Hunter"
+    ],
+    "tips": "Use W to dodge crucial abilities. Share experience with support for faster leveling.",
+    "abilities": {
+      "passive": "Joy Unending - Shares experience and heals from allies",
+      "Q": "Formless Blade - Deals damage in line and empowers attacks",
+      "W": "Jubilant Veil - Gains dodge and movement speed",
+      "E": "Slipstream - Dashes to target and grants ally mobility",
+      "R": "Apotheosis - Pulls enemies and empowers attacks"
+    }
+  },
+  "nocturne": {
+    "role": "Jungle Assassin/Fighter",
+    "matchups": {
+      "strong_against": ["Evelynn", "Karthus", "Fiddlesticks"],
+      "weak_against": ["Olaf", "Udyr", "Warwick"]
+    },
+    "recommended_items": [
+      "Stridebreaker",
+      "Plated Steelcaps",
+      "Death's Dance",
+      "Black Cleaver",
+      "Guardian Angel",
+      "Edge of Night"
+    ],
+    "recommended_runes": [
+      "Lethal Tempo",
+      "Triumph",
+      "Legend: Alacrity",
+      "Coup de Grace",
+      "Sudden Impact",
+      "Ultimate Hunter"
+    ],
+    "tips": "Use fear on priority targets. Ultimate can be used to splitpush or flank.",
+    "abilities": {
+      "passive": "Umbra Blades - Heals and deals AoE damage periodically",
+      "Q": "Duskbringer - Creates trail granting movement speed",
+      "W": "Shroud of Darkness - Blocks ability and fears nearby enemies",
+      "E": "Unspeakable Horror - Tethers enemy causing fear",
+      "R": "Paranoia - Reduces enemy vision and can dash to target"
+    }
+  },
+  "nunu": {
+    "role": "Jungle Tank/Objective Control",
+    "matchups": {
+      "strong_against": ["Master Yi", "Evelynn", "Karthus"],
+      "weak_against": ["Lee Sin", "Trundle", "Olaf"]
+    },
+    "recommended_items": [
+      "Sunfire Aegis",
+      "Mercury's Treads",
+      "Dead Man's Plate",
+      "Force of Nature",
+      "Thornmail",
+      "Warmog's Armor"
+    ],
+    "recommended_runes": [
+      "Phase Rush",
+      "Nimbus Cloak",
+      "Celerity",
+      "Waterwalking",
+      "Font of Life",
+      "Unflinching"
+    ],
+    "tips": "Use snowball ganks from unexpected angles. Time consume with objectives.",
+    "abilities": {
+      "passive": "Call of the Freljord - Gains movement speed near allies",
+      "Q": "Consume - Bites target dealing true damage to monsters",
+      "W": "Biggest Snowball Ever! - Rolls snowball gaining size",
+      "E": "Snowball Barrage - Throws multiple snowballs that root",
+      "R": "Absolute Zero - Channels dealing damage and slowing"
+    }
+  },
+  "olaf": {
+    "role": "Top/Jungle Fighter",
+    "matchups": {
+      "strong_against": ["Malphite", "Ornn", "Maokai"],
+      "weak_against": ["Vayne", "Kalista", "Quinn"]
+    },
+    "recommended_items": [
+      "Goredrinker",
+      "Plated Steelcaps",
+      "Death's Dance",
+      "Black Cleaver",
+      "Spirit Visage",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Bone Plating",
+      "Unflinching"
+    ],
+    "tips": "Use axes to chase enemies. Lower health means more damage output.",
+    "abilities": {
+      "passive": "Berserker Rage - Gains attack speed at lower health",
+      "Q": "Undertow - Throws axe that slows and can be picked up",
+      "W": "Vicious Strikes - Gains lifesteal and attack speed",
+      "E": "Reckless Swing - True damage strike costing health",
+      "R": "Ragnarok - Immune to CC and gains armor/MR"
+    }
+  },
+  "orianna": {
+    "role": "Mid-lane Control Mage",
+    "matchups": {
+      "strong_against": ["Katarina", "Fizz", "Akali"],
+      "weak_against": ["Zed", "Yasuo", "Xerath"]
+    },
+    "recommended_items": [
+      "Liandry's Anguish",
+      "Sorcerer's Shoes",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff",
+      "Cosmic Drive"
+    ],
+    "recommended_runes": [
+      "Phase Rush",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Track ball position for maximum damage. Ultimate can be used to zone or engage.",
+    "abilities": {
+      "passive": "Clockwork Windup - Empowers auto attacks based on ball position",
+      "Q": "Command: Attack - Moves ball dealing damage",
+      "W": "Command: Dissonance - Deals damage and alters movement speed",
+      "E": "Command: Protect - Shields ally and damages passed enemies",
+      "R": "Command: Shockwave - Pulls enemies toward ball location"
+    }
+  },
+  "ornn": {
+    "role": "Top-lane Tank",
+    "matchups": {
+      "strong_against": ["Kayle", "Vladimir", "Gangplank"],
+      "weak_against": ["Fiora", "Vayne", "Darius"]
+    },
+    "recommended_items": [
+      "Sunfire Aegis",
+      "Plated Steelcaps",
+      "Frozen Heart",
+      "Abyssal Mask",
+      "Thornmail",
+      "Gargoyle Stoneplate"
+    ],
+    "recommended_runes": [
+      "Grasp of the Undying",
+      "Demolish",
+      "Conditioning",
+      "Overgrowth",
+      "Biscuit Delivery",
+      "Approach Velocity"
+    ],
+    "tips": "Use terrain for enhanced abilities. Upgrade team's items for late game power.",
+    "abilities": {
+      "passive": "Living Forge - Can craft items in lane and upgrade allies' items",
+      "Q": "Volcanic Rupture - Creates terrain that can be charged",
+      "W": "Bellows Breath - Gains shield and becomes unstoppable",
+      "E": "Searing Charge - Charges dealing damage, enhanced near terrain",
+      "R": "Call of the Forge God - Summons elemental that can be redirected"
+    }
   }
 }
