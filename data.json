@@ -2846,5 +2846,118 @@
       "E": "Searing Charge - Charges dealing damage, enhanced near terrain",
       "R": "Call of the Forge God - Summons elemental that can be redirected"
     }
+  },
+  "pantheon": {
+    "role": "Top/Mid/Support Fighter",
+    "matchups": {
+      "strong_against": ["Katarina", "Kassadin", "Twisted Fate"],
+      "weak_against": ["Malphite", "Ornn", "Mordekaiser"]
+    },
+    "recommended_items": {
+      "bruiser": [
+        "Eclipse",
+        "Black Cleaver",
+        "Death's Dance",
+        "Maw of Malmortius",
+        "Guardian Angel",
+        "Plated Steelcaps"
+      ],
+      "support": [
+        "Eclipse",
+        "Umbral Glaive",
+        "Black Cleaver",
+        "Vigilant Wardstone",
+        "Plated Steelcaps",
+        "Chempunk Chainsword"
+      ]
+    },
+    "recommended_runes": [
+      "Press the Attack",
+      "Triumph",
+      "Legend: Tenacity",
+      "Coup de Grace",
+      "Sudden Impact",
+      "Ultimate Hunter"
+    ],
+    "tips": "Block key abilities with E. Use ultimate to assist other lanes.",
+    "abilities": {
+      "passive": "Mortal Will - Empowers next ability after 5 hits",
+      "Q": "Comet Spear - Throws spear or stabs at close range",
+      "W": "Shield Vault - Leaps to target stunning them",
+      "E": "Aegis Assault - Blocks damage from direction",
+      "R": "Grand Starfall - Leaps to target location dealing damage"
+    }
+  },
+  "poppy": {
+    "role": "Top/Jungle Tank",
+    "matchups": {
+      "strong_against": ["Irelia", "Yasuo", "Riven"],
+      "weak_against": ["Darius", "Mordekaiser", "Garen"]
+    },
+    "recommended_items": {
+      "top": [
+        "Divine Sunderer",
+        "Dead Man's Plate",
+        "Force of Nature",
+        "Thornmail",
+        "Plated Steelcaps",
+        "Gargoyle Stoneplate"
+      ],
+      "jungle": [
+        "Divine Sunderer",
+        "Plated Steelcaps",
+        "Dead Man's Plate",
+        "Force of Nature",
+        "Randuin's Omen",
+        "Gargoyle Stoneplate"
+      ]
+    },
+    "recommended_runes": [
+      "Grasp of the Undying",
+      "Shield Bash",
+      "Bone Plating",
+      "Unflinching",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Use W to counter dashes. Position near walls for E stun.",
+    "abilities": {
+      "passive": "Iron Ambassador - Periodically throws shield for bonus range",
+      "Q": "Hammer Shock - Creates zone that slows and damages",
+      "W": "Steadfast Presence - Gains armor and stops dashes",
+      "E": "Heroic Charge - Carries enemy, stunning into walls",
+      "R": "Keeper's Verdict - Charges hammer knocking away enemies"
+    }
+  },
+  "pyke": {
+    "role": "Support Assassin",
+    "matchups": {
+      "strong_against": ["Sona", "Soraka", "Nami"],
+      "weak_against": ["Leona", "Nautilus", "Morgana"]
+    },
+    "recommended_items": [
+      "Duskblade of Draktharr",
+      "Mobility Boots",
+      "Umbral Glaive",
+      "Edge of Night",
+      "Death's Dance",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Hail of Blades",
+      "Sudden Impact",
+      "Eyeball Collection",
+      "Ultimate Hunter",
+      "Second Wind",
+      "Unflinching"
+    ],
+    "tips": "Use E to escape or engage. Share ultimate kills with allies for extra gold.",
+    "abilities": {
+      "passive": "Gift of the Drowned Ones - Converts health into AD, regenerates damage",
+      "Q": "Bone Skewer - Charges hook pulling enemy",
+      "W": "Ghostwater Dive - Gains camouflage and movement speed",
+      "E": "Phantom Undertow - Dashes leaving afterimage that stuns",
+      "R": "Death from Below - Executes low health enemies, resets on kill"
+    }
   }
 }
