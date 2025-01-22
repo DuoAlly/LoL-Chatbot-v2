@@ -3279,5 +3279,190 @@
       "E": "Spell Flux - Marks target spreading to nearby enemies",
       "R": "Realm Warp - Creates portal to transport team"
     }
+  },
+  "samira": {
+    "role": "Bot-lane ADC/Diver",
+    "matchups": {
+      "strong_against": ["Jinx", "Kog'Maw", "Ashe"],
+      "weak_against": ["Draven", "Caitlyn", "Lucian"]
+    },
+    "recommended_items": [
+      "Immortal Shieldbow",
+      "Berserker's Greaves",
+      "Bloodthirster",
+      "Infinity Edge",
+      "Guardian Angel",
+      "Lord Dominik's Regards"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Bloodline",
+      "Coup de Grace",
+      "Taste of Blood",
+      "Treasure Hunter"
+    ],
+    "tips": "Build style rating for ultimate. Use W to block key abilities.",
+    "abilities": {
+      "passive": "Daredevil Impulse - Builds combo rating with unique actions",
+      "Q": "Flair - Shoots or slashes based on range",
+      "W": "Blade Whirl - Blocks projectiles and damages enemies",
+      "E": "Wild Rush - Dashes through target gaining attack speed",
+      "R": "Inferno Trigger - Unleashes rapid shots in area"
+    }
+  },
+  "sejuani": {
+    "role": "Jungle Tank/Engage",
+    "matchups": {
+      "strong_against": ["Master Yi", "Evelynn", "Karthus"],
+      "weak_against": ["Trundle", "Olaf", "Vi"]
+    },
+    "recommended_items": [
+      "Sunfire Aegis",
+      "Plated Steelcaps",
+      "Warmog's Armor",
+      "Force of Nature",
+      "Thornmail",
+      "Gargoyle Stoneplate"
+    ],
+    "recommended_runes": [
+      "Aftershock",
+      "Font of Life",
+      "Conditioning",
+      "Overgrowth",
+      "Triumph",
+      "Legend: Tenacity"
+    ],
+    "tips": "Stack frost with teammates. Chain CC abilities for maximum lockdown.",
+    "abilities": {
+      "passive": "Fury of the North - Gains resistances and frost armor",
+      "Q": "Arctic Assault - Charges and knocks up enemies",
+      "W": "Winter's Wrath - Swings flail dealing area damage",
+      "E": "Permafrost - Stuns targets with max frost",
+      "R": "Glacial Prison - Throws ice bola stunning first target"
+    }
+  },
+  "senna": {
+    "role": "Support/ADC Utility Marksman",
+    "matchups": {
+      "strong_against": ["Soraka", "Sona", "Nami"],
+      "weak_against": ["Pyke", "Leona", "Blitzcrank"]
+    },
+    "recommended_items": {
+      "support": [
+        "Eclipse",
+        "Rapid Firecannon",
+        "Black Cleaver",
+        "Umbral Glaive",
+        "Vigilant Wardstone",
+        "Ionian Boots of Lucidity"
+      ],
+      "adc": [
+        "Kraken Slayer",
+        "Rapid Firecannon",
+        "Infinity Edge",
+        "Lord Dominik's Regards",
+        "Bloodthirster",
+        "Berserker's Greaves"
+      ]
+    },
+    "recommended_runes": [
+      "Grasp of the Undying",
+      "Font of Life",
+      "Bone Plating",
+      "Revitalize",
+      "Presence of Mind",
+      "Legend: Bloodline"
+    ],
+    "tips": "Collect souls for scaling. Use Q to both heal and harass.",
+    "abilities": {
+      "passive": "Absolution - Collects mist for permanent stats",
+      "Q": "Piercing Darkness - Damages and heals in line",
+      "W": "Last Embrace - Roots target after delay",
+      "E": "Curse of the Black Mist - Camouflages allies",
+      "R": "Dawning Shadow - Global shield and damage beam"
+    }
+  },
+  "seraphine": {
+    "role": "Mid/Support Mage/Enchanter",
+    "matchups": {
+      "strong_against": ["Katarina", "Fizz", "Zed"],
+      "weak_against": ["Xerath", "Vel'Koz", "Lux"]
+    },
+    "recommended_items": {
+      "mid": [
+        "Liandry's Anguish",
+        "Sorcerer's Shoes",
+        "Seraph's Embrace",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Void Staff"
+      ],
+      "support": [
+        "Moonstone Renewer",
+        "Ionian Boots of Lucidity",
+        "Staff of Flowing Water",
+        "Chemtech Putrifier",
+        "Ardent Censer",
+        "Vigilant Wardstone"
+      ]
+    },
+    "recommended_runes": [
+      "Summon Aery",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Perfect Timing",
+      "Cosmic Insight"
+    ],
+    "tips": "Stack notes for enhanced abilities. Use ultimate to extend off allies.",
+    "abilities": {
+      "passive": "Stage Presence - Every third ability cast twice",
+      "Q": "High Note - Deals damage increasing with target's missing health",
+      "W": "Surround Sound - Shields allies and heals low health allies",
+      "E": "Beat Drop - Slows enemies and roots those already slowed",
+      "R": "Encore - Charms enemies and extends range through allies"
+    }
+  },
+  "sett": {
+    "role": "Top-lane Fighter/Juggernaut",
+    "matchups": {
+      "strong_against": ["Darius", "Mordekaiser", "Garen"],
+      "weak_against": ["Vayne", "Quinn", "Teemo"]
+    },
+    "recommended_items": {
+      "bruiser": [
+        "Goredrinker",
+        "Plated Steelcaps",
+        "Black Cleaver",
+        "Death's Dance",
+        "Spirit Visage",
+        "Guardian Angel"
+      ],
+      "tank": [
+        "Sunfire Aegis",
+        "Plated Steelcaps",
+        "Thornmail",
+        "Force of Nature",
+        "Warmog's Armor",
+        "Gargoyle Stoneplate"
+      ]
+    },
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Second Wind",
+      "Unflinching"
+    ],
+    "tips": "Use W after taking burst damage. Ultimate high-health targets into enemies.",
+    "abilities": {
+      "passive": "Pit Grit - Gains health regen and double punch",
+      "Q": "Knuckle Down - Gains movement speed and empowered attacks",
+      "W": "Haymaker - Stores damage taken and releases shield",
+      "E": "Facebreaker - Pulls enemies to center stunning them",
+      "R": "The Show Stopper - Slams enemy into others for damage"
+    }
   }
 }
