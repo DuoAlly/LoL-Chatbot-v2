@@ -3083,5 +3083,201 @@
       "E": "Frenzying Taunt - Forces enemy to attack Rammus",
       "R": "Soaring Slam - Leaps to location creating tremors"
     }
+  },
+  "reksai": {
+    "role": "Jungle Fighter/Assassin",
+    "matchups": {
+      "strong_against": ["Evelynn", "Shaco", "Twitch"],
+      "weak_against": ["Karthus", "Graves", "Kindred"]
+    },
+    "recommended_items": [
+      "Prowler's Claw",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Death's Dance",
+      "Guardian Angel",
+      "Maw of Malmortius"
+    ],
+    "recommended_runes": [
+      "Hail of Blades",
+      "Sudden Impact",
+      "Eyeball Collection",
+      "Relentless Hunter",
+      "Triumph",
+      "Legend: Alacrity"
+    ],
+    "tips": "Use tunnels for map mobility. Track enemies with tremor sense while burrowed.",
+    "abilities": {
+      "passive": "Fury of the Xer'Sai - Gains Fury for combat abilities",
+      "Q": "Queen's Wrath/Prey Seeker - Multi-hit attack/Vision skill shot",
+      "W": "Burrow/Unburrow - Switches forms and knocks up",
+      "E": "Furious Bite/Tunnel - True damage bite/Creates tunnel network",
+      "R": "Void Rush - Burrows and dashes to target dealing damage"
+    }
+  },
+  "rell": {
+    "role": "Support Tank/Engage",
+    "matchups": {
+      "strong_against": ["Yuumi", "Sona", "Soraka"],
+      "weak_against": ["Morgana", "Janna", "Lulu"]
+    },
+    "recommended_items": [
+      "Locket of the Iron Solari",
+      "Plated Steelcaps",
+      "Zeke's Convergence",
+      "Knight's Vow",
+      "Thornmail",
+      "Gargoyle Stoneplate"
+    ],
+    "recommended_runes": [
+      "Aftershock",
+      "Font of Life",
+      "Bone Plating",
+      "Unflinching",
+      "Hextech Flashtraption",
+      "Cosmic Insight"
+    ],
+    "tips": "Use mounted form for mobility. Dismounted form for combat strength.",
+    "abilities": {
+      "passive": "Break the Mold - Steals resistances from enemies hit",
+      "Q": "Shattering Strike - Breaks shields and heals allies",
+      "W": "Ferromancy - Changes forms, gaining different effects",
+      "E": "Attract and Repel - Tethers to ally, stunning enemies between",
+      "R": "Magnet Storm - Pulls in enemies and damages them"
+    }
+  },
+  "renata": {
+    "role": "Support Enchanter",
+    "matchups": {
+      "strong_against": ["Thresh", "Blitzcrank", "Pyke"],
+      "weak_against": ["Xerath", "Vel'Koz", "Brand"]
+    },
+    "recommended_items": [
+      "Moonstone Renewer",
+      "Ionian Boots of Lucidity",
+      "Staff of Flowing Water",
+      "Chemtech Putrifier",
+      "Redemption",
+      "Vigilant Wardstone"
+    ],
+    "recommended_runes": [
+      "Guardian",
+      "Font of Life",
+      "Bone Plating",
+      "Revitalize",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Use W to save allies or enhance auto-attackers. Ultimate can turn teamfights.",
+    "abilities": {
+      "passive": "Leverage - Empowers ally attacks with mark",
+      "Q": "Handshake - Roots enemy and can pull allies to safety",
+      "W": "Bailout - Grants attack speed and can prevent death",
+      "E": "Loyalty Program - Sends out allies that shield and damage",
+      "R": "Hostile Takeover - Makes enemies attack their allies"
+    }
+  },
+  "renekton": {
+    "role": "Top-lane Fighter/Diver",
+    "matchups": {
+      "strong_against": ["Gangplank", "Kayle", "Teemo"],
+      "weak_against": ["Quinn", "Vayne", "Kennen"]
+    },
+    "recommended_items": [
+      "Goredrinker",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Death's Dance",
+      "Guardian Angel",
+      "Maw of Malmortius"
+    ],
+    "recommended_runes": [
+      "Press the Attack",
+      "Triumph",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Bone Plating",
+      "Unflinching"
+    ],
+    "tips": "Manage fury for empowered abilities. Use E to engage and disengage.",
+    "abilities": {
+      "passive": "Reign of Anger - Gains Fury for combat abilities",
+      "Q": "Cull the Meek - Damages nearby enemies and heals",
+      "W": "Ruthless Predator - Stuns target with multiple strikes",
+      "E": "Slice and Dice - Dashes twice dealing damage",
+      "R": "Dominus - Gains health and damages nearby enemies"
+    }
+  },
+  "rengar": {
+    "role": "Jungle/Top Assassin",
+    "matchups": {
+      "strong_against": ["Twitch", "Kindred", "Karthus"],
+      "weak_against": ["Lee Sin", "Rammus", "Sejuani"]
+    },
+    "recommended_items": {
+      "assassin": [
+        "Duskblade of Draktharr",
+        "Edge of Night",
+        "Collector",
+        "Infinity Edge",
+        "Guardian Angel",
+        "Ionian Boots of Lucidity"
+      ],
+      "bruiser": [
+        "Divine Sunderer",
+        "Death's Dance",
+        "Black Cleaver",
+        "Spirit Visage",
+        "Guardian Angel",
+        "Plated Steelcaps"
+      ]
+    },
+    "recommended_runes": [
+      "First Strike",
+      "Sudden Impact",
+      "Eyeball Collection",
+      "Treasure Hunter",
+      "Triumph",
+      "Legend: Bloodline"
+    ],
+    "tips": "Stack ferocity before fights. Use brush for enhanced leaps.",
+    "abilities": {
+      "passive": "Unseen Predator - Leaps from brush and gains Ferocity",
+      "Q": "Savagery - Empowers next attack with bonus damage",
+      "W": "Battle Roar - Heals damage taken and removes CC",
+      "E": "Bola Strike - Throws bola that slows target",
+      "R": "Thrill of the Hunt - Reveals nearest enemy and gains leap"
+    }
+  },
+  "ryze": {
+    "role": "Mid-lane Battle Mage",
+    "matchups": {
+      "strong_against": ["Veigar", "Annie", "Lux"],
+      "weak_against": ["Kassadin", "Fizz", "LeBlanc"]
+    },
+    "recommended_items": [
+      "Everfrost",
+      "Seraph's Embrace",
+      "Sorcerer's Shoes",
+      "Frozen Heart",
+      "Void Staff",
+      "Rabadon's Deathcap"
+    ],
+    "recommended_runes": [
+      "Phase Rush",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Use realm warp for team rotations. Chain abilities for maximum damage.",
+    "abilities": {
+      "passive": "Arcane Mastery - Gains bonus damage based on mana",
+      "Q": "Overload - Deals damage and grants movement speed",
+      "W": "Rune Prison - Roots target enemy",
+      "E": "Spell Flux - Marks target spreading to nearby enemies",
+      "R": "Realm Warp - Creates portal to transport team"
+    }
   }
 }
