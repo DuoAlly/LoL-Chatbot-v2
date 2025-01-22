@@ -2959,5 +2959,129 @@
       "E": "Phantom Undertow - Dashes leaving afterimage that stuns",
       "R": "Death from Below - Executes low health enemies, resets on kill"
     }
+  },
+  "qiyana": {
+    "role": "Mid-lane Assassin",
+    "matchups": {
+      "strong_against": ["Veigar", "Twisted Fate", "Lux"],
+      "weak_against": ["Pantheon", "Diana", "Galio"]
+    },
+    "recommended_items": [
+      "Prowler's Claw",
+      "Ionian Boots of Lucidity",
+      "Youmuu's Ghostblade",
+      "Edge of Night",
+      "Serylda's Grudge",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Electrocute",
+      "Sudden Impact",
+      "Eyeball Collection",
+      "Treasure Hunter",
+      "Absolute Focus",
+      "Scorch"
+    ],
+    "tips": "Use different elements based on situation. River element for roaming, grass for stealth.",
+    "abilities": {
+      "passive": "Royal Privilege - First attack against champions deals bonus damage",
+      "Q": "Edge of Ixtal - Enchants weapon with terrain element",
+      "W": "Terrashape - Dashes and gains new element",
+      "E": "Audacity - Dash to target dealing damage",
+      "R": "Supreme Display of Talent - Pushes enemies into terrain stunning them"
+    }
+  },
+  "quinn": {
+    "role": "Top-lane Marksman",
+    "matchups": {
+      "strong_against": ["Darius", "Garen", "Nasus"],
+      "weak_against": ["Malphite", "Irelia", "Camille"]
+    },
+    "recommended_items": [
+      "Eclipse",
+      "Berserker's Greaves",
+      "Stormrazor",
+      "Infinity Edge",
+      "Lord Dominik's Regards",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Press the Attack",
+      "Triumph",
+      "Legend: Bloodline",
+      "Coup de Grace",
+      "Taste of Blood",
+      "Ravenous Hunter"
+    ],
+    "tips": "Use vault to maintain distance. Ultimate for map pressure and roaming.",
+    "abilities": {
+      "passive": "Harrier - Valor marks targets for bonus damage",
+      "Q": "Blinding Assault - Sends Valor to blind target",
+      "W": "Heightened Senses - Grants vision and movement speed",
+      "E": "Vault - Jumps off target and slows them",
+      "R": "Behind Enemy Lines - Rides Valor gaining movement speed"
+    }
+  },
+  "rakan": {
+    "role": "Support Engage/Enchanter",
+    "matchups": {
+      "strong_against": ["Sona", "Soraka", "Nami"],
+      "weak_against": ["Thresh", "Morgana", "Janna"]
+    },
+    "recommended_items": [
+      "Shurelya's Battlesong",
+      "Mobility Boots",
+      "Zeke's Convergence",
+      "Ardent Censer",
+      "Vigilant Wardstone",
+      "Knight's Vow"
+    ],
+    "recommended_runes": [
+      "Guardian",
+      "Font of Life",
+      "Bone Plating",
+      "Unflinching",
+      "Nimbus Cloak",
+      "Celerity"
+    ],
+    "tips": "Chain CC abilities together. Coordinate engages with Xayah if present.",
+    "abilities": {
+      "passive": "Fey Feathers - Periodically gains shield",
+      "Q": "Gleaming Quill - Throws feather healing allies hit",
+      "W": "Grand Entrance - Dashes to location knocking up enemies",
+      "E": "Battle Dance - Dashes to ally shielding them",
+      "R": "The Quickness - Gains movement speed and charms enemies"
+    }
+  },
+  "rammus": {
+    "role": "Jungle Tank",
+    "matchups": {
+      "strong_against": ["Master Yi", "Tryndamere", "Yasuo"],
+      "weak_against": ["Morgana", "Kayn", "Lillia"]
+    },
+    "recommended_items": [
+      "Turbo Chemtank",
+      "Plated Steelcaps",
+      "Thornmail",
+      "Dead Man's Plate",
+      "Force of Nature",
+      "Randuin's Omen"
+    ],
+    "recommended_runes": [
+      "Aftershock",
+      "Font of Life",
+      "Conditioning",
+      "Unflinching",
+      "Triumph",
+      "Legend: Tenacity"
+    ],
+    "tips": "Roll through lane for ganks. Taunt priority auto attackers.",
+    "abilities": {
+      "passive": "Spiked Shell - Converts armor into attack damage",
+      "Q": "Powerball - Rolls gaining movement speed",
+      "W": "Defensive Ball Curl - Gains armor and magic resist",
+      "E": "Frenzying Taunt - Forces enemy to attack Rammus",
+      "R": "Soaring Slam - Leaps to location creating tremors"
+    }
   }
 }
