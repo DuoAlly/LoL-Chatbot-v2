@@ -3813,5 +3813,211 @@
       "E": "Fling - Throws target enemy behind Singed",
       "R": "Insanity Potion - Gains bonus stats"
     }
+  },
+  "sion": {
+    "role": "Top-lane Tank/Bruiser",
+    "matchups": {
+      "strong_against": ["Kayle", "Gangplank", "Teemo"],
+      "weak_against": ["Darius", "Fiora", "Irelia"]
+    },
+    "recommended_items": {
+      "tank": [
+        "Sunfire Aegis",
+        "Plated Steelcaps",
+        "Thornmail",
+        "Force of Nature",
+        "Warmog's Armor",
+        "Gargoyle Stoneplate"
+      ],
+      "ad": [
+        "Prowler's Claw",
+        "Youmuu's Ghostblade",
+        "Edge of Night",
+        "Lord Dominik's Regards",
+        "Guardian Angel",
+        "Berserker's Greaves"
+      ]
+    },
+    "recommended_runes": {
+      "tank": [
+        "Grasp of the Undying",
+        "Demolish",
+        "Conditioning",
+        "Overgrowth",
+        "Magical Footwear",
+        "Approach Velocity"
+      ],
+      "ad": [
+        "First Strike",
+        "Magical Footwear",
+        "Future's Market",
+        "Cosmic Insight",
+        "Demolish",
+        "Overgrowth"
+      ]
+    },
+    "tips": "Stack W passive for health. Use death passive to disrupt enemies.",
+    "abilities": {
+      "passive": "Glory in Death - Can continue fighting after death",
+      "Q": "Decimating Smash - Charges knockup that deals % health damage",
+      "W": "Soul Furnace - Gains permanent health and shields",
+      "E": "Roar of the Slayer - Slows and shreds armor",
+      "R": "Unstoppable Onslaught - Charges gaining movement speed"
+    }
+  },
+  "sivir": {
+    "role": "Bot-lane ADC",
+    "matchups": {
+      "strong_against": ["Caitlyn", "Ashe", "Jhin"],
+      "weak_against": ["Draven", "Lucian", "Tristana"]
+    },
+    "recommended_items": [
+      "Kraken Slayer",
+      "Berserker's Greaves",
+      "Phantom Dancer",
+      "Infinity Edge",
+      "Guardian Angel",
+      "Bloodthirster"
+    ],
+    "recommended_runes": [
+      "Fleet Footwork",
+      "Presence of Mind",
+      "Legend: Bloodline",
+      "Coup de Grace",
+      "Magical Footwear",
+      "Biscuit Delivery"
+    ],
+    "tips": "Use spell shield reactively. Bounce W off frontline to hit backline.",
+    "abilities": {
+      "passive": "Fleet of Foot - Gains movement speed on hit",
+      "Q": "Boomerang Blade - Throws blade that returns",
+      "W": "Ricochet - Auto attacks bounce to nearby targets",
+      "E": "Spell Shield - Blocks next ability and restores mana",
+      "R": "On The Hunt - Grants team movement speed"
+    }
+  },
+  "skarner": {
+    "role": "Jungle Tank/Fighter",
+    "matchups": {
+      "strong_against": ["Master Yi", "Evelynn", "Karthus"],
+      "weak_against": ["Olaf", "Morgana", "Trundle"]
+    },
+    "recommended_items": [
+      "Turbo Chemtank",
+      "Plated Steelcaps",
+      "Dead Man's Plate",
+      "Force of Nature",
+      "Thornmail",
+      "Gargoyle Stoneplate"
+    ],
+    "recommended_runes": [
+      "Phase Rush",
+      "Nimbus Cloak",
+      "Celerity",
+      "Waterwalking",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Control crystal shrines. Ultimate key targets in teamfights.",
+    "abilities": {
+      "passive": "Crystal Spires - Gains bonuses in captured zones",
+      "Q": "Crystal Slash - Deals damage and gains attack speed",
+      "W": "Crystalline Exoskeleton - Gains shield and movement speed",
+      "E": "Fracture - Marks target stunning on next attack",
+      "R": "Impale - Suppresses and drags enemy champion"
+    }
+  },
+  "sona": {
+    "role": "Support Enchanter",
+    "matchups": {
+      "strong_against": ["Yuumi", "Soraka", "Janna"],
+      "weak_against": ["Leona", "Blitzcrank", "Nautilus"]
+    },
+    "recommended_items": [
+      "Moonstone Renewer",
+      "Ionian Boots of Lucidity",
+      "Staff of Flowing Water",
+      "Chemtech Putrifier",
+      "Ardent Censer",
+      "Vigilant Wardstone"
+    ],
+    "recommended_runes": [
+      "Summon Aery",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Presence of Mind",
+      "Cut Down"
+    ],
+    "tips": "Stack passive before teamfights. Position safely in backline.",
+    "abilities": {
+      "passive": "Power Chord - Empowers next auto after 3 spells",
+      "Q": "Hymn of Valor - Damages two nearest enemies",
+      "W": "Aria of Perseverance - Heals ally and grants shield",
+      "E": "Song of Celerity - Grants movement speed",
+      "R": "Crescendo - Stuns enemies in line"
+    }
+  },
+  "soraka": {
+    "role": "Support Healer",
+    "matchups": {
+      "strong_against": ["Yuumi", "Senna", "Nami"],
+      "weak_against": ["Pyke", "Blitzcrank", "Leona"]
+    },
+    "recommended_items": [
+      "Moonstone Renewer",
+      "Ionian Boots of Lucidity",
+      "Redemption",
+      "Ardent Censer",
+      "Mikael's Blessing",
+      "Vigilant Wardstone"
+    ],
+    "recommended_runes": [
+      "Guardian",
+      "Font of Life",
+      "Second Wind",
+      "Revitalize",
+      "Manaflow Band",
+      "Transcendence"
+    ],
+    "tips": "Land Q to sustain health. Save silence for key abilities.",
+    "abilities": {
+      "passive": "Salvation - Gains movement speed toward low health allies",
+      "Q": "Starcall - Deals damage and heals Soraka",
+      "W": "Astral Infusion - Heals target ally",
+      "E": "Equinox - Creates zone that silences and roots",
+      "R": "Wish - Heals all allies globally"
+    }
+  },
+  "sylas": {
+    "role": "Mid/Top AP Fighter",
+    "matchups": {
+      "strong_against": ["Malphite", "Ashe", "Neeko"],
+      "weak_against": ["Kassadin", "Pantheon", "Anivia"]
+    },
+    "recommended_items": [
+      "Everfrost",
+      "Ionian Boots of Lucidity",
+      "Cosmic Drive",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Presence of Mind",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Second Wind",
+      "Revitalize"
+    ],
+    "tips": "Track enemy ultimates for steal. Chain abilities for passive procs.",
+    "abilities": {
+      "passive": "Petricite Burst - Empowered auto after ability",
+      "Q": "Chain Lash - Deals damage and slows at tip",
+      "W": "Kingslayer - Damages and heals more at low health",
+      "E": "Abscond/Abduct - Dash and shield with magic chains",
+      "R": "Hijack - Steals and uses enemy ultimate"
+    }
   }
 }
