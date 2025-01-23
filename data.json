@@ -3649,5 +3649,169 @@
       "E": "Facebreaker - Pulls enemies to center stunning them",
       "R": "The Show Stopper - Slams enemy into others for damage"
     }
+  },
+  "shaco": {
+    "role": "Jungle/Support Assassin",
+    "matchups": {
+      "strong_against": ["Master Yi", "Karthus", "Evelynn"],
+      "weak_against": ["Lee Sin", "Rek'Sai", "Rengar"]
+    },
+    "recommended_items": {
+      "ad": [
+        "Duskblade of Draktharr",
+        "Berserker's Greaves",
+        "Essence Reaver",
+        "Infinity Edge",
+        "Lord Dominik's Regards",
+        "Guardian Angel"
+      ],
+      "ap": [
+        "Liandry's Anguish",
+        "Ionian Boots of Lucidity",
+        "Cosmic Drive",
+        "Zhonya's Hourglass",
+        "Rabadon's Deathcap",
+        "Void Staff"
+      ]
+    },
+    "recommended_runes": {
+      "ad": [
+        "Hail of Blades",
+        "Sudden Impact",
+        "Eyeball Collection",
+        "Relentless Hunter",
+        "Triumph",
+        "Coup de Grace"
+      ],
+      "ap": [
+        "Dark Harvest",
+        "Sudden Impact",
+        "Eyeball Collection",
+        "Ultimate Hunter",
+        "Transcendence",
+        "Gathering Storm"
+      ]
+    },
+    "tips": "Place boxes at key locations. Use clone to deceive enemies.",
+    "abilities": {
+      "passive": "Backstab - Deals bonus damage from behind",
+      "Q": "Deceive - Becomes invisible and creates puff of smoke",
+      "W": "Jack in the Box - Places trap that fears enemies",
+      "E": "Two-Shiv Poison - Throws shiv that slows target",
+      "R": "Hallucinate - Creates controllable clone"
+    }
+  },
+  "shen": {
+    "role": "Top-lane Tank",
+    "matchups": {
+      "strong_against": ["Riven", "Irelia", "Aatrox"],
+      "weak_against": ["Mordekaiser", "Darius", "Illaoi"]
+    },
+    "recommended_items": [
+      "Sunfire Aegis",
+      "Plated Steelcaps",
+      "Thornmail",
+      "Force of Nature",
+      "Warmog's Armor",
+      "Titanic Hydra"
+    ],
+    "recommended_runes": [
+      "Grasp of the Undying",
+      "Shield Bash",
+      "Second Wind",
+      "Overgrowth",
+      "Cheap Shot",
+      "Ultimate Hunter"
+    ],
+    "tips": "Use ultimate to save allies and split push. Position sword for enhanced abilities.",
+    "abilities": {
+      "passive": "Ki Barrier - Periodically gains shield",
+      "Q": "Twilight Assault - Pulls sword through enemies",
+      "W": "Spirit's Refuge - Creates protective zone blocking attacks",
+      "E": "Shadow Dash - Taunts enemies in path",
+      "R": "Stand United - Shields ally and teleports to them"
+    }
+  },
+  "shyvana": {
+    "role": "Jungle Fighter/AP Burst",
+    "matchups": {
+      "strong_against": ["Ivern", "Amumu", "Sejuani"],
+      "weak_against": ["Kha'Zix", "Lee Sin", "Olaf"]
+    },
+    "recommended_items": {
+      "ad": [
+        "Divine Sunderer",
+        "Plated Steelcaps",
+        "Dead Man's Plate",
+        "Force of Nature",
+        "Demonic Embrace",
+        "Guardian Angel"
+      ],
+      "ap": [
+        "Night Harvester",
+        "Sorcerer's Shoes",
+        "Nashor's Tooth",
+        "Zhonya's Hourglass",
+        "Rabadon's Deathcap",
+        "Void Staff"
+      ]
+    },
+    "recommended_runes": {
+      "ad": [
+        "Press the Attack",
+        "Triumph",
+        "Legend: Alacrity",
+        "Last Stand",
+        "Conditioning",
+        "Unflinching"
+      ],
+      "ap": [
+        "Dark Harvest",
+        "Sudden Impact",
+        "Eyeball Collection",
+        "Relentless Hunter",
+        "Transcendence",
+        "Gathering Storm"
+      ]
+    },
+    "tips": "Farm for dragon form. AP build focuses on E poke.",
+    "abilities": {
+      "passive": "Fury of the Dragonborn - Gains bonuses from dragons",
+      "Q": "Twin Bite - Double attack that applies on-hits",
+      "W": "Burnout - Deals damage to nearby enemies",
+      "E": "Flame Breath - Launches fireball marking targets",
+      "R": "Dragon's Descent - Transforms gaining new abilities"
+    }
+  },
+  "singed": {
+    "role": "Top-lane AP Tank",
+    "matchups": {
+      "strong_against": ["Garen", "Darius", "Nasus"],
+      "weak_against": ["Vayne", "Teemo", "Quinn"]
+    },
+    "recommended_items": [
+      "Rylai's Crystal Scepter",
+      "Mercury's Treads",
+      "Demonic Embrace",
+      "Dead Man's Plate",
+      "Force of Nature",
+      "Chemtech Putrifier"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Presence of Mind",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Bone Plating",
+      "Unflinching"
+    ],
+    "tips": "Proxy farm when ahead. Use fling into adhesive for CC chain.",
+    "abilities": {
+      "passive": "Noxious Slipstream - Gains movement speed near champions",
+      "Q": "Poison Trail - Leaves toxic trail behind",
+      "W": "Mega Adhesive - Creates sticky zone that slows",
+      "E": "Fling - Throws target enemy behind Singed",
+      "R": "Insanity Potion - Gains bonus stats"
+    }
   }
 }
