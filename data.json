@@ -4307,5 +4307,159 @@
       "E": "Explosive Charge - Places bomb that stacks with attacks",
       "R": "Buster Shot - Knocks back target dealing damage"
     }
+  },
+  "trundle": {
+    "role": "Top/Jungle Fighter",
+    "matchups": {
+      "strong_against": ["Ornn", "Malphite", "Sion"],
+      "weak_against": ["Teemo", "Quinn", "Vayne"]
+    },
+    "recommended_items": {
+      "top": [
+        "Divine Sunderer",
+        "Plated Steelcaps",
+        "Blade of the Ruined King",
+        "Death's Dance",
+        "Spirit Visage",
+        "Guardian Angel"
+      ],
+      "jungle": [
+        "Divine Sunderer",
+        "Mercury's Treads",
+        "Dead Man's Plate",
+        "Force of Nature",
+        "Thornmail",
+        "Sterak's Gage"
+      ]
+    },
+    "recommended_runes": [
+      "Lethal Tempo",
+      "Triumph",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Bone Plating",
+      "Unflinching"
+    ],
+    "tips": "Steal stats from tank with ultimate. Use pillar to disrupt movement.",
+    "abilities": {
+      "passive": "King's Tribute - Gains healing in territory",
+      "Q": "Chomp - Empowers next attack and steals AD",
+      "W": "Frozen Domain - Creates zone granting bonuses",
+      "E": "Pillar of Ice - Creates impassable terrain",
+      "R": "Subjugate - Steals resistances and health"
+    }
+  },
+  "tryndamere": {
+    "role": "Top-lane Fighter/Split-pusher",
+    "matchups": {
+      "strong_against": ["Kayle", "Nasus", "Gangplank"],
+      "weak_against": ["Malphite", "Quinn", "Teemo"]
+    },
+    "recommended_items": [
+      "Kraken Slayer",
+      "Berserker's Greaves",
+      "Navori Quickblades",
+      "Infinity Edge",
+      "Serylda's Grudge",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Lethal Tempo",
+      "Triumph",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Nimbus Cloak",
+      "Transcendence"
+    ],
+    "tips": "Build fury before fights. Time ultimate to survive burst damage.",
+    "abilities": {
+      "passive": "Battle Fury - Gains crit chance from fury",
+      "Q": "Bloodlust - Heals and generates fury",
+      "W": "Mocking Shout - Slows enemies facing away",
+      "E": "Spinning Slash - Spins through units dealing damage",
+      "R": "Undying Rage - Cannot die for duration"
+    }
+  },
+  "twisted_fate": {
+    "role": "Mid-lane Control Mage",
+    "matchups": {
+      "strong_against": ["Veigar", "Kassadin", "Vladimir"],
+      "weak_against": ["Fizz", "Zed", "Yasuo"]
+    },
+    "recommended_items": [
+      "Everfrost",
+      "Ionian Boots of Lucidity",
+      "Rapid Firecannon",
+      "Lich Bane",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap"
+    ],
+    "recommended_runes": [
+      "Spellbook",
+      "Perfect Timing",
+      "Future's Market",
+      "Cosmic Insight",
+      "Nimbus Cloak",
+      "Celerity"
+    ],
+    "tips": "Use ultimate to countergank lanes. Pick right card for situation.",
+    "abilities": {
+      "passive": "Loaded Dice - Gains bonus gold on kills",
+      "Q": "Wild Cards - Throws three cards in cone",
+      "W": "Pick a Card - Cycles through card effects",
+      "E": "Stacked Deck - Every fourth attack deals bonus damage",
+      "R": "Destiny/Gate - Reveals enemies and teleports"
+    }
+  },
+  "twitch": {
+    "role": "Bot-lane ADC",
+    "matchups": {
+      "strong_against": ["Jinx", "Kog'Maw", "Aphelios"],
+      "weak_against": ["Draven", "Lucian", "Miss Fortune"]
+    },
+    "recommended_items": {
+      "ad": [
+        "Kraken Slayer",
+        "Berserker's Greaves",
+        "Runaan's Hurricane",
+        "Infinity Edge",
+        "Bloodthirster",
+        "Guardian Angel"
+      ],
+      "ap": [
+        "Nashor's Tooth",
+        "Sorcerer's Shoes",
+        "Crown of the Shattered Queen",
+        "Rabadon's Deathcap",
+        "Zhonya's Hourglass",
+        "Void Staff"
+      ]
+    },
+    "recommended_runes": {
+      "ad": [
+        "Press the Attack",
+        "Presence of Mind",
+        "Legend: Bloodline",
+        "Coup de Grace",
+        "Sudden Impact",
+        "Ultimate Hunter"
+      ],
+      "ap": [
+        "Dark Harvest",
+        "Sudden Impact",
+        "Eyeball Collection",
+        "Ultimate Hunter",
+        "Presence of Mind",
+        "Coup de Grace"
+      ]
+    },
+    "tips": "Use stealth to position for fights. Ultimate provides huge range.",
+    "abilities": {
+      "passive": "Deadly Venom - Attacks apply stacking poison",
+      "Q": "Ambush - Becomes invisible gaining movement speed",
+      "W": "Venom Cask - Slows and applies poison stacks",
+      "E": "Contaminate - Deals damage based on poison stacks",
+      "R": "Spray and Pray - Attacks pierce through enemies"
+    }
   }
 }
