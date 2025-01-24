@@ -4019,5 +4019,159 @@
       "E": "Abscond/Abduct - Dash and shield with magic chains",
       "R": "Hijack - Steals and uses enemy ultimate"
     }
+  },
+  "syndra": {
+    "role": "Mid-lane Burst Mage",
+    "matchups": {
+      "strong_against": ["Kassadin", "Katarina", "Fizz"],
+      "weak_against": ["Zed", "Yasuo", "LeBlanc"]
+    },
+    "recommended_items": [
+      "Luden's Tempest",
+      "Sorcerer's Shoes",
+      "Horizon Focus",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Electrocute",
+      "Taste of Blood",
+      "Eyeball Collection",
+      "Ultimate Hunter",
+      "Manaflow Band",
+      "Transcendence"
+    ],
+    "tips": "Stack spheres before ultimate. Use E to push away assassins.",
+    "abilities": {
+      "passive": "Transcendent - Abilities gain extra effects at max rank",
+      "Q": "Dark Sphere - Creates sphere that can be manipulated",
+      "W": "Force of Will - Grabs and throws sphere or minion",
+      "E": "Scatter the Weak - Pushes and stuns with spheres",
+      "R": "Unleashed Power - Launches all spheres at target"
+    }
+  },
+  "tahm_kench": {
+    "role": "Top-lane/Support Tank",
+    "matchups": {
+      "strong_against": ["Irelia", "Fiora", "Camille"],
+      "weak_against": ["Mordekaiser", "Darius", "Illaoi"]
+    },
+    "recommended_items": {
+      "top": [
+        "Frostfire Gauntlet",
+        "Plated Steelcaps",
+        "Thornmail",
+        "Spirit Visage",
+        "Warmog's Armor",
+        "Gargoyle Stoneplate"
+      ],
+      "support": [
+        "Locket of the Iron Solari",
+        "Mercury's Treads",
+        "Knight's Vow",
+        "Zeke's Convergence",
+        "Redemption",
+        "Vigilant Wardstone"
+      ]
+    },
+    "recommended_runes": [
+      "Grasp of the Undying",
+      "Demolish",
+      "Second Wind",
+      "Overgrowth",
+      "Magical Footwear",
+      "Approach Velocity"
+    ],
+    "tips": "Stack passive before all-ins. Use W to save allies or reposition enemies.",
+    "abilities": {
+      "passive": "An Acquired Taste - Stacks damage on enemies hit",
+      "Q": "Tongue Lash - Slows and damages target",
+      "W": "Devour - Swallows ally or enemy",
+      "E": "Thick Skin - Converts damage to gray health",
+      "R": "Abyssal Dive - Dives to location, bringing ally"
+    }
+  },
+  "taliyah": {
+    "role": "Mid/Jungle AP Carry",
+    "matchups": {
+      "strong_against": ["Katarina", "Kassadin", "Fizz"],
+      "weak_against": ["Zed", "Yasuo", "LeBlanc"]
+    },
+    "recommended_items": {
+      "mid": [
+        "Everfrost",
+        "Sorcerer's Shoes",
+        "Horizon Focus",
+        "Zhonya's Hourglass",
+        "Rabadon's Deathcap",
+        "Void Staff"
+      ],
+      "jungle": [
+        "Liandry's Anguish",
+        "Sorcerer's Shoes",
+        "Zhonya's Hourglass",
+        "Cosmic Drive",
+        "Rabadon's Deathcap",
+        "Void Staff"
+      ]
+    },
+    "recommended_runes": [
+      "Electrocute",
+      "Cheap Shot",
+      "Eyeball Collection",
+      "Relentless Hunter",
+      "Manaflow Band",
+      "Transcendence"
+    ],
+    "tips": "Use worked ground for mobility. Roam with ultimate for map pressure.",
+    "abilities": {
+      "passive": "Rock Surfing - Gains movement speed near walls",
+      "Q": "Threaded Volley - Throws rocks in area",
+      "W": "Seismic Shove - Displaces area after delay",
+      "E": "Unraveled Earth - Creates damaging zone",
+      "R": "Weaver's Wall - Creates rideable wall"
+    }
+  },
+  "talon": {
+    "role": "Mid/Jungle Assassin",
+    "matchups": {
+      "strong_against": ["Twisted Fate", "Vel'Koz", "Xerath"],
+      "weak_against": ["Diana", "Pantheon", "Malzahar"]
+    },
+    "recommended_items": {
+      "mid": [
+        "Prowler's Claw",
+        "Ionian Boots of Lucidity",
+        "Youmuu's Ghostblade",
+        "Edge of Night",
+        "Serylda's Grudge",
+        "Guardian Angel"
+      ],
+      "jungle": [
+        "Eclipse",
+        "Ionian Boots of Lucidity",
+        "Youmuu's Ghostblade",
+        "Black Cleaver",
+        "Serylda's Grudge",
+        "Guardian Angel"
+      ]
+    },
+    "recommended_runes": [
+      "First Strike",
+      "Magical Footwear",
+      "Future's Market",
+      "Cosmic Insight",
+      "Sudden Impact",
+      "Ultimate Hunter"
+    ],
+    "tips": "Use wall jumps for mobility. Full combo includes passive proc.",
+    "abilities": {
+      "passive": "Blade's End - Bleeds targets hit by abilities",
+      "Q": "Noxian Diplomacy - Leaps to target dealing bonus damage",
+      "W": "Rake - Throws blades that return",
+      "E": "Assassin's Path - Vaults over terrain",
+      "R": "Shadow Assault - Surrounds self with blades that converge"
+    }
   }
 }
