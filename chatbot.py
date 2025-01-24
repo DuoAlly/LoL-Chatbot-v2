@@ -24,7 +24,7 @@ class EnhancedLeagueChatbot:
         except json.JSONDecodeError:
             raise Exception("Failed to decode data.json. Please ensure it contains valid JSON.")
         
-        # Updated keyword patterns (removed 'combo')
+        # Updated keyword patterns (no "combo" since your JSON doesn't have it)
         self.patterns = {
             "abilities": r"abilities?|skills?|spells?",
             "items": r"items?|builds?|buy|purchase",
@@ -34,15 +34,15 @@ class EnhancedLeagueChatbot:
             "tips": r"tips?|advice|help|guide"
         }
         
-        # For single-ability references, map user queries (ult, ultimate) to "R", etc.
+        # For single-ability references, map user queries to actual keys
         self.single_ability_map = {
             "passive": "passive",
             "q": "Q",
             "w": "W",
             "e": "E",
             "r": "R",
-            "ult": "R",
-            "ultimate": "R"
+            "ult": "R",         # "ult" => same as R
+            "ultimate": "R"    # "ultimate" => same as R
         }
 
     def print_with_typing_effect(self, text: str, delay: float = 0.01):
@@ -111,7 +111,7 @@ class EnhancedLeagueChatbot:
         # Provide the single ability description or a fallback
         description = abilities.get(ability_key, f"No {ability_key} info available for {self.format_champion_name(champion)}.")
         
-        # Capitalize the ability key for a nicer display if it's Q, W, E, R
+        # Return the nicely formatted string
         if ability_key in ["Q", "W", "E", "R"]:
             return f"{self.format_champion_name(champion)}'s {ability_key} ability: {description}"
         elif ability_key == "passive":
@@ -137,11 +137,12 @@ class EnhancedLeagueChatbot:
         # Update last champion mentioned for context
         self.last_champion_mentioned = champion
         
-        # -- FIRST: Check if user is asking for a single ability (Q, W, E, R, ult, ultimate, passive)
-        # Map ult/ultimate to R, handle each individually
+        # ----------------------------------------------------------------
+        #  1) Check if user is asking for a specific ability (Q, W, E, R, ult, ultimate, passive)
+        #     using a word-boundary regex so it doesn't match partial words (e.g. "e" from "tell me")
+        # ----------------------------------------------------------------
         for raw_key, ability_key in self.single_ability_map.items():
-            # If the user specifically says "What's champion R" or "What's champion ult", etc.
-            if raw_key in user_input_lower:
+            if re.search(rf"\b{re.escape(raw_key.lower())}\b", user_input_lower):
                 return self.generate_single_ability_info(champion, ability_key)
 
         # If not a single ability, check other queries
