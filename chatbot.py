@@ -24,7 +24,7 @@ class EnhancedLeagueChatbot:
         except json.JSONDecodeError:
             raise Exception("Failed to decode data.json. Please ensure it contains valid JSON.")
         
-        # Updated keyword patterns (no "combo" since your JSON doesn't have it)
+        # Updated keyword patterns (still no "combo" since your JSON doesn't have it)
         self.patterns = {
             "abilities": r"abilities?|skills?|spells?",
             "items": r"items?|builds?|buy|purchase",
@@ -34,15 +34,15 @@ class EnhancedLeagueChatbot:
             "tips": r"tips?|advice|help|guide"
         }
         
-        # For single-ability references, map user queries to actual keys
+        # For single-ability references, map user queries (ult, ultimate) to "R", etc.
         self.single_ability_map = {
             "passive": "passive",
             "q": "Q",
             "w": "W",
             "e": "E",
             "r": "R",
-            "ult": "R",         # "ult" => same as R
-            "ultimate": "R"    # "ultimate" => same as R
+            "ult": "R",
+            "ultimate": "R"
         }
 
     def print_with_typing_effect(self, text: str, delay: float = 0.01):
@@ -62,7 +62,9 @@ class EnhancedLeagueChatbot:
         Find champion name in text with a direct or fuzzy match.
         Returns the champion key if found, otherwise None.
         """
-        text_words = text.lower().split()
+        # We'll split on any non-alphanumeric to be safer with punctuation
+        text_words = re.findall(r'\w+', text.lower())
+
         # Direct match first
         for champion in self.CHAMPION_DATA.keys():
             if champion.lower() in text_words:
@@ -111,7 +113,6 @@ class EnhancedLeagueChatbot:
         # Provide the single ability description or a fallback
         description = abilities.get(ability_key, f"No {ability_key} info available for {self.format_champion_name(champion)}.")
         
-        # Return the nicely formatted string
         if ability_key in ["Q", "W", "E", "R"]:
             return f"{self.format_champion_name(champion)}'s {ability_key} ability: {description}"
         elif ability_key == "passive":
@@ -130,24 +131,56 @@ class EnhancedLeagueChatbot:
         if not champion and self.last_champion_mentioned and "it" in user_input_lower:
             champion = self.last_champion_mentioned
         
+        # If still no champion, return a general response
         if not champion:
-            # No champion identified; return a general response
             return self.get_general_response(user_input_lower)
         
         # Update last champion mentioned for context
         self.last_champion_mentioned = champion
-        
+        champ_data = self.CHAMPION_DATA.get(champion, {})
+
+        # ---------------------------------------------------------
+        # 1) Check if user is asking: "Is [item] good on [champion]?"
+        #             or  "Should I buy [item] on [champion]?"
+        # ---------------------------------------------------------
+        # We'll capture whatever is in place of [item] and do a
+        # case-insensitive match against recommended_items.
+        if re.search(r"is .* good on", user_input_lower) or re.search(r"should i buy .* on", user_input_lower):
+            # Try to capture the item name from either pattern
+            item_match = re.search(r"is (.*?) good on", user_input_lower)
+            if not item_match:
+                item_match = re.search(r"should i buy (.*?) on", user_input_lower)
+            
+            if item_match:
+                item_name = item_match.group(1).strip()
+                
+                recommended_items = champ_data.get("recommended_items", [])
+                found = False
+                for rec_item in recommended_items:
+                    if rec_item.lower() == item_name.lower():
+                        found = True
+                        break
+                
+                if found:
+                    return f"Yes, {self.format_champion_name(champion)} commonly builds {item_name}."
+                else:
+                    # Optional: show typical items
+                    if recommended_items:
+                        return (f"No, {item_name} is not typically recommended on {self.format_champion_name(champion)}.\n"
+                                f"They usually build: {', '.join(recommended_items)}")
+                    else:
+                        return (f"No, {item_name} is not typically recommended on {self.format_champion_name(champion)}.\n"
+                                "I currently have no recommended items listed for them.")
+
         # ----------------------------------------------------------------
-        #  1) Check if user is asking for a specific ability (Q, W, E, R, ult, ultimate, passive)
-        #     using a word-boundary regex so it doesn't match partial words (e.g. "e" from "tell me")
+        # 2) Check if user is asking for a specific ability (Q, W, E, R, ult, ultimate, passive)
+        #    using a word-boundary regex so it doesn't match partial words.
         # ----------------------------------------------------------------
         for raw_key, ability_key in self.single_ability_map.items():
             if re.search(rf"\b{re.escape(raw_key.lower())}\b", user_input_lower):
                 return self.generate_single_ability_info(champion, ability_key)
 
-        # If not a single ability, check other queries
-        champ_data = self.CHAMPION_DATA.get(champion, {})
-        
+        # 3) If not a single ability or item inquiry, check other queries
         if re.search(self.patterns["abilities"], user_input_lower):
             return self.generate_ability_info(champion)
         
@@ -186,7 +219,7 @@ class EnhancedLeagueChatbot:
             tips = champ_data.get("tips", "No tips available for this champion.")
             return f"Tips for {self.format_champion_name(champion)}:\n{tips}"
 
-        # If no specific query, give a short overview
+        # 4) If no specific query, give a short overview
         role = champ_data.get("role", "No role data available.")
         tips = champ_data.get("tips", "No tips available.")
         return (f"Champion Overview - {self.format_champion_name(champion)}:\n"
@@ -212,7 +245,8 @@ class EnhancedLeagueChatbot:
                 "- '[champion] runes'\n"
                 "- '[champion] matchups'\n"
                 "- '[champion] tips'\n"
-                "- 'What is [champion] Q/W/E/R/passive?' or 'What is [champion] ult/ultimate?'"
+                "- 'What is [champion] Q/W/E/R/passive?' or 'What is [champion] ult/ultimate?'\n"
+                "- 'Is [item] good on [champion]?' or 'Should I buy [item] on [champion]?'"
             )
         
         return (
@@ -237,7 +271,7 @@ def main():
     # Display welcome message
     welcome_text = """
     ╔══════════════════════════════════════════════╗
-    ║       Enhanced LoL Expert Bot v2.0           ║
+    ║       Enhanced LoL Expert Bot v2.1           ║
     ╚══════════════════════════════════════════════╝
     
     Ask me about any champion's:
