@@ -4173,5 +4173,139 @@
       "E": "Assassin's Path - Vaults over terrain",
       "R": "Shadow Assault - Surrounds self with blades that converge"
     }
+  },
+  "taric": {
+    "role": "Support Tank/Enchanter",
+    "matchups": {
+      "strong_against": ["Leona", "Blitzcrank", "Nautilus"],
+      "weak_against": ["Brand", "Zyra", "Karma"]
+    },
+    "recommended_items": [
+      "Locket of the Iron Solari",
+      "Plated Steelcaps",
+      "Knight's Vow",
+      "Zeke's Convergence",
+      "Redemption",
+      "Vigilant Wardstone"
+    ],
+    "recommended_runes": [
+      "Guardian",
+      "Font of Life",
+      "Bone Plating",
+      "Revitalize",
+      "Presence of Mind",
+      "Legend: Tenacity"
+    ],
+    "tips": "Time ultimate for team engages. Position for stun angles with E.",
+    "abilities": {
+      "passive": "Bravado - Empowers next auto attacks after ability",
+      "Q": "Starlight's Touch - Stores charges that heal",
+      "W": "Bastion - Links to ally granting bonuses",
+      "E": "Dazzle - Projects stun from Taric and linked ally",
+      "R": "Cosmic Radiance - Grants invulnerability after delay"
+    }
+  },
+  "teemo": {
+    "role": "Top-lane AP Marksman",
+    "matchups": {
+      "strong_against": ["Garen", "Nasus", "Tryndamere"],
+      "weak_against": ["Jayce", "Pantheon", "Cassiopeia"]
+    },
+    "recommended_items": {
+      "ap": [
+        "Liandry's Anguish",
+        "Sorcerer's Shoes",
+        "Nashor's Tooth",
+        "Demonic Embrace",
+        "Void Staff",
+        "Rabadon's Deathcap"
+      ],
+      "on_hit": [
+        "Riftmaker",
+        "Berserker's Greaves",
+        "Nashor's Tooth",
+        "Wit's End",
+        "Rabadon's Deathcap",
+        "Void Staff"
+      ]
+    },
+    "recommended_runes": [
+      "Press the Attack",
+      "Triumph",
+      "Legend: Alacrity",
+      "Coup de Grace",
+      "Taste of Blood",
+      "Ravenous Hunter"
+    ],
+    "tips": "Place shrooms at choke points. Use blind on auto-attackers.",
+    "abilities": {
+      "passive": "Camouflage - Becomes invisible when standing still",
+      "Q": "Blinding Dart - Blinds target and deals damage",
+      "W": "Move Quick - Gains passive and active movement speed",
+      "E": "Toxic Shot - Poisons targets on hit",
+      "R": "Noxious Trap - Places invisible toxic mushrooms"
+    }
+  },
+  "thresh": {
+    "role": "Support Tank/Catcher",
+    "matchups": {
+      "strong_against": ["Yuumi", "Sona", "Soraka"],
+      "weak_against": ["Morgana", "Sivir", "Alistar"]
+    },
+    "recommended_items": [
+      "Locket of the Iron Solari",
+      "Mobility Boots",
+      "Knight's Vow",
+      "Zeke's Convergence",
+      "Vigilant Wardstone",
+      "Thornmail"
+    ],
+    "recommended_runes": [
+      "Aftershock",
+      "Font of Life",
+      "Bone Plating",
+      "Unflinching",
+      "Cosmic Insight",
+      "Biscuit Delivery"
+    ],
+    "tips": "Look for hooks on priority targets. Use lantern to save allies.",
+    "abilities": {
+      "passive": "Damnation - Collects souls for armor and AP",
+      "Q": "Death Sentence - Hooks and pulls enemy",
+      "W": "Dark Passage - Throws lantern that shields and transports allies",
+      "E": "Flay - Pushes or pulls enemies in direction",
+      "R": "The Box - Creates walls that slow when broken"
+    }
+  },
+  "tristana": {
+    "role": "Bot-lane ADC",
+    "matchups": {
+      "strong_against": ["Jinx", "Kog'Maw", "Twitch"],
+      "weak_against": ["Caitlyn", "Draven", "Miss Fortune"]
+    },
+    "recommended_items": [
+      "Kraken Slayer",
+      "Berserker's Greaves",
+      "Phantom Dancer",
+      "Infinity Edge",
+      "Bloodthirster",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Press the Attack",
+      "Triumph",
+      "Legend: Bloodline",
+      "Coup de Grace",
+      "Sudden Impact",
+      "Treasure Hunter"
+    ],
+    "tips": "Use jump resets for mobility. Save ultimate for self-peel.",
+    "abilities": {
+      "passive": "Draw a Bead - Gains attack range per level",
+      "Q": "Rapid Fire - Gains attack speed",
+      "W": "Rocket Jump - Jumps to location, resets on takedowns",
+      "E": "Explosive Charge - Places bomb that stacks with attacks",
+      "R": "Buster Shot - Knocks back target dealing damage"
+    }
   }
 }
