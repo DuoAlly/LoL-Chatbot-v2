@@ -28,7 +28,7 @@ With fuzzy matching for champion names and a contextual response system, this ch
 1. Clone the repository:
    ```bash
    git clone https://github.com/DuoAlly/LoL-Chatbot.git
-   cd lol-chatbot
+   cd LoL-Chatbot
    ```
 2. Install dependencies (if required):
    ```bash
