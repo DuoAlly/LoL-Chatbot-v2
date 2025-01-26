@@ -44,6 +44,28 @@ class EnhancedLeagueChatbot:
             "ult": "R",
             "ultimate": "R"
         }
+        self.build_keywords = {
+            "ad": "AD",
+            "ap": "AP",
+            "onhit": "On Hit",
+            "on-hit": "On Hit",
+            "top": "Top",
+            "jug": "Jungle",
+            "jungle": "Jungle",
+            "mid": "Mid",
+            "adc": "ADC",
+            "bot": "ADC",
+            "sup": "Support",
+            "support": "Support",
+            "bruiser": "Bruiser",
+            "tank": "Tank",
+            "assassin": "Assassin",
+            "rhaast": "Rhaast (Red Kayn)",
+            "red kayn": "Rhaast (Red Kayn)",
+            "shadow assassin": "Shadow Assassin (Blue Kayn)",
+            "blue kayn": "Shadow Assassin (Blue Kayn)"
+        }
+
 
     def print_with_typing_effect(self, text: str, delay: float = 0.01):
         """Print text with a typing effect."""
