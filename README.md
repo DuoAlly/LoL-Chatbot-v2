@@ -1,4 +1,4 @@
-# DuoAlly AI Chatbot
+# DuoAlly AI LoL Chatbot
 
 ## Overview
 
@@ -27,7 +27,7 @@ With fuzzy matching for champion names and a contextual response system, this ch
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/DuoAlly/DuoAlly-Demo.git
+   git clone https://github.com/DuoAlly/LoL-Chatbot.git
    cd lol-chatbot
    ```
 2. Install dependencies (if required):
