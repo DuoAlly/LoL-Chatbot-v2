@@ -245,8 +245,8 @@ class EnhancedLeagueChatbot:
                 "- '[champion] runes'\n"
                 "- '[champion] matchups'\n"
                 "- '[champion] tips'\n"
-                "- 'What is [champion] Q/W/E/R/passive?' or 'What is [champion] ult/ultimate?'\n"
-                "- 'Is [item] good on [champion]?' or 'Should I buy [item] on [champion]?'"
+                # "- 'What is [champion] Q/W/E/R/passive?' or 'What is [champion] ult/ultimate?'\n"
+                # "- 'Is [item] good on [champion]?' or 'Should I buy [item] on [champion]?'"
             )
         
         return (
