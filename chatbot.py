@@ -47,24 +47,18 @@ class EnhancedLeagueChatbot:
         self.build_keywords = {
             "ad": "AD",
             "ap": "AP",
-            "onhit": "On Hit",
-            "on-hit": "On Hit",
             "on_hit": "On Hit",
             "top": "Top",
-            "jug": "Jungle",
             "jungle": "Jungle",
             "mid": "Mid",
             "adc": "ADC",
             "bot": "ADC",
-            "sup": "Support",
             "support": "Support",
             "bruiser": "Bruiser",
             "tank": "Tank",
             "assassin": "Assassin",
             "rhaast": "Rhaast (Red Kayn)",
-            "red_kayn": "Rhaast (Red Kayn)",
             "shadow_assassin": "Shadow Assassin (Blue Kayn)",
-            "blue_kayn": "Shadow Assassin (Blue Kayn)"
         }
 
 
