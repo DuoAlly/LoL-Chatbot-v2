@@ -4819,5 +4819,149 @@
       "E": "Tides of Blood - Charges AoE damage at health cost",
       "R": "Hemoplague - Infects area, amplifying damage taken"
     }
+  },
+  "volibear": {
+    "role": "Top/Jungle Fighter/Tank",
+    "matchups": {
+      "strong_against": ["Kayle", "Gangplank", "Irelia"],
+      "weak_against": ["Vayne", "Quinn", "Jax"]
+    },
+    "recommended_items": {
+      "tank": [
+        "Sunfire Aegis",
+        "Plated Steelcaps",
+        "Dead Man's Plate",
+        "Spirit Visage",
+        "Thornmail",
+        "Warmog's Armor"
+      ],
+      "fighter": [
+        "Divine Sunderer",
+        "Plated Steelcaps",
+        "Sterak's Gage",
+        "Death's Dance",
+        "Spirit Visage",
+        "Guardian Angel"
+      ]
+    },
+    "recommended_runes": [
+      "Press the Attack",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Bone Plating",
+      "Unflinching"
+    ],
+    "tips": "Use ultimate to dive turrets. Chain W marks for healing.",
+    "abilities": {
+      "passive": "The Relentless Storm - Gains bonus damage on hits",
+      "Q": "Thundering Smash - Gains movement speed and stuns target",
+      "W": "Frenzied Maul - Damages and marks target for enhanced bite",
+      "E": "Sky Splitter - Summons lightning that slows",
+      "R": "Stormbringer - Leaps to location disabling turrets"
+    }
+  },
+  "warwick": {
+    "role": "Jungle/Top Fighter",
+    "matchups": {
+      "strong_against": ["Master Yi", "Evelynn", "Karthus"],
+      "weak_against": ["Olaf", "Trundle", "Udyr"]
+    },
+    "recommended_items": [
+      "Divine Sunderer",
+      "Plated Steelcaps",
+      "Titanic Hydra",
+      "Death's Dance",
+      "Spirit Visage",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Press the Attack",
+      "Triumph",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Conditioning",
+      "Revitalize"
+    ],
+    "tips": "Use blood scent to track low health targets. Hold Q to follow dashes.",
+    "abilities": {
+      "passive": "Eternal Hunger - Gains healing and attack speed vs low health targets",
+      "Q": "Jaws of the Beast - Lunges and bites target",
+      "W": "Blood Hunt - Gains movement speed toward low health enemies",
+      "E": "Primal Howl - Reduces damage taken then fears enemies",
+      "R": "Infinite Duress - Suppresses target while dealing damage"
+    }
+  },
+  "wukong": {
+    "role": "Top/Jungle Fighter",
+    "matchups": {
+      "strong_against": ["Irelia", "Fiora", "Camille"],
+      "weak_against": ["Garen", "Mordekaiser", "Darius"]
+    },
+    "recommended_items": {
+      "top": [
+        "Divine Sunderer",
+        "Black Cleaver",
+        "Death's Dance",
+        "Guardian Angel",
+        "Maw of Malmortius",
+        "Plated Steelcaps"
+      ],
+      "jungle": [
+        "Goredrinker",
+        "Plated Steelcaps",
+        "Black Cleaver",
+        "Death's Dance",
+        "Guardian Angel",
+        "Sterak's Gage"
+      ]
+    },
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Sudden Impact",
+      "Ravenous Hunter"
+    ],
+    "tips": "Use clone to block skillshots. Double knockup with ultimate recast.",
+    "abilities": {
+      "passive": "Stone Skin - Gains armor and regeneration",
+      "Q": "Crushing Blow - Extends staff for bonus range and damage",
+      "W": "Warrior Trickster - Creates clone and enters stealth",
+      "E": "Nimbus Strike - Dashes to target gaining attack speed",
+      "R": "Cyclone - Spins dealing damage and knocking up"
+    }
+  },
+  "xayah": {
+    "role": "Bot-lane ADC",
+    "matchups": {
+      "strong_against": ["Jinx", "Kog'Maw", "Twitch"],
+      "weak_against": ["Caitlyn", "Ashe", "Miss Fortune"]
+    },
+    "recommended_items": [
+      "Galeforce",
+      "Berserker's Greaves",
+      "Essence Reaver",
+      "Infinity Edge",
+      "Guardian Angel",
+      "Bloodthirster"
+    ],
+    "recommended_runes": [
+      "Lethal Tempo",
+      "Presence of Mind",
+      "Legend: Bloodline",
+      "Coup de Grace",
+      "Taste of Blood",
+      "Ultimate Hunter"
+    ],
+    "tips": "Position feathers for E stun. Use ultimate to dodge key abilities.",
+    "abilities": {
+      "passive": "Clean Cuts - Feathers can be recalled for damage",
+      "Q": "Double Daggers - Throws feathers through targets",
+      "W": "Deadly Plumage - Gains attack speed and damage",
+      "E": "Bladecaller - Recalls all feathers dealing damage",
+      "R": "Featherstorm - Becomes untargetable and launches feathers"
+    }
   }
 }
