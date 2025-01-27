@@ -4592,5 +4592,108 @@
       "E": "Hail of Arrows - Creates zone that slows",
       "R": "Chain of Corruption - Spreads root to nearby enemies"
     }
+  },
+  "vayne": {
+    "role": "Bot/Top-lane ADC",
+    "matchups": {
+      "strong_against": ["Cho'Gath", "Sion", "Dr. Mundo"],
+      "weak_against": ["Caitlyn", "Draven", "Miss Fortune"]
+    },
+    "recommended_items": [
+      "Immortal Shieldbow",
+      "Berserker's Greaves",
+      "Phantom Dancer",
+      "Infinity Edge",
+      "Guardian Angel",
+      "Bloodthirster"
+    ],
+    "recommended_runes": [
+      "Press the Attack",
+      "Triumph",
+      "Legend: Bloodline",
+      "Coup de Grace",
+      "Taste of Blood",
+      "Ravenous Hunter"
+    ],
+    "tips": "Use tumble to reposition. Save condemn for guaranteed stuns.",
+    "abilities": {
+      "passive": "Night Hunter - Gains movement speed toward enemies",
+      "Q": "Tumble - Short dash empowering next attack",
+      "W": "Silver Bolts - Every third hit deals true damage",
+      "E": "Condemn - Knocks back enemy, stunning on wall",
+      "R": "Final Hour - Gains stealth on tumble and bonus AD"
+    }
+  },
+  "veigar": {
+    "role": "Mid-lane Burst Mage",
+    "matchups": {
+      "strong_against": ["Vladimir", "Annie", "Kassadin"],
+      "weak_against": ["Fizz", "Zed", "Katarina"]
+    },
+    "recommended_items": [
+      "Everfrost",
+      "Sorcerer's Shoes",
+      "Horizon Focus",
+      "Rabadon's Deathcap",
+      "Void Staff",
+      "Zhonya's Hourglass"
+    ],
+    "recommended_runes": [
+      "Electrocute",
+      "Taste of Blood",
+      "Eyeball Collection",
+      "Ultimate Hunter",
+      "Manaflow Band",
+      "Transcendence"
+    ],
+    "tips": "Stack Q for infinite AP scaling. Use cage to zone objectives.",
+    "abilities": {
+      "passive": "Phenomenal Evil Power - Gains AP from hitting champions",
+      "Q": "Baleful Strike - Gains permanent AP on unit kills",
+      "W": "Dark Matter - Drops delayed damage from sky",
+      "E": "Event Horizon - Creates cage that stuns",
+      "R": "Primordial Burst - Massive damage scaling with target's missing health"
+    }
+  },
+  "velkoz": {
+    "role": "Mid/Support Artillery Mage",
+    "matchups": {
+      "strong_against": ["Twisted Fate", "Annie", "Lux"],
+      "weak_against": ["Fizz", "Zed", "Yasuo"]
+    },
+    "recommended_items": {
+      "mid": [
+        "Liandry's Anguish",
+        "Sorcerer's Shoes",
+        "Horizon Focus",
+        "Void Staff",
+        "Rabadon's Deathcap",
+        "Zhonya's Hourglass"
+      ],
+      "support": [
+        "Luden's Tempest",
+        "Sorcerer's Shoes",
+        "Horizon Focus",
+        "Chemtech Putrifier",
+        "Vigilant Wardstone",
+        "Void Staff"
+      ]
+    },
+    "recommended_runes": [
+      "Arcane Comet",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Cheap Shot",
+      "Ultimate Hunter"
+    ],
+    "tips": "Chain abilities for passive procs. Position safely for ultimate channel.",
+    "abilities": {
+      "passive": "Organic Deconstruction - Abilities stack and deal true damage",
+      "Q": "Plasma Fission - Shoots projectile that splits",
+      "W": "Void Rift - Creates line that explodes",
+      "E": "Tectonic Disruption - Knocks up and slows",
+      "R": "Life Form Disintegration Ray - Channels laser dealing damage"
+    }
   }
 }
