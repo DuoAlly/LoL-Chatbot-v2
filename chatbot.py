@@ -49,6 +49,7 @@ class EnhancedLeagueChatbot:
             "ap": "AP",
             "onhit": "On Hit",
             "on-hit": "On Hit",
+            "on_hit": "On Hit",
             "top": "Top",
             "jug": "Jungle",
             "jungle": "Jungle",
@@ -61,9 +62,9 @@ class EnhancedLeagueChatbot:
             "tank": "Tank",
             "assassin": "Assassin",
             "rhaast": "Rhaast (Red Kayn)",
-            "red kayn": "Rhaast (Red Kayn)",
-            "shadow assassin": "Shadow Assassin (Blue Kayn)",
-            "blue kayn": "Shadow Assassin (Blue Kayn)"
+            "red_kayn": "Rhaast (Red Kayn)",
+            "shadow_assassin": "Shadow Assassin (Blue Kayn)",
+            "blue_kayn": "Shadow Assassin (Blue Kayn)"
         }
 
 
