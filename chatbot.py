@@ -218,9 +218,11 @@ class EnhancedLeagueChatbot:
         elif re.search(self.patterns["items"], user_input_lower):
             # 1) Detect build type (e.g., "ap", "on-hit")
             chosen_build = None
+            pretty_build = None
             for keyword, mapped_value in self.build_keywords.items():
                 if keyword in user_input_lower:
-                    chosen_build = mapped_value
+                    chosen_build = keyword
+                    pretty_build = mapped_value
                     break
 
             recommended_items = champ_data.get("recommended_items", {})
@@ -231,7 +233,7 @@ class EnhancedLeagueChatbot:
                 if items_for_build:
                     # Example: "Recommended ap items for Neeko: Rocketbelt, Sorcerer's Shoes..."
                     return (
-                        f"Recommended {chosen_build.replace('_', '-')} items for "
+                        f"Recommended {pretty_build} items for "
                         f"{self.format_champion_name(champion)}: "
                         + ", ".join(items_for_build)
                     )
@@ -249,8 +251,8 @@ class EnhancedLeagueChatbot:
                 # - on hit: Kraken Slayer, Berserker's Greaves,..."
                 build_strings = []
                 for b_type, b_items in recommended_items.items():
-                    pretty_type = b_type.replace("_", " ")
-                    build_strings.append(f"- {pretty_type}: {', '.join(b_items)}")
+                    pretty_build = self.build_keywords[b_type]
+                    build_strings.append(f"- {pretty_build}: {', '.join(b_items)}")
 
                 return (
                     f"Recommended items for {self.format_champion_name(champion)} include:\n"
@@ -268,9 +270,11 @@ class EnhancedLeagueChatbot:
         # Runes section
         elif re.search(self.patterns["runes"], user_input_lower):
             chosen_build = None
+            pretty_build = None
             for keyword, mapped_value in self.build_keywords.items():
                 if keyword in user_input_lower:
-                    chosen_build = mapped_value
+                    chosen_build = keyword
+                    pretty_build = mapped_value
                     break
 
             recommended_runes = champ_data.get("recommended_runes", {})
@@ -280,7 +284,7 @@ class EnhancedLeagueChatbot:
                 if runes_for_build:
                     # Example: "Recommended on-hit runes for Neeko: Lethal Tempo, Presence of Mind,..."
                     return (
-                        f"Recommended {chosen_build.replace('_', '-')} runes for "
+                        f"Recommended {pretty_build} runes for "
                         f"{self.format_champion_name(champion)}: "
                         + ", ".join(runes_for_build)
                     )
@@ -293,8 +297,8 @@ class EnhancedLeagueChatbot:
             if recommended_runes:
                 build_strings = []
                 for b_type, b_runes in recommended_runes.items():
-                    pretty_type = b_type.replace("_", " ")
-                    build_strings.append(f"- {pretty_type}: {', '.join(b_runes)}")
+                    pretty_build = self.build_keywords[b_type]
+                    build_strings.append(f"- {pretty_build}: {', '.join(b_runes)}")
                 return (
                     f"Recommended runes for {self.format_champion_name(champion)} include:\n"
                     + "\n".join(build_strings)
