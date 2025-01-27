@@ -44,6 +44,23 @@ class EnhancedLeagueChatbot:
             "ult": "R",
             "ultimate": "R"
         }
+        self.build_keywords = {
+            "ad": "AD",
+            "ap": "AP",
+            "on_hit": "On Hit",
+            "top": "Top",
+            "jungle": "Jungle",
+            "mid": "Mid",
+            "adc": "ADC",
+            "bot": "ADC",
+            "support": "Support",
+            "bruiser": "Bruiser",
+            "tank": "Tank",
+            "assassin": "Assassin",
+            "rhaast": "Rhaast (Red Kayn)",
+            "shadow_assassin": "Shadow Assassin (Blue Kayn)",
+        }
+
 
     def print_with_typing_effect(self, text: str, delay: float = 0.01):
         """Print text with a typing effect."""
@@ -123,81 +140,175 @@ class EnhancedLeagueChatbot:
     def get_contextual_response(self, user_input: str) -> str:
         """
         Generate a response based on user input and context.
+        Now supports multiple builds (e.g., "ap", "on-hit") for items/runes.
         """
         user_input_lower = user_input.lower()
         champion = self.find_champion(user_input_lower)
-        
-        # If no champion found, check if "it" might refer to the last mentioned champion
+
+        # If no champion found, but user refers to "it" and we have a last champion
         if not champion and self.last_champion_mentioned and "it" in user_input_lower:
             champion = self.last_champion_mentioned
-        
+
         # If still no champion, return a general response
         if not champion:
             return self.get_general_response(user_input_lower)
-        
+
         # Update last champion mentioned for context
         self.last_champion_mentioned = champion
         champ_data = self.CHAMPION_DATA.get(champion, {})
 
         # ---------------------------------------------------------
         # 1) Check if user is asking: "Is [item] good on [champion]?"
-        #             or  "Should I buy [item] on [champion]?"
+        #    or "Should I buy [item] on [champion]?"
         # ---------------------------------------------------------
-        # We'll capture whatever is in place of [item] and do a
-        # case-insensitive match against recommended_items.
         if re.search(r"is .* good on", user_input_lower) or re.search(r"should i buy .* on", user_input_lower):
-            # Try to capture the item name from either pattern
             item_match = re.search(r"is (.*?) good on", user_input_lower)
             if not item_match:
                 item_match = re.search(r"should i buy (.*?) on", user_input_lower)
-            
+
             if item_match:
                 item_name = item_match.group(1).strip()
-                
-                recommended_items = champ_data.get("recommended_items", [])
+                # Try to see if item_name is in recommended_items (ANY build)
+                all_builds = champ_data.get("recommended_items", {})
                 found = False
-                for rec_item in recommended_items:
-                    if rec_item.lower() == item_name.lower():
-                        found = True
+                found_build = None
+                for build_type, items_list in all_builds.items():
+                    for rec_item in items_list:
+                        if rec_item.lower() == item_name.lower():
+                            found = True
+                            found_build = build_type
+                            break
+                    if found:
                         break
-                
-                if found:
-                    return f"Yes, {self.format_champion_name(champion)} commonly builds {item_name}."
-                else:
-                    # Optional: show typical items
-                    if recommended_items:
-                        return (f"No, {item_name} is not typically recommended on {self.format_champion_name(champion)}.\n"
-                                f"They usually build: {', '.join(recommended_items)}")
-                    else:
-                        return (f"No, {item_name} is not typically recommended on {self.format_champion_name(champion)}.\n"
-                                "I currently have no recommended items listed for them.")
 
-        # ----------------------------------------------------------------
+                if found:
+                    return (f"Yes, {self.format_champion_name(champion)} commonly builds "
+                            f"{item_name} in their {found_build.replace('_', '-')} build.")
+                else:
+                    # If no match, provide a fallback
+                    return (
+                        f"No, {item_name} isn't typically recommended on "
+                        f"{self.format_champion_name(champion)}.\n"
+                        f"Try: {', '.join(set().union(*all_builds.values()))}"
+                        if all_builds else
+                        f"I currently have no recommended items listed for {self.format_champion_name(champion)}."
+                    )
+
+        # ---------------------------------------------------------------
         # 2) Check if user is asking for a specific ability (Q, W, E, R, ult, ultimate, passive)
-        #    using a word-boundary regex so it doesn't match partial words.
-        # ----------------------------------------------------------------
+        # ---------------------------------------------------------------
         for raw_key, ability_key in self.single_ability_map.items():
             if re.search(rf"\b{re.escape(raw_key.lower())}\b", user_input_lower):
                 return self.generate_single_ability_info(champion, ability_key)
 
-        # 3) If not a single ability or item inquiry, check other queries
+        # ---------------------------------------------------------------
+        # 3) Check for a broader "abilities" inquiry
+        # ---------------------------------------------------------------
         if re.search(self.patterns["abilities"], user_input_lower):
             return self.generate_ability_info(champion)
-        
+
+        # =========================
+        # ITEM QUERY SECTION
+        # =========================
         elif re.search(self.patterns["items"], user_input_lower):
-            items = champ_data.get("recommended_items", [])
-            if items:
-                return f"Recommended items for {self.format_champion_name(champion)}:\n" + ", ".join(items)
+            # 1) Detect build type (e.g., "ap", "on-hit")
+            chosen_build = None
+            pretty_build = None
+            user_input_underscore = user_input_lower.replace('-', '_').replace(' ', '_')
+            for keyword, mapped_value in self.build_keywords.items():
+                if keyword in user_input_underscore:
+                    chosen_build = keyword
+                    pretty_build = mapped_value
+                    break
+
+            recommended_items = champ_data.get("recommended_items", {})
+
+            # 2) If user specified a build type (e.g., 'on_hit')
+            if chosen_build:
+                items_for_build = recommended_items.get(chosen_build, [])
+                if items_for_build:
+                    # Example: "Recommended ap items for Neeko: Rocketbelt, Sorcerer's Shoes..."
+                    return (
+                        f"Recommended {pretty_build} items for "
+                        f"{self.format_champion_name(champion)}: "
+                        + ", ".join(items_for_build)
+                    )
+                else:
+                    return (
+                        f"Sorry, I don't have {chosen_build} item info for "
+                        f"{self.format_champion_name(champion)}."
+                    )
+
+            # 3) If no build specified, list all builds
+            if recommended_items:
+                # Example multi-line output:
+                # "Recommended items for Neeko include:
+                # - ap: Rocketbelt, Sorcerer's Shoes,...
+                # - on hit: Kraken Slayer, Berserker's Greaves,..."
+                build_strings = []
+                for b_type, b_items in recommended_items.items():
+                    pretty_build = self.build_keywords[b_type]
+                    build_strings.append(f"- {pretty_build}: {', '.join(b_items)}")
+
+                return (
+                    f"Recommended items for {self.format_champion_name(champion)} include:\n"
+                    + "\n".join(build_strings)
+                )
             else:
-                return f"Sorry, I don't have recommended item info for {self.format_champion_name(champion)}."
-        
+                return (
+                    f"Sorry, I don't have recommended item info for "
+                    f"{self.format_champion_name(champion)}."
+                )
+
+        # =========================
+        # RUNES QUERY SECTION
+        # =========================
+        # Runes section
         elif re.search(self.patterns["runes"], user_input_lower):
-            runes = champ_data.get("recommended_runes", [])
-            if runes:
-                return f"Recommended runes for {self.format_champion_name(champion)}:\n" + ", ".join(runes)
+            chosen_build = None
+            pretty_build = None
+            user_input_underscore = user_input_lower.replace('-', '_').replace(' ', '_')
+            for keyword, mapped_value in self.build_keywords.items():
+                if keyword in user_input_underscore:
+                    chosen_build = keyword
+                    pretty_build = mapped_value
+                    break
+
+            recommended_runes = champ_data.get("recommended_runes", {})
+
+            if chosen_build:
+                runes_for_build = recommended_runes.get(chosen_build, [])
+                if runes_for_build:
+                    # Example: "Recommended on-hit runes for Neeko: Lethal Tempo, Presence of Mind,..."
+                    return (
+                        f"Recommended {pretty_build} runes for "
+                        f"{self.format_champion_name(champion)}: "
+                        + ", ".join(runes_for_build)
+                    )
+                else:
+                    return (
+                        f"Sorry, I don't have {chosen_build} rune info for "
+                        f"{self.format_champion_name(champion)}."
+                    )
+
+            if recommended_runes:
+                build_strings = []
+                for b_type, b_runes in recommended_runes.items():
+                    pretty_build = self.build_keywords[b_type]
+                    build_strings.append(f"- {pretty_build}: {', '.join(b_runes)}")
+                return (
+                    f"Recommended runes for {self.format_champion_name(champion)} include:\n"
+                    + "\n".join(build_strings)
+                )
             else:
-                return f"Sorry, I don't have recommended rune info for {self.format_champion_name(champion)}."
-        
+                return (
+                    f"Sorry, I don't have recommended rune info for "
+                    f"{self.format_champion_name(champion)}."
+                )
+
+        # ---------------------------------------------------------------
+        # 4) Check for Matchups, Role, or Tips
+        # ---------------------------------------------------------------
         elif re.search(self.patterns["matchups"], user_input_lower):
             matchups = champ_data.get("matchups", {})
             strong = matchups.get("strong_against", [])
@@ -210,23 +321,28 @@ class EnhancedLeagueChatbot:
                         f"Weak against: {weak_str}")
             else:
                 return f"Sorry, I don't have matchup info for {self.format_champion_name(champion)}."
-        
+
         elif re.search(self.patterns["role"], user_input_lower):
             role = champ_data.get("role", "No role information available.")
             return f"{self.format_champion_name(champion)} is typically played as: {role}"
-        
+
         elif re.search(self.patterns["tips"], user_input_lower):
             tips = champ_data.get("tips", "No tips available for this champion.")
             return f"Tips for {self.format_champion_name(champion)}:\n{tips}"
 
-        # 4) If no specific query, give a short overview
+        # ---------------------------------------------------------------
+        # 5) If no specific query, give a short overview
+        # ---------------------------------------------------------------
         role = champ_data.get("role", "No role data available.")
         tips = champ_data.get("tips", "No tips available.")
-        return (f"Champion Overview - {self.format_champion_name(champion)}:\n"
-                f"Role: {role}\n"
-                f"Tips: {tips}\n"
-                f"\nYou can ask about {self.format_champion_name(champion)}'s abilities, "
-                "items, runes, or matchups!")
+        return (
+            f"Champion Overview - {self.format_champion_name(champion)}:\n"
+            f"Role: {role}\n"
+            f"Tips: {tips}\n\n"
+            f"You can ask about {self.format_champion_name(champion)}'s abilities, "
+            f"items, runes, or matchups!"
+        )
+
 
     def get_general_response(self, user_input: str) -> str:
         """
