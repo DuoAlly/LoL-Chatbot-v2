@@ -4461,5 +4461,136 @@
       "E": "Contaminate - Deals damage based on poison stacks",
       "R": "Spray and Pray - Attacks pierce through enemies"
     }
+  },
+  "udyr": {
+    "role": "Jungle Fighter/Tank",
+    "matchups": {
+      "strong_against": ["Master Yi", "Evelynn", "Fiddlesticks"],
+      "weak_against": ["Kindred", "Lillia", "Graves"]
+    },
+    "recommended_items": {
+      "tank": [
+        "Turbo Chemtank",
+        "Plated Steelcaps",
+        "Dead Man's Plate",
+        "Force of Nature",
+        "Thornmail",
+        "Gargoyle Stoneplate"
+      ],
+      "bruiser": [
+        "Divine Sunderer",
+        "Mercury's Treads",
+        "Black Cleaver",
+        "Death's Dance",
+        "Spirit Visage",
+        "Guardian Angel"
+      ]
+    },
+    "recommended_runes": [
+      "Phase Rush",
+      "Nimbus Cloak",
+      "Celerity",
+      "Waterwalking",
+      "Triumph",
+      "Legend: Tenacity"
+    ],
+    "tips": "Alternate stances for maximum efficiency. Stack Monkey's Agility.",
+    "abilities": {
+      "passive": "Monkey's Agility - Gains move and attack speed",
+      "Q": "Wilding Claw - Empowers attacks with damage",
+      "W": "Iron Mantle - Gains shield and healing",
+      "E": "Blazing Stampede - Stuns and gains movement speed",
+      "R": "Wingborn Storm - Creates storm dealing damage"
+    }
+  },
+  "urgot": {
+    "role": "Top-lane Juggernaut",
+    "matchups": {
+      "strong_against": ["Sion", "Ornn", "Malphite"],
+      "weak_against": ["Fiora", "Quinn", "Vayne"]
+    },
+    "recommended_items": [
+      "Black Cleaver",
+      "Plated Steelcaps",
+      "Titanic Hydra",
+      "Death's Dance",
+      "Force of Nature",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Press the Attack",
+      "Triumph",
+      "Legend: Tenacity",
+      "Last Stand",
+      "Bone Plating",
+      "Overgrowth"
+    ],
+    "tips": "Position for knee shotgun procs. Use E to flip targets into team.",
+    "abilities": {
+      "passive": "Echoing Flames - Deals bonus damage around legs",
+      "Q": "Corrosive Charge - Locks onto enemy and slows",
+      "W": "Purge - Rapidly fires at nearby targets",
+      "E": "Disdain - Dash that flips enemy over",
+      "R": "Fear Beyond Death - Executes low health targets"
+    }
+  },
+  "varus": {
+    "role": "Bot-lane ADC",
+    "matchups": {
+      "strong_against": ["Vayne", "Kai'Sa", "Twitch"],
+      "weak_against": ["Draven", "Lucian", "Samira"]
+    },
+    "recommended_items": {
+      "ad": [
+        "Kraken Slayer",
+        "Berserker's Greaves",
+        "Phantom Dancer",
+        "Infinity Edge",
+        "Lord Dominik's Regards",
+        "Guardian Angel"
+      ],
+      "lethality": [
+        "Eclipse",
+        "Ionian Boots of Lucidity",
+        "Manamune",
+        "Serylda's Grudge",
+        "Edge of Night",
+        "Guardian Angel"
+      ],
+      "ap": [
+        "Crown of the Shattered Queen",
+        "Sorcerer's Shoes",
+        "Nashor's Tooth",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Void Staff"
+      ]
+    },
+    "recommended_runes": {
+      "ad": [
+        "Lethal Tempo",
+        "Presence of Mind",
+        "Legend: Bloodline",
+        "Coup de Grace",
+        "Magical Footwear",
+        "Biscuit Delivery"
+      ],
+      "lethality": [
+        "Hail of Blades",
+        "Taste of Blood",
+        "Eyeball Collection",
+        "Ultimate Hunter",
+        "Manaflow Band",
+        "Transcendence"
+      ]
+    },
+    "tips": "Stack W before using abilities. Use ultimate to initiate fights.",
+    "abilities": {
+      "passive": "Living Vengeance - Gains attack speed on kills",
+      "Q": "Piercing Arrow - Charges shot dealing damage",
+      "W": "Blighted Quiver - Stacks detonate for % health damage",
+      "E": "Hail of Arrows - Creates zone that slows",
+      "R": "Chain of Corruption - Spreads root to nearby enemies"
+    }
   }
 }
