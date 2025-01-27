@@ -214,8 +214,9 @@ class EnhancedLeagueChatbot:
             # 1) Detect build type (e.g., "ap", "on-hit")
             chosen_build = None
             pretty_build = None
+            user_input_underscore = user_input_lower.replace('-', '_').replace(' ', '_')
             for keyword, mapped_value in self.build_keywords.items():
-                if keyword in user_input_lower:
+                if keyword in user_input_underscore:
                     chosen_build = keyword
                     pretty_build = mapped_value
                     break
@@ -266,8 +267,9 @@ class EnhancedLeagueChatbot:
         elif re.search(self.patterns["runes"], user_input_lower):
             chosen_build = None
             pretty_build = None
+            user_input_underscore = user_input_lower.replace('-', '_').replace(' ', '_')
             for keyword, mapped_value in self.build_keywords.items():
-                if keyword in user_input_lower:
+                if keyword in user_input_underscore:
                     chosen_build = keyword
                     pretty_build = mapped_value
                     break
