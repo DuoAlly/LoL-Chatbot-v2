@@ -4695,5 +4695,129 @@
       "E": "Tectonic Disruption - Knocks up and slows",
       "R": "Life Form Disintegration Ray - Channels laser dealing damage"
     }
+  },
+  "vex": {
+    "role": "Mid-lane Burst Mage",
+    "matchups": {
+      "strong_against": ["Katarina", "Yasuo", "Zed"],
+      "weak_against": ["Viktor", "Xerath", "Lux"]
+    },
+    "recommended_items": [
+      "Luden's Tempest",
+      "Sorcerer's Shoes",
+      "Shadowflame",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Electrocute",
+      "Taste of Blood",
+      "Eyeball Collection",
+      "Ultimate Hunter",
+      "Manaflow Band",
+      "Transcendence"
+    ],
+    "tips": "Use passive against dash-heavy champions. Ultimate resets on takedowns.",
+    "abilities": {
+      "passive": "Doom 'n Gloom - Interrupts dashes and marks enemies",
+      "Q": "Mistral Bolt - Launches projectile that accelerates",
+      "W": "Personal Space - Creates shield and emits wave",
+      "E": "Looming Darkness - Marks area with darkness",
+      "R": "Shadow Surge - Launches shadow that can be recast"
+    }
+  },
+  "vi": {
+    "role": "Jungle Fighter/Diver",
+    "matchups": {
+      "strong_against": ["Master Yi", "Evelynn", "Karthus"],
+      "weak_against": ["Olaf", "Warwick", "Udyr"]
+    },
+    "recommended_items": [
+      "Divine Sunderer",
+      "Plated Steelcaps",
+      "Black Cleaver",
+      "Death's Dance",
+      "Guardian Angel",
+      "Sterak's Gage"
+    ],
+    "recommended_runes": [
+      "Hail of Blades",
+      "Sudden Impact",
+      "Eyeball Collection",
+      "Relentless Hunter",
+      "Triumph",
+      "Legend: Alacrity"
+    ],
+    "tips": "Chain CC with Q into ultimate. Use E auto reset for burst.",
+    "abilities": {
+      "passive": "Blast Shield - Gains shield periodically",
+      "Q": "Vault Breaker - Charges and dashes, knocking aside enemies",
+      "W": "Denting Blows - Every third hit breaks armor and deals bonus damage",
+      "E": "Excessive Force - Empowers next attack with AoE damage",
+      "R": "Assault and Battery - Locks onto target champion with knockup"
+    }
+  },
+  "viego": {
+    "role": "Jungle/Mid Skirmisher",
+    "matchups": {
+      "strong_against": ["Fiddlesticks", "Karthus", "Ivern"],
+      "weak_against": ["Lee Sin", "Elise", "Rammus"]
+    },
+    "recommended_items": [
+      "Kraken Slayer",
+      "Plated Steelcaps",
+      "Blade of the Ruined King",
+      "Death's Dance",
+      "Guardian Angel",
+      "Maw of Malmortius"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Sudden Impact",
+      "Treasure Hunter"
+    ],
+    "tips": "Use possession strategically in teamfights. Land W stun for full combo.",
+    "abilities": {
+      "passive": "Sovereign's Domination - Can possess killed enemies",
+      "Q": "Blade of the Ruined King - Empowered strike and passive on-hit",
+      "W": "Spectral Maw - Charges dash that stuns",
+      "E": "Harrowed Path - Gains camouflage near walls",
+      "R": "Heartbreaker - Teleports and executes target"
+    }
+  },
+  "vladimir": {
+    "role": "Mid/Top AP Carry",
+    "matchups": {
+      "strong_against": ["Galio", "Kassadin", "Sylas"],
+      "weak_against": ["Anivia", "Malzahar", "Ryze"]
+    },
+    "recommended_items": [
+      "Hextech Rocketbelt",
+      "Sorcerer's Shoes",
+      "Cosmic Drive",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Phase Rush",
+      "Nimbus Cloak",
+      "Transcendence",
+      "Gathering Storm",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Use empowered Q for sustain. Time pool to dodge key abilities.",
+    "abilities": {
+      "passive": "Crimson Pact - Gains AP from bonus health",
+      "Q": "Transfusion - Drains target, empowered at full charge",
+      "W": "Sanguine Pool - Becomes untargetable pool of blood",
+      "E": "Tides of Blood - Charges AoE damage at health cost",
+      "R": "Hemoplague - Infects area, amplifying damage taken"
+    }
   }
 }
