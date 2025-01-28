@@ -4963,5 +4963,325 @@
       "E": "Bladecaller - Recalls all feathers dealing damage",
       "R": "Featherstorm - Becomes untargetable and launches feathers"
     }
+  },
+  "xerath": {
+    "role": "Mid/Support Artillery Mage",
+    "matchups": {
+      "strong_against": ["Twisted Fate", "Annie", "Lux"],
+      "weak_against": ["Fizz", "Katarina", "Zed"]
+    },
+    "recommended_items": {
+      "mid": [
+        "Luden's Tempest",
+        "Sorcerer's Shoes",
+        "Horizon Focus",
+        "Rabadon's Deathcap",
+        "Void Staff",
+        "Zhonya's Hourglass"
+      ],
+      "support": [
+        "Liandry's Anguish",
+        "Ionian Boots of Lucidity",
+        "Horizon Focus",
+        "Chemtech Putrifier",
+        "Watchful Wardstone",
+        "Void Staff"
+      ]
+    },
+    "recommended_runes": [
+      "Arcane Comet",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Taste of Blood",
+      "Ultimate Hunter"
+    ],
+    "tips": "Use W between Q casts. Ultimate can zone objectives.",
+    "abilities": {
+      "passive": "Mana Surge - Restores mana on auto attacks",
+      "Q": "Arcanopulse - Charges long range laser",
+      "W": "Eye of Destruction - Calls down burst of energy",
+      "E": "Shocking Orb - Stuns target at medium range",
+      "R": "Rite of the Arcane - Launches long range artillery"
+    }
+  },
+  "xin_zhao": {
+    "role": "Jungle Fighter",
+    "matchups": {
+      "strong_against": ["Evelynn", "Master Yi", "Karthus"],
+      "weak_against": ["Rammus", "Warwick", "Jax"]
+    },
+    "recommended_items": [
+      "Divine Sunderer",
+      "Plated Steelcaps",
+      "Death's Dance",
+      "Black Cleaver",
+      "Guardian Angel",
+      "Sterak's Gage"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Sudden Impact",
+      "Relentless Hunter"
+    ],
+    "tips": "Use E-Q-W combo for burst. Ultimate can isolate targets.",
+    "abilities": {
+      "passive": "Determination - Every third attack deals bonus damage",
+      "Q": "Three Talon Strike - Empowers next three attacks",
+      "W": "Wind Becomes Lightning - Thrust and sweep attack",
+      "E": "Audacious Charge - Dashes to target slowing nearby enemies",
+      "R": "Crescent Guard - Knocks away enemies outside circle"
+    }
+  },
+  "yasuo": {
+    "role": "Mid/Top Fighter/Assassin",
+    "matchups": {
+      "strong_against": ["Lux", "Xerath", "Veigar"],
+      "weak_against": ["Annie", "Pantheon", "Renekton"]
+    },
+    "recommended_items": [
+      "Immortal Shieldbow",
+      "Berserker's Greaves",
+      "Infinity Edge",
+      "Death's Dance",
+      "Guardian Angel",
+      "Bloodthirster"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Taste of Blood",
+      "Ravenous Hunter"
+    ],
+    "tips": "Stack Q before objectives. Use windwall reactively.",
+    "abilities": {
+      "passive": "Way of the Wanderer - Gains shield and double crit chance",
+      "Q": "Steel Tempest - Thrusts sword, third cast tornados",
+      "W": "Wind Wall - Blocks projectiles",
+      "E": "Sweeping Blade - Dashes through target",
+      "R": "Last Breath - Teleports to airborne targets"
+    }
+  },
+  "yone": {
+    "role": "Mid/Top Fighter/Assassin",
+    "matchups": {
+      "strong_against": ["Veigar", "Lux", "Twisted Fate"],
+      "weak_against": ["Pantheon", "Renekton", "Sett"]
+    },
+    "recommended_items": [
+      "Immortal Shieldbow",
+      "Berserker's Greaves",
+      "Infinity Edge",
+      "Death's Dance",
+      "Guardian Angel",
+      "Bloodthirster"
+    ],
+    "recommended_runes": [
+      "Conqueror",
+      "Triumph",
+      "Legend: Alacrity",
+      "Last Stand",
+      "Taste of Blood",
+      "Ravenous Hunter"
+    ],
+    "tips": "Use E to safely trade. Stack Q for engage.",
+    "abilities": {
+      "passive": "Way of the Hunter - Deals mixed damage and gains crit chance",
+      "Q": "Mortal Steel - Thrusts sword, third cast dashes",
+      "W": "Spirit Cleave - Shield and damage in line",
+      "E": "Soul Unbound - Leaves body and marks damage",
+      "R": "Fate Sealed - Blinks to location knocking up"
+    }
+  },
+  "yorick": {
+    "role": "Top-lane Juggernaut",
+    "matchups": {
+      "strong_against": ["Kayle", "Nasus", "Malphite"],
+      "weak_against": ["Irelia", "Jax", "Tryndamere"]
+    },
+    "recommended_items": [
+      "Trinity Force",
+      "Plated Steelcaps",
+      "Hullbreaker",
+      "Death's Dance",
+      "Spirit Visage",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Grasp of the Undying",
+      "Demolish",
+      "Conditioning",
+      "Overgrowth",
+      "Magical Footwear",
+      "Approach Velocity"
+    ],
+    "tips": "Release Maiden for split push. Trap enemies in wall with ghouls.",
+    "abilities": {
+      "passive": "Shepherd of Souls - Raises graves from dead units",
+      "Q": "Last Rites - Empowered attack that can summon ghouls",
+      "W": "Dark Procession - Creates impassable terrain",
+      "E": "Mourning Mist - Marks target and applies slow",
+      "R": "Eulogy of the Isles - Summons Maiden of the Mist"
+    }
+  },
+  "yuumi": {
+    "role": "Support Enchanter",
+    "matchups": {
+      "strong_against": ["Blitzcrank", "Thresh", "Pyke"],
+      "weak_against": ["Leona", "Karma", "Lulu"]
+    },
+    "recommended_items": [
+      "Moonstone Renewer",
+      "Chemtech Putrifier",
+      "Ardent Censer",
+      "Staff of Flowing Water",
+      "Redemption",
+      "Vigilant Wardstone"
+    ],
+    "recommended_runes": [
+      "Summon Aery",
+      "Manaflow Band",
+      "Transcendence",
+      "Gathering Storm",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Detach for mana restore. Time jumps between allies in fights.",
+    "abilities": {
+      "passive": "Bop 'n' Block - Auto attacks restore mana and shield",
+      "Q": "Prowling Projectile - Fires guided missile",
+      "W": "You and Me! - Attaches to ally granting stats",
+      "E": "Zoomies - Heals and grants movement speed",
+      "R": "Final Chapter - Fires waves that root enemies"
+    }
+  },
+  "zac": {
+    "role": "Jungle Tank",
+    "matchups": {
+      "strong_against": ["Master Yi", "Karthus", "Evelynn"],
+      "weak_against": ["Lee Sin", "Kindred", "Morgana"]
+    },
+    "recommended_items": [
+      "Sunfire Aegis",
+      "Mercury's Treads",
+      "Warmog's Armor",
+      "Spirit Visage",
+      "Thornmail",
+      "Gargoyle Stoneplate"
+    ],
+    "recommended_runes": [
+      "Aftershock",
+      "Font of Life",
+      "Conditioning",
+      "Revitalize",
+      "Magical Footwear",
+      "Cosmic Insight"
+    ],
+    "tips": "Long range engage with E. Chain CC with Q and R.",
+    "abilities": {
+      "passive": "Cell Division - Splits into bloblets when dying",
+      "Q": "Stretching Strikes - Grabs and slams two targets",
+      "W": "Unstable Matter - Deals AoE damage to nearby enemies",
+      "E": "Elastic Slingshot - Charges and launches self",
+      "R": "Let's Bounce! - Bounces multiple times knocking up"
+    }
+  },
+  "zed": {
+    "role": "Mid-lane Assassin",
+    "matchups": {
+      "strong_against": ["Twisted Fate", "Lux", "Veigar"],
+      "weak_against": ["Lissandra", "Diana", "Malphite"]
+    },
+    "recommended_items": [
+      "Duskblade of Draktharr",
+      "Ionian Boots of Lucidity",
+      "Youmuu's Ghostblade",
+      "Edge of Night",
+      "Serylda's Grudge",
+      "Guardian Angel"
+    ],
+    "recommended_runes": [
+      "Electrocute",
+      "Sudden Impact",
+      "Eyeball Collection",
+      "Ultimate Hunter",
+      "Transcendence",
+      "Scorch"
+    ],
+    "tips": "Use shadows for extended poke. Ultimate places behind target.",
+    "abilities": {
+      "passive": "Contempt for the Weak - Deals bonus damage to low health targets",
+      "Q": "Razor Shuriken - Throws spinning blade",
+      "W": "Living Shadow - Creates controllable shadow",
+      "E": "Shadow Slash - Spins blades reducing energy cost",
+      "R": "Death Mark - Marks target and creates shadow"
+    }
+  },
+  "ziggs": {
+    "role": "Mid/Bot Artillery Mage",
+    "matchups": {
+      "strong_against": ["Kassadin", "Katarina", "Fizz"],
+      "weak_against": ["Xerath", "Lux", "Vel'Koz"]
+    },
+    "recommended_items": [
+      "Liandry's Anguish",
+      "Sorcerer's Shoes",
+      "Horizon Focus",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Dark Harvest",
+      "Taste of Blood",
+      "Eyeball Collection",
+      "Ultimate Hunter",
+      "Manaflow Band",
+      "Transcendence"
+    ],
+    "tips": "Use W to escape ganks. Ultimate can execute turrets.",
+    "abilities": {
+      "passive": "Short Fuse - Empowers auto attack periodically",
+      "Q": "Bouncing Bomb - Throws bouncing bomb",
+      "W": "Satchel Charge - Knocks units and self away",
+      "E": "Hexplosive Minefield - Creates field of bombs",
+      "R": "Mega Inferno Bomb - Launches long range explosion"
+    }
+  },
+  "zoe": {
+    "role": "Mid-lane Burst Mage",
+    "matchups": {
+      "strong_against": ["Twisted Fate", "Veigar", "Annie"],
+      "weak_against": ["Yasuo", "Fizz", "Kassadin"]
+    },
+    "recommended_items": [
+      "Luden's Tempest",
+      "Sorcerer's Shoes",
+      "Horizon Focus",
+      "Zhonya's Hourglass",
+      "Rabadon's Deathcap",
+      "Void Staff"
+    ],
+    "recommended_runes": [
+      "Electrocute",
+      "Taste of Blood",
+      "Eyeball Collection",
+      "Ravenous Hunter",
+      "Manaflow Band",
+      "Transcendence"
+    ],
+    "tips": "Use summoner spells from drops. Bubble through walls for range.",
+    "abilities": {
+      "passive": "More Sparkles! - Empowers auto after casting spell",
+      "Q": "Paddle Star - Launches star that extends range",
+      "W": "Spell Thief - Collects and uses active items/summoners",
+      "E": "Sleepy Trouble Bubble - Creates drowsy zone",
+      "R": "Portal Jump - Short range teleport that returns"
+    }
   }
 }
