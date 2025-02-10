@@ -4,7 +4,7 @@
 
 The **DuoAlly AI Chatbot** is an interactive rule-based chatbot assistant designed to help players in league of legends improve their gameplay by providing detailed information about champions, including:
 
-- **Abilities** and combos
+- **Abilities**
 - **Recommended item builds**
 - **Rune setups**
 - **Matchups and counters**
