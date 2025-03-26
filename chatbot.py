@@ -7,7 +7,7 @@ MAX_HISTORY = 10
 
 def print_header():
     print("╔══════════════════════════════════════════════╗")
-    print("║       Enhanced LoL Expert Bot v2.0           ║")
+    print("║             LoL Expert Bot v2.0              ║")
     print("╚══════════════════════════════════════════════╝\n")
     print("Ask me anything about League of Legends:")
     print("• Champion abilities and combos")
