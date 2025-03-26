@@ -4,7 +4,7 @@
 
 The **DuoAlly AI Chatbot** is an interactive assistant designed to help League of Legends players improve their gameplay.
 
-## Demo
+## Demo (old)
 
 https://github.com/user-attachments/assets/404cc206-11e4-4353-974b-457cd208f579
 
